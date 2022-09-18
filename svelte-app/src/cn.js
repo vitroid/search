@@ -36,6 +36,9 @@ export const cn={
     "msg2": "如果您想参加招待会，请用下面的链接预订座位。(用户名和密码与本网站相同。)",
     "Announcements": "公告",
     "Seat reservation for the banquet": "招待会的座位预订",
+    "Award lectures": "得奖演讲",
+    "(In preparation.)": "(正在准备中)",
     "Abstract book": "摘要书",
-    "Award lectures": "得奖演讲"
+    "Program book": "辩论会方案集",
+    "(lightweight)": "(轻量级版本)"
 }

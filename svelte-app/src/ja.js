@@ -36,6 +36,9 @@ export const ja={
     "msg2": "懇親会にご参加される方は、以下のリンクより座席をご予約ねがいます。ユーザ名・パスワードはこのサイトと同じです。ひさびさに顔をあわせるご友人とお連れあわせいただき、心ゆくまでご歓談いただければと思います。",
     "Announcements": "お知らせ",
     "Seat reservation for the banquet": "懇親会の座席予約",
-    "Abstract book": "予稿集",
-    "Award lectures": "受賞講演"
+    "Award lectures": "受賞講演",
+    "(In preparation.)": "(準備中)",
+    "Abstract book": "講演要旨集",
+    "Program book": "討論会プログラム集",
+    "(lightweight)": "(軽量版)"
 }
