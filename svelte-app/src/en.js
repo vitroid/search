@@ -13,5 +13,6 @@ export const en={
     "sept28": "Sept. 28 (Wed)",
     "General Information": "Information",
     "msg1": "The Proceedings are available at the following link; the password for the PDF file is abst72jscc.",
-    "msg2": "If you wish to attend the reception, please reserve your seat using the link below. (Username and password are the same as those on this site.) We hope that you will bring your friends whom you have not seen for a long time and enjoy chatting with them to your heart's content."
+    "msg2": "If you wish to attend the reception, please reserve your seat using the link below. (Username and password are the same as those on this site.) We hope that you will bring your friends whom you have not seen for a long time and enjoy chatting with them to your heart's content.",
+    "JSCCAS": "JSCC 72nd Annual Symposium"
 }

@@ -22,7 +22,7 @@
         <div class="banner">
             <div>
                 <a href="http://www.sakuto72-kyudai.net" target="_blank" >
-                    錯体化学会 第72回討論会
+                    {$_("JSCCAS")}
                 </a>
             </div>
             <div class="right">

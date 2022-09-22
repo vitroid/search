@@ -40,5 +40,6 @@ export const ja={
     "(In preparation.)": "(準備中)",
     "Abstract book": "講演要旨集",
     "Program book": "討論会プログラム集",
-    "(lightweight)": "(軽量版)"
+    "(lightweight)": "(軽量版)",
+    "JSCCAS": "錯体化学会 第72回討論会"
 }

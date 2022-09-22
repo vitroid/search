@@ -3,7 +3,7 @@
     import Announcements from "./Announcements.svelte";
     import AsyncTable from "./asynctable.svelte";
     import AwardTable from "./awardtable.svelte";
-    import { Tab,TabList,TabPanel,Tabs } from './Components/Tabs/tabs.js';
+    import { Tab, TabList, TabPanel, Tabs } from './Components/Tabs/tabs.js';
     import Information from "./information.svelte";
     import { project } from './jscc72.js';
     import PosterTables from "./PosterTables.svelte";
@@ -12,6 +12,7 @@
     import SponsorTable from "./sponsortable.svelte";
 </script>
 
+<div class="tabsystem">
 <Tabs>
     <TabList>
         <Tab>{$_("General Information")}</Tab>
@@ -112,28 +113,37 @@
         </div>
     </TabPanel>
 </Tabs>
+</div>
+
 
 <style>
+    .tabsystem {
+        margin: 10px;
+    }
     .container {
         width: 100%;
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
-        margin: 5px 0px 5px 0px;
+        margin: 0;
+        border: 0;
+        background-color: #4169E1;
     }
     .panel {
         background-color: #fff;
-        border: 1px solid #888;
+        border: 4px solid #fff;
         border-radius: 15px;
 
         /* for children */
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
+        margin: 5px;
         justify-content: center;
     }
     h1 {
-        background-color: #5ab4bd;
+        background-color: #4169E1c0;
+         /* #5ab4bd; */
         width: 100%;
         padding: 10px;
         margin: 0px;

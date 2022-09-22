@@ -40,5 +40,6 @@ export const cn={
     "(In preparation.)": "(正在准备中)",
     "Abstract book": "摘要书",
     "Program book": "辩论会方案集",
-    "(lightweight)": "(轻量级版本)"
+    "(lightweight)": "(轻量级版本)",
+    "JSCCAS": "JSCC 第72次讨论会议"
 }
