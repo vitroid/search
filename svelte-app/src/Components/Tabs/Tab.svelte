@@ -12,7 +12,7 @@
 	button {
 		/* border-bottom: 3px solid #5ab4bd; */
 		font-size: 16px;
-		height: 40px;
+		/* height: 40px; */
 		/* width: 130px; */
 		color: #565656;
         /* background-color: #4169E1; */
