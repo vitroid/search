@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { ads } from './ads.js';
+    import { ads } from './JSCC/ads.js';
 </script>
 
 <div class="wrap">

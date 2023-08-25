@@ -1,7 +1,6 @@
 <script>
     import ResultView from "./resultview.svelte";
-    // import { move_up, move_down } from "./resultview.svelte";
-    import { data } from "./index.js";
+    import { data } from "./JSCC/index.js";
     export let search = "";
 
     $: {

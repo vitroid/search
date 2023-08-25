@@ -1,5 +1,4 @@
 <script>
-    // import { project } from "./jscc71.svelte";
     import PosterTableRows from "./postertablerows.svelte";
 
     export let title;

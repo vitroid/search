@@ -1,9 +1,9 @@
 <script>
     import { _ } from 'svelte-i18n';
-    import LocaleSelector from './localeselector.svelte';
     import Schedule from "./schedule.svelte";
     import SearchBox from "./searchbox.svelte";
-    import ShortCuts from "./shortcuts.svelte";
+    import ShortCuts from "./JSCC/shortcuts.svelte"
+    import Banner from "./JSCC/Banner.svelte"
 
     // Set the current locale to en-US
     // locale.set('ja')
@@ -19,16 +19,7 @@
 
 <body>
 	<div class="wrap">
-        <div class="banner">
-            <div>
-                <a href="http://www.sakuto72-kyudai.net" target="_blank" >
-                    {$_("JSCCAS")}
-                </a>
-            </div>
-            <div class="right">
-                <LocaleSelector />
-            </div>
-        </div>
+        <Banner />
 		<h2>{$_("SEARCH")}</h2>
 		<div class="search">
 			<ShortCuts on:search={searchHandler} />
@@ -51,25 +42,6 @@
 </body>
 
 <style>
-    .banner {
-        background-color: #4169E1;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-    }
-	a {
-		padding: 0px 5;
-        font-size: 150%;
-        color: white;
-        text-decoration: none;
-    }
-    a:link, a:visited {
-        color: white;
-    }
-    a:hover {
-        opacity: 75%;
-        transition-duration: 500ms;
-    }
 	body{
 		font-family: Helvetica, Ariel, sans-serif;
 		font-size: 10pt;

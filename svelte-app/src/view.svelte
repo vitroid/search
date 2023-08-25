@@ -1,5 +1,5 @@
 <script>
-    import { data } from "./index.js";
+    import { data } from "./JSCC/index.js";
     // import { marks } from "./mark.js";
     import Checkbox from "./checkbox.svelte";
 
