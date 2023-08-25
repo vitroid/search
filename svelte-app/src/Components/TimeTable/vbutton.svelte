@@ -1,11 +1,12 @@
 <script lang="ts">
     import { createEventDispatcher,onMount } from 'svelte';
-    import { directory } from "../directory.js";
-    import { all_talks,marks } from '../../stores.js';
+    import { directory, marks } from "../directory.js";
 	const dispatch = createEventDispatcher();
+
     export let id
     export let label
     export let height
+    export let available
 
     let active = false
     let bgcolor = "#888"
@@ -21,7 +22,7 @@
             bgcolor = "#f0f0f0";
             color="#000"
         }
-        active = all_talks.has(id)
+        active = available.has(id)
         if ( ! active ){
             bgcolor = "#f8f8f8"
         }

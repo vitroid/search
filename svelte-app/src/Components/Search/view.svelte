@@ -1,6 +1,5 @@
 <script>
-    // import { marks } from "./mark.js";
-    import Checkbox from "../../checkbox.svelte";
+    import Checkbox from "../checkbox.svelte";
 
     export let data
     export let record;

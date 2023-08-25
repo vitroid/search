@@ -4,6 +4,10 @@
     export let table
     export let colnames
     export let title
+    // a list of available (pushable, active) buttons.
+    // ボタンを作るのは自由だが、availableに含まれていなければ押せない。
+    export let available
+
 </script>
 
 <div class="container2">
@@ -11,7 +15,7 @@
     <div class="container">
         {#each table as column, i}
         <div class="column">
-            <AsyncTableColumn {column} label={colnames[i]} on:search/>
+            <AsyncTableColumn {column} label={colnames[i]} {available} on:search/>
         </div>
         {/each}
     </div>

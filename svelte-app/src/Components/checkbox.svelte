@@ -1,7 +1,5 @@
 <script>
-    import { directory } from "./Components/directory.js";
-    import { marks } from "./stores.js";
-	// import { onMount } from 'svelte';
+    import { directory, marks } from "./directory.js";
 
     export let id;
 
@@ -32,12 +30,8 @@
             }
         }
     })
-	// onMount( () => {
-    //     status = $marks.has(id);
-	// });
 
     function cbclick ( event ){
-        // let id = event.srcElement.id
         $marks[id] = !  $marks[id]
     }
 

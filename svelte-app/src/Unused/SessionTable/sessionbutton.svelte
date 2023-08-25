@@ -1,7 +1,7 @@
 <script>
     import { createEventDispatcher,onMount } from 'svelte';
-    import { directory } from "../directory.js";
-    import { all_talks,marks } from '../../stores.js';
+    import { directory, marks } from "../../Components/directory.js";
+    import { all_talks } from '../../all_talks.js';
 	const dispatch = createEventDispatcher();
 
     export let id
