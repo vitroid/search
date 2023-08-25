@@ -28,17 +28,30 @@
 	});
 
 	function buttonPressed() {
+        // console.log(id, "dispatch")
         // invoke signal
 		dispatch('search', {
 			text: id
 		});
 	}
 
-    export function mark() {
-        console.log(id, "marked")
-    }
+    // export function mark() {
+    //     console.log(id, "marked")
+    // }
 </script>
 
-<button bind:this={directory[id]} disabled={!active} on:click={buttonPressed} style="background-color: {bgcolor}; color: {color}; height: {height*2}px" >
+{#if label}
+<button bind:this={directory[id]} 
+    disabled={!active} 
+    on:click={buttonPressed} 
+    style="background-color: {bgcolor}; color: {color}; height: {height*1.5}px" >
     {label}
 </button>
+{:else}
+<div style="height: {height*1.5}px" >
+</div>
+{/if}
+
+<stype>
+
+</stype>
