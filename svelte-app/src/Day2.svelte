@@ -1,8 +1,8 @@
 <script>
     import { _ } from 'svelte-i18n';
-    import SessionTable from "../sessiontable.svelte";
-    import AsyncTable from "../asynctable.svelte";
-    import PosterTables2 from "../PosterTables2.svelte";
+    import SessionTable from "./Components/SessionTable/sessiontable.svelte";
+    import AsyncTable from "./Components/TimeTable/asynctable.svelte";
+    import PosterTables2 from "./Components/PosterTable/PosterTables2.svelte";
 
     let sessions = ["2Aa", "2Ab", "2Ac", "2B", "2C", "2D", "2E", "2Fa", "2Fb", "2Fc"]
     let bins_am = ["9:00", "9:20", "9:40", "10:00", "10:20", "10:30", "10:50", "11:10", "11:30"]
@@ -29,7 +29,7 @@
             {"bin":[,,20],  "id":"2Aa-13", "label":"13"},
             {"bin":[,,20],  "id":"2Aa-14", "label":"14"},
             {"bin":[,,20],  "id":"2Aa-15", "label":"15"},
-            {"bin":[,,20],  "id":"2Aa-16", "label":"16"},
+            // {"bin":[,,20],  "id":"2Aa-16", "label":"16"},
         ],
         [
             {"bin":[15,0,40],   "id":"", "label":""},
@@ -53,7 +53,7 @@
             {"bin":[,,20],  "id":"2Ac-13", "label":"13"},
             {"bin":[,,20],  "id":"2Ac-14", "label":"14"},
             {"bin":[,,20],  "id":"2Ac-15", "label":"15"},
-            {"bin":[,,20],  "id":"2Ac-16", "label":"16"},
+            // {"bin":[,,20],  "id":"2Ac-16", "label":"16"},
         ],
         [
             {"bin":[15,0,40],   "id":"", "label":""},
@@ -70,17 +70,22 @@
         ],
         [
             {"bin":[15,0,30],   "id":"Aw-06", "label":$_("JSCC International Award for Creative Work")},
-            {"bin":[,,10],      "id":"", "label":""},
+            {"bin":[,,10],       "id":"", "label":""},
             {"bin":[,,20],      "id":"2D-09", "label":"09"},
             {"bin":[,,20],      "id":"2D-10", "label":"10"},
             {"bin":[,,20],      "id":"2D-11", "label":"11"},
-            {"bin":[,,140],     "id":"", "label":""},
+            {"bin":[,,80],     "id":"", "label":""},
+            {"bin":[,,10],      "id":"", "label":$_("Explanation")+" 1"},
             {"bin":[,,20],      "id":"S7-01", "label":"S7-01"},
             {"bin":[,,20],      "id":"S7-02", "label":"S7-02"},
+            {"bin":[,,5],       "id":"", "label":""},
+            {"bin":[,,10],      "id":"", "label":$_("Explanation")+" 2"},
             {"bin":[,,20],      "id":"S7-03", "label":"S7-03"},
-            {"bin":[,,20],      "id":"", "label":""},
             {"bin":[,,20],      "id":"S7-04", "label":"S7-04"},
+            {"bin":[,,5],       "id":"", "label":""},
+            {"bin":[,,10],      "id":"", "label":$_("Explanation")+" 3"},
             {"bin":[,,20],      "id":"S7-05", "label":"S7-05"},
+            {"bin":[,,10],      "id":"", "label":$_("Closing Remark")},
         ],
         [
             {"bin":[15,0,40],   "id":"", "label":""},

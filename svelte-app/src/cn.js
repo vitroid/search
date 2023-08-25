@@ -44,5 +44,8 @@ export const cn={
     "Abstract book": "摘要书",
     "Program book": "辩论会方案集",
     "(lightweight)": "(轻量级版本)",
-    "JSCCAS": "JSCC 第73次讨论会议"
+    "JSCCAS": "JSCC 第73次讨论会议",
+    "Opening Remark": "开场词",
+    "Closing Remark": "闭幕词",
+    "Explanation": "说明",
 }

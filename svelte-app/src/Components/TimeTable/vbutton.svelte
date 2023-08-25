@@ -1,7 +1,7 @@
 <script lang="ts">
     import { createEventDispatcher,onMount } from 'svelte';
-    import { directory } from "./directory.js";
-    import { all_talks,marks } from './stores.js';
+    import { directory } from "../directory.js";
+    import { all_talks,marks } from '../../stores.js';
 	const dispatch = createEventDispatcher();
     export let id
     export let label
@@ -44,14 +44,16 @@
 <button bind:this={directory[id]} 
     disabled={!active} 
     on:click={buttonPressed} 
-    style="background-color: {bgcolor}; color: {color}; height: {height*1.5}px" >
+    style="background-color: {bgcolor}; color: {color}; height: {height*2}px" >
     {label}
 </button>
 {:else}
-<div style="height: {height*1.5}px" >
+<div style="height: {height*2}px" >
 </div>
 {/if}
 
-<stype>
-
-</stype>
+<style>
+    button {
+        padding: 0px 4px 0px 4px;
+    }
+</style>

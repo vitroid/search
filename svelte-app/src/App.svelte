@@ -1,9 +1,10 @@
 <script>
     import { _ } from 'svelte-i18n';
     import Schedule from "./schedule.svelte";
-    import SearchBox from "./searchbox.svelte";
-    import ShortCuts from "./JSCC/shortcuts.svelte"
-    import Banner from "./JSCC/Banner.svelte"
+    import SearchBox from "./Components/Search/searchbox.svelte";
+    import ShortCuts from "./shortcuts.svelte"
+    import Banner from "./Banner.svelte"
+    import { data } from "./index.js"
 
     // Set the current locale to en-US
     // locale.set('ja')
@@ -30,7 +31,7 @@
 				<li>{$_("hint4")}</li>
 			</ul>
 
-			<SearchBox search={search}/>
+			<SearchBox {search} {data}/>
             <p>{$_("hint5")}</p>
 		</div>
 		<Schedule on:search={searchHandler} />

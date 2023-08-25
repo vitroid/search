@@ -1,6 +1,6 @@
 <script>
     import { _ } from 'svelte-i18n';
-    import LocaleSelector from '../localeselector.svelte';
+    import LocaleSelector from './Components/localeselector.svelte';
 
     let conf_url = "https://sites.google.com/g.ibaraki.ac.jp/sakuto73"
 

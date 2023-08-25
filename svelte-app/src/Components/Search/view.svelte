@@ -1,8 +1,8 @@
 <script>
-    import { data } from "./JSCC/index.js";
     // import { marks } from "./mark.js";
-    import Checkbox from "./checkbox.svelte";
+    import Checkbox from "../../checkbox.svelte";
 
+    export let data
     export let record;
 
     let rec;

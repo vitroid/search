@@ -93,7 +93,7 @@ export const data = [
   {
     "inf": [
       "Modification of intermolecular synchronic motions in crystals by CH-π interactions between the rotators and the phenylenes absorbed in the porous structure",
-      "(<sup>1</sup>Graduate School of Engineering, Hokkaido University, <sup>2</sup>WPI-ICReDD, Hokkaido University) ★Hikaru Yammamoto<sup>1</sup>, Hajime Ito<sup>1,2</sup>, Mingoo Jin<sup>2</sup>"
+      "(<sup>1</sup>Graduate School of Engineering, Hokkaido University, <sup>2</sup>WPI-ICReDD, Hokkaido University) ★Hikaru Yamamoto<sup>1</sup>, Hajime Ito<sup>1,2</sup>, Mingoo Jin<sup>2</sup>"
     ],
     "lab": "1Aa-08",
     "pdf": "pdf/1Aa-08.pdf",
@@ -101,7 +101,7 @@ export const data = [
     "reg": "73530",
     "sea": "Au",
     "ses": "1Aa",
-    "con": "1Aa-08 Modification of intermolecular synchronic motions in crystals by CH-π interactions between the rotators and the phenylenes absorbed in the porous structure (<sup>1</sup>Graduate School of Engineering, Hokkaido University, <sup>2</sup>WPI-ICReDD, Hokkaido University) ★Hikaru Yammamoto<sup>1</sup>, Hajime Ito<sup>1,2</sup>, Mingoo Jin<sup>2</sup> Au"
+    "con": "1Aa-08 Modification of intermolecular synchronic motions in crystals by CH-π interactions between the rotators and the phenylenes absorbed in the porous structure (<sup>1</sup>Graduate School of Engineering, Hokkaido University, <sup>2</sup>WPI-ICReDD, Hokkaido University) ★Hikaru Yamamoto<sup>1</sup>, Hajime Ito<sup>1,2</sup>, Mingoo Jin<sup>2</sup> Au"
   },
   {
     "inf": [
@@ -960,7 +960,7 @@ export const data = [
   {
     "inf": [
       "Creation of doped metal-organic-frameworks exhibiting quantum spin dynamics",
-      "(<sup>1</sup>Chitose Institute of Science and Technology, <sup>2</sup>Tohoku University) 〇Masanori Wakizaka\\t<sup>1</sup>, Masahiro Yamashita<sup>2</sup>"
+      "(<sup>1</sup>Chitose Institute of Science and Technology, <sup>2</sup>Tohoku University) 〇Masanori Wakizaka<sup>1</sup>, Masahiro Yamashita<sup>2</sup>"
     ],
     "lab": "1Fd-05",
     "pdf": "pdf/1Fd-05.pdf",
@@ -968,7 +968,7 @@ export const data = [
     "reg": "73116",
     "sea": "Co, Cu, Zn",
     "ses": "1Fd",
-    "con": "1Fd-05 Creation of doped metal-organic-frameworks exhibiting quantum spin dynamics (<sup>1</sup>Chitose Institute of Science and Technology, <sup>2</sup>Tohoku University) 〇Masanori Wakizaka\\t<sup>1</sup>, Masahiro Yamashita<sup>2</sup> Co, Cu, Zn"
+    "con": "1Fd-05 Creation of doped metal-organic-frameworks exhibiting quantum spin dynamics (<sup>1</sup>Chitose Institute of Science and Technology, <sup>2</sup>Tohoku University) 〇Masanori Wakizaka<sup>1</sup>, Masahiro Yamashita<sup>2</sup> Co, Cu, Zn"
   },
   {
     "inf": [
@@ -1571,9 +1571,9 @@ export const data = [
   },
   {
     "inf": [
-      "Synthesis, molecular structures and property of 3d metal complexes with a tripodal Schiff base ligand having a cyclohexane core",
-      "(<sup>1</sup>岡山大学環境生命自然科学研究科) 〇大川　真輝<sup>1</sup>・砂月　幸成<sup>3</sup>・鈴木　孝義<sup>1, 2</sup>",
       "シクロヘキサン環を骨格構造とする三脚型 Schiff 塩基配位子を用いた 3d 金属錯体の合成および構造と性質",
+      "(<sup>1</sup>岡山大学環境生命自然科学研究科) 〇大川　真輝<sup>1</sup>・砂月　幸成<sup>3</sup>・鈴木　孝義<sup>1, 2</sup>",
+      "Synthesis, molecular structures and property of 3d metal complexes with a tripodal Schiff base ligand having a cyclohexane core",
       "(<sup>1</sup>Graduate School of Environmental, Life, Natural Science and Technology, Okayama Univ.) 〇Masaki OKAWA<sup>1</sup>, Yukinari SUNATSUKI<sup>3</sup>, Takayoshi SUZUKI<sup>1, 2</sup>"
     ],
     "lab": "1PA-39",
@@ -1582,7 +1582,7 @@ export const data = [
     "reg": "73161",
     "sea": "Ni, Mn, Co, Zn, Fe",
     "ses": "1PA",
-    "con": "1PA-39 Synthesis, molecular structures and property of 3d metal complexes with a tripodal Schiff base ligand having a cyclohexane core (<sup>1</sup>岡山大学環境生命自然科学研究科) 〇大川　真輝<sup>1</sup>・砂月　幸成<sup>3</sup>・鈴木　孝義<sup>1, 2</sup> シクロヘキサン環を骨格構造とする三脚型 Schiff 塩基配位子を用いた 3d 金属錯体の合成および構造と性質 (<sup>1</sup>Graduate School of Environmental, Life, Natural Science and Technology, Okayama Univ.) 〇Masaki OKAWA<sup>1</sup>, Yukinari SUNATSUKI<sup>3</sup>, Takayoshi SUZUKI<sup>1, 2</sup> Ni, Mn, Co, Zn, Fe"
+    "con": "1PA-39 シクロヘキサン環を骨格構造とする三脚型 Schiff 塩基配位子を用いた 3d 金属錯体の合成および構造と性質 (<sup>1</sup>岡山大学環境生命自然科学研究科) 〇大川　真輝<sup>1</sup>・砂月　幸成<sup>3</sup>・鈴木　孝義<sup>1, 2</sup> Synthesis, molecular structures and property of 3d metal complexes with a tripodal Schiff base ligand having a cyclohexane core (<sup>1</sup>Graduate School of Environmental, Life, Natural Science and Technology, Okayama Univ.) 〇Masaki OKAWA<sup>1</sup>, Yukinari SUNATSUKI<sup>3</sup>, Takayoshi SUZUKI<sup>1, 2</sup> Ni, Mn, Co, Zn, Fe"
   },
   {
     "inf": [
@@ -1790,8 +1790,8 @@ export const data = [
   },
   {
     "inf": [
-      "Factors determining the size of coordination nanosheet nanoflake of Ni-BHT",
-      "(<sup>1</sup>Research Institute for Science and Technology, Tokyo University of Science, <sup>2</sup>Department of Pure and Applied Chemistry, Tokyo Universuty of Science) 〇Naoya FUKUI<sup>1</sup>, Yu ENDO<sup>1</sup>, Miyu ITO<sup>1</sup>, Kenji TAKADA<sup>1</sup>, Hiroshi NISHIHARA<sup>1,2</sup>"
+      "(TBA)",
+      "() 〇(TBA)<sup>1</sup>"
     ],
     "lab": "1PA-54",
     "pdf": "pdf/1PA-54.pdf",
@@ -1799,7 +1799,7 @@ export const data = [
     "reg": "73167",
     "sea": "Ni",
     "ses": "1PA",
-    "con": "1PA-54 Factors determining the size of coordination nanosheet nanoflake of Ni-BHT (<sup>1</sup>Research Institute for Science and Technology, Tokyo University of Science, <sup>2</sup>Department of Pure and Applied Chemistry, Tokyo Universuty of Science) 〇Naoya FUKUI<sup>1</sup>, Yu ENDO<sup>1</sup>, Miyu ITO<sup>1</sup>, Kenji TAKADA<sup>1</sup>, Hiroshi NISHIHARA<sup>1,2</sup> Ni"
+    "con": "1PA-54 (TBA) () 〇(TBA)<sup>1</sup> Ni"
   },
   {
     "inf": [
@@ -1879,7 +1879,7 @@ export const data = [
   {
     "inf": [
       "ホスフィン・アミド配位子で保護された[Fe<sub>55</sub>][Fe<sub>6</sub>]イオン対の結晶構造と分光学的性質",
-      "(<sup>1</sup>京大化研・<sup>2</sup>名大院理・名大物質国際研) ◎田中 奏多<sup>1</sup>・大石 峻也<sup>2</sup>・川本\\t晃希<sup>2</sup>・唯 美津木<sup>2</sup>・檜垣\\t達也<sup>1</sup>・大木\\t靖弘<sup>1</sup>",
+      "(<sup>1</sup>京大化研・<sup>2</sup>名大院理・名大物質国際研) ◎田中 奏多<sup>1</sup>・大石 峻也<sup>2</sup>・川本 晃希<sup>2</sup>・唯 美津木<sup>2</sup>・檜垣 達也<sup>1</sup>・大木 靖弘<sup>1</sup>",
       "Crystal Structure and Spectroscopic Property of a [Fe<sub>55</sub>][Fe<sub>6</sub>] Ion Pair Protected by Phosphines and Amides                    ",
       "(<sup>1</sup>Institute for Chemical Research, Kyoto Univ., <sup>2</sup>Graduate School of Science and RCMS, Nagoya Univ.) ◎Kanata TANAKA<sup>1</sup>, Shunya OISHI<sup>2</sup>, Koki KAWAMOTO<sup>2</sup>, Mizuki TADA<sup>2</sup>, Tatsuya HIGAKI<sup>1</sup>, Yasuhiro OHKI<sup>1</sup>"
     ],
@@ -1889,7 +1889,7 @@ export const data = [
     "reg": "73124",
     "sea": "Fe",
     "ses": "1PA",
-    "con": "1PA-60 ホスフィン・アミド配位子で保護された[Fe<sub>55</sub>][Fe<sub>6</sub>]イオン対の結晶構造と分光学的性質 (<sup>1</sup>京大化研・<sup>2</sup>名大院理・名大物質国際研) ◎田中 奏多<sup>1</sup>・大石 峻也<sup>2</sup>・川本\\t晃希<sup>2</sup>・唯 美津木<sup>2</sup>・檜垣\\t達也<sup>1</sup>・大木\\t靖弘<sup>1</sup> Crystal Structure and Spectroscopic Property of a [Fe<sub>55</sub>][Fe<sub>6</sub>] Ion Pair Protected by Phosphines and Amides                     (<sup>1</sup>Institute for Chemical Research, Kyoto Univ., <sup>2</sup>Graduate School of Science and RCMS, Nagoya Univ.) ◎Kanata TANAKA<sup>1</sup>, Shunya OISHI<sup>2</sup>, Koki KAWAMOTO<sup>2</sup>, Mizuki TADA<sup>2</sup>, Tatsuya HIGAKI<sup>1</sup>, Yasuhiro OHKI<sup>1</sup> Fe"
+    "con": "1PA-60 ホスフィン・アミド配位子で保護された[Fe<sub>55</sub>][Fe<sub>6</sub>]イオン対の結晶構造と分光学的性質 (<sup>1</sup>京大化研・<sup>2</sup>名大院理・名大物質国際研) ◎田中 奏多<sup>1</sup>・大石 峻也<sup>2</sup>・川本 晃希<sup>2</sup>・唯 美津木<sup>2</sup>・檜垣 達也<sup>1</sup>・大木 靖弘<sup>1</sup> Crystal Structure and Spectroscopic Property of a [Fe<sub>55</sub>][Fe<sub>6</sub>] Ion Pair Protected by Phosphines and Amides                     (<sup>1</sup>Institute for Chemical Research, Kyoto Univ., <sup>2</sup>Graduate School of Science and RCMS, Nagoya Univ.) ◎Kanata TANAKA<sup>1</sup>, Shunya OISHI<sup>2</sup>, Koki KAWAMOTO<sup>2</sup>, Mizuki TADA<sup>2</sup>, Tatsuya HIGAKI<sup>1</sup>, Yasuhiro OHKI<sup>1</sup> Fe"
   },
   {
     "inf": [
@@ -2202,10 +2202,10 @@ export const data = [
   },
   {
     "inf": [
-      "化学量論に基づく2種のNi-BHTの構造選択的合成と同定",
-      "(<sup>1</sup>東理大院創域理工・<sup>2</sup>阪大院基礎工・<sup>3</sup>東理大総研) ◎伊藤　実祐<sup>1</sup>・甘水　君佳<sup>2</sup>・福居　直哉<sup>3</sup>・高田　健司<sup>3</sup>・前田　啓明<sup>3</sup>・長島　佐代子<sup>3</sup>・北河　康隆<sup>2</sup>・西原　寛<sup>1,3</sup>",
-      "Synthesis and identification of 2 types of Ni-BHT by changing the stoichiometric ratio",
-      "(<sup>1</sup>Graduate School of Science and Technology, Tokyo University of Science, <sup>2</sup>Graduate School of Engineering Science, Osaka University, <sup>3</sup>Research Institute for Science and Technology, Tokyo University of Science) ◎Miyu ITO<sup>1</sup>, Naoka AMAMIZU<sup>2</sup>, Naoya FUKUI<sup>3</sup>, Kenji TAKADA<sup>3</sup>, Hiroaki MAEDA<sup>3</sup>, Sayoko NAGASHIMA<sup>3</sup>, Yasutaka KITAGAWA<sup>2</sup>, Hiroshi NISHIHARA<sup>1,3</sup>"
+      "(TBA)",
+      "() ◎(TBA)<sup>1</sup>",
+      "(TBA)",
+      "() ◎(TBA)<sup>1</sup>"
     ],
     "lab": "1PA-82",
     "pdf": "pdf/1PA-82.pdf",
@@ -2213,7 +2213,7 @@ export const data = [
     "reg": "73183",
     "sea": "Ni",
     "ses": "1PA",
-    "con": "1PA-82 化学量論に基づく2種のNi-BHTの構造選択的合成と同定 (<sup>1</sup>東理大院創域理工・<sup>2</sup>阪大院基礎工・<sup>3</sup>東理大総研) ◎伊藤　実祐<sup>1</sup>・甘水　君佳<sup>2</sup>・福居　直哉<sup>3</sup>・高田　健司<sup>3</sup>・前田　啓明<sup>3</sup>・長島　佐代子<sup>3</sup>・北河　康隆<sup>2</sup>・西原　寛<sup>1,3</sup> Synthesis and identification of 2 types of Ni-BHT by changing the stoichiometric ratio (<sup>1</sup>Graduate School of Science and Technology, Tokyo University of Science, <sup>2</sup>Graduate School of Engineering Science, Osaka University, <sup>3</sup>Research Institute for Science and Technology, Tokyo University of Science) ◎Miyu ITO<sup>1</sup>, Naoka AMAMIZU<sup>2</sup>, Naoya FUKUI<sup>3</sup>, Kenji TAKADA<sup>3</sup>, Hiroaki MAEDA<sup>3</sup>, Sayoko NAGASHIMA<sup>3</sup>, Yasutaka KITAGAWA<sup>2</sup>, Hiroshi NISHIHARA<sup>1,3</sup> Ni"
+    "con": "1PA-82 (TBA) () ◎(TBA)<sup>1</sup> (TBA) () ◎(TBA)<sup>1</sup> Ni"
   },
   {
     "inf": [
@@ -2393,9 +2393,9 @@ export const data = [
   },
   {
     "inf": [
-      "Theoretical study on substituent effect in Tb complexes for design of single molecule magnets",
-      "(<sup>1</sup>阪大院基礎工・<sup>2</sup>阪大QIQB・<sup>3</sup>阪大RCSEC・<sup>4</sup>阪大ICS-OTRI・<sup>5</sup>阪大SRN-OTRI) ◎益田　晃希<sup>1</sup>・津田　雅大<sup>1</sup>・岸　亮平<sup>1, 2, 3, 4</sup>・北河　康隆<sup>1, 2, 3, 4, 5</sup>",
       "単分子磁石の設計に向けたTb錯体の置換基効果についての理論研究",
+      "(<sup>1</sup>阪大院基礎工・<sup>2</sup>阪大QIQB・<sup>3</sup>阪大RCSEC・<sup>4</sup>阪大ICS-OTRI・<sup>5</sup>阪大SRN-OTRI) ◎益田　晃希<sup>1</sup>・津田　雅大<sup>1</sup>・岸　亮平<sup>1, 2, 3, 4</sup>・北河　康隆<sup>1, 2, 3, 4, 5</sup>",
+      "Theoretical study on substituent effect in Tb complexes for design of single molecule magnets",
       "(<sup>1</sup>Graduate School of Engineering Science, Osaka University, <sup>2</sup>QIQB, Osaka University, <sup>3</sup>RCSEC, Osaka University, <sup>4</sup>ICS-OTRI, Osaka University, <sup>5</sup>RSN-OTRI, Osaka University) ◎Koki Masuda<sup>1</sup>, Masahiro Tsuda<sup>1</sup>, Ryohei Kishi<sup>1, 2, 3, 4</sup>, Yasutaka Kitagawa<sup>1, 2, 3, 4, 5</sup>"
     ],
     "lab": "1PB-05",
@@ -2404,7 +2404,7 @@ export const data = [
     "reg": "73264",
     "sea": "Tb",
     "ses": "1PB",
-    "con": "1PB-05 Theoretical study on substituent effect in Tb complexes for design of single molecule magnets (<sup>1</sup>阪大院基礎工・<sup>2</sup>阪大QIQB・<sup>3</sup>阪大RCSEC・<sup>4</sup>阪大ICS-OTRI・<sup>5</sup>阪大SRN-OTRI) ◎益田　晃希<sup>1</sup>・津田　雅大<sup>1</sup>・岸　亮平<sup>1, 2, 3, 4</sup>・北河　康隆<sup>1, 2, 3, 4, 5</sup> 単分子磁石の設計に向けたTb錯体の置換基効果についての理論研究 (<sup>1</sup>Graduate School of Engineering Science, Osaka University, <sup>2</sup>QIQB, Osaka University, <sup>3</sup>RCSEC, Osaka University, <sup>4</sup>ICS-OTRI, Osaka University, <sup>5</sup>RSN-OTRI, Osaka University) ◎Koki Masuda<sup>1</sup>, Masahiro Tsuda<sup>1</sup>, Ryohei Kishi<sup>1, 2, 3, 4</sup>, Yasutaka Kitagawa<sup>1, 2, 3, 4, 5</sup> Tb"
+    "con": "1PB-05 単分子磁石の設計に向けたTb錯体の置換基効果についての理論研究 (<sup>1</sup>阪大院基礎工・<sup>2</sup>阪大QIQB・<sup>3</sup>阪大RCSEC・<sup>4</sup>阪大ICS-OTRI・<sup>5</sup>阪大SRN-OTRI) ◎益田　晃希<sup>1</sup>・津田　雅大<sup>1</sup>・岸　亮平<sup>1, 2, 3, 4</sup>・北河　康隆<sup>1, 2, 3, 4, 5</sup> Theoretical study on substituent effect in Tb complexes for design of single molecule magnets (<sup>1</sup>Graduate School of Engineering Science, Osaka University, <sup>2</sup>QIQB, Osaka University, <sup>3</sup>RCSEC, Osaka University, <sup>4</sup>ICS-OTRI, Osaka University, <sup>5</sup>RSN-OTRI, Osaka University) ◎Koki Masuda<sup>1</sup>, Masahiro Tsuda<sup>1</sup>, Ryohei Kishi<sup>1, 2, 3, 4</sup>, Yasutaka Kitagawa<sup>1, 2, 3, 4, 5</sup> Tb"
   },
   {
     "inf": [
@@ -3304,7 +3304,7 @@ export const data = [
   {
     "inf": [
       "A Molecular Spin Qubit in a Covalent Organic Framework Toward Longer Relaxation Time",
-      "(<sup>1</sup>Department of Chemistry, Faculty of Science and Graduate School of Science, Tohoku University, <sup>2</sup>Department of Applied Chemistry and Bioscience, Chitose Institute of Science and Technology, <sup>3</sup>Division of Liberal Arts and Sciences, Aichi Gakuin University) 〇Yukina Suzuki<sup>1</sup>, Sakamoto<sup>2</sup>, Satoshi Matsunaga<sup>3</sup>, Ryota Sakamoto<sup>1</sup>, Masahiro Yamashita<sup>1</sup>"
+      "(<sup>1</sup>Department of Chemistry, Faculty of Science and Graduate School of Science, Tohoku University, <sup>2</sup>Department of Applied Chemistry and Bioscience, Chitose Institute of Science and Technology, <sup>3</sup>Division of Liberal Arts and Sciences, Aichi Gakuin University) 〇Yukina Suzuki<sup>1</sup>, Masanori Wakizaka<sup>2</sup>, Satoshi Matsunaga<sup>3</sup>, Ryota Sakamoto<sup>1</sup>, Masahiro Yamashita<sup>1</sup>"
     ],
     "lab": "1PF-18",
     "pdf": "pdf/1PF-18.pdf",
@@ -3312,7 +3312,7 @@ export const data = [
     "reg": "73002",
     "sea": "Cu, V",
     "ses": "1PF",
-    "con": "1PF-18 A Molecular Spin Qubit in a Covalent Organic Framework Toward Longer Relaxation Time (<sup>1</sup>Department of Chemistry, Faculty of Science and Graduate School of Science, Tohoku University, <sup>2</sup>Department of Applied Chemistry and Bioscience, Chitose Institute of Science and Technology, <sup>3</sup>Division of Liberal Arts and Sciences, Aichi Gakuin University) 〇Yukina Suzuki<sup>1</sup>, Sakamoto<sup>2</sup>, Satoshi Matsunaga<sup>3</sup>, Ryota Sakamoto<sup>1</sup>, Masahiro Yamashita<sup>1</sup> Cu, V"
+    "con": "1PF-18 A Molecular Spin Qubit in a Covalent Organic Framework Toward Longer Relaxation Time (<sup>1</sup>Department of Chemistry, Faculty of Science and Graduate School of Science, Tohoku University, <sup>2</sup>Department of Applied Chemistry and Bioscience, Chitose Institute of Science and Technology, <sup>3</sup>Division of Liberal Arts and Sciences, Aichi Gakuin University) 〇Yukina Suzuki<sup>1</sup>, Masanori Wakizaka<sup>2</sup>, Satoshi Matsunaga<sup>3</sup>, Ryota Sakamoto<sup>1</sup>, Masahiro Yamashita<sup>1</sup> Cu, V"
   },
   {
     "inf": [
@@ -3360,9 +3360,9 @@ export const data = [
   {
     "inf": [
       "プルシアンブルー薄膜のアルカリ金属イオン伝導と湿度依存性",
-      "(<sup>1</sup>山形大院理工) ◎森　史宇<sup>1</sup>・石﨑　学<sup>1</sup>・栗原　正人<sup>1</sup>",
+      "(<sup>1</sup>山形大院理工) 〇森　史宇<sup>1</sup>・石﨑　学<sup>1</sup>・栗原　正人<sup>1</sup>",
       "Humidity-Dependent Alkali-Metal-Ion Conductivity in Prussian-Blue Thin Films          ",
-      "(<sup>1</sup>Yamagata Univ.) ◎Fumitaka Mori<sup>1</sup>, Manabu Ishizaki<sup>1</sup>, Masato Kurihara<sup>1</sup>"
+      "(<sup>1</sup>Yamagata Univ.) 〇Fumitaka Mori<sup>1</sup>, Manabu Ishizaki<sup>1</sup>, Masato Kurihara<sup>1</sup>"
     ],
     "lab": "1PF-22",
     "pdf": "pdf/1PF-22.pdf",
@@ -3370,7 +3370,7 @@ export const data = [
     "reg": "73094",
     "sea": "Fe",
     "ses": "1PF",
-    "con": "1PF-22 プルシアンブルー薄膜のアルカリ金属イオン伝導と湿度依存性 (<sup>1</sup>山形大院理工) ◎森　史宇<sup>1</sup>・石﨑　学<sup>1</sup>・栗原　正人<sup>1</sup> Humidity-Dependent Alkali-Metal-Ion Conductivity in Prussian-Blue Thin Films           (<sup>1</sup>Yamagata Univ.) ◎Fumitaka Mori<sup>1</sup>, Manabu Ishizaki<sup>1</sup>, Masato Kurihara<sup>1</sup> Fe"
+    "con": "1PF-22 プルシアンブルー薄膜のアルカリ金属イオン伝導と湿度依存性 (<sup>1</sup>山形大院理工) 〇森　史宇<sup>1</sup>・石﨑　学<sup>1</sup>・栗原　正人<sup>1</sup> Humidity-Dependent Alkali-Metal-Ion Conductivity in Prussian-Blue Thin Films           (<sup>1</sup>Yamagata Univ.) 〇Fumitaka Mori<sup>1</sup>, Manabu Ishizaki<sup>1</sup>, Masato Kurihara<sup>1</sup> Fe"
   },
   {
     "inf": [
@@ -3764,7 +3764,7 @@ export const data = [
   {
     "inf": [
       "Metal and Main Group Element Enolate Derivatives of 2-Acylmethyl-4,4-dimethyl-2-oxazolines           ",
-      "(<sup>1</sup>Department of Chemistry & Biology) 〇Robert A. Gossage<sup>1</sup>"
+      "(<sup>1</sup>Department of Chemistry & Biology, Toronto Metropolitan University) 〇Robert A. Gossage<sup>1</sup>"
     ],
     "lab": "2Aa-08",
     "pdf": "pdf/2Aa-08.pdf",
@@ -3772,7 +3772,7 @@ export const data = [
     "reg": "73266",
     "sea": "Mo, Pt, Rh, Ir, Tl",
     "ses": "2Aa",
-    "con": "2Aa-08 Metal and Main Group Element Enolate Derivatives of 2-Acylmethyl-4,4-dimethyl-2-oxazolines            (<sup>1</sup>Department of Chemistry & Biology) 〇Robert A. Gossage<sup>1</sup> Mo, Pt, Rh, Ir, Tl"
+    "con": "2Aa-08 Metal and Main Group Element Enolate Derivatives of 2-Acylmethyl-4,4-dimethyl-2-oxazolines            (<sup>1</sup>Department of Chemistry & Biology, Toronto Metropolitan University) 〇Robert A. Gossage<sup>1</sup> Mo, Pt, Rh, Ir, Tl"
   },
   {
     "inf": [
@@ -3815,9 +3815,9 @@ export const data = [
   },
   {
     "inf": [
-      "The effect on crystallization of heterometallic trinuclear Zn–Tb–Zn complex bearing tripodal ligand by addition of the corresponding Ni–Tb–Ni complex ",
-      "(<sup>1</sup>岡山大院自然・<sup>2</sup>岡山大基礎研・<sup>3</sup>岡山大自然生命科学研究支援センター) 〇坂田　大夢<sup>1</sup>・高原　一真<sup>1</sup>・砂月　幸成<sup>3</sup>・鈴木　孝義<sup>1,2</sup>",
       "三脚状配位子を含む三核Zn-Tb-Zn錯体の結晶化に類似Ni-Tb-Ni錯体の添加が及ぼす効果",
+      "(<sup>1</sup>岡山大院自然・<sup>2</sup>岡山大基礎研・<sup>3</sup>岡山大自然生命科学研究支援センター) 〇坂田　大夢<sup>1</sup>・高原　一真<sup>1</sup>・砂月　幸成<sup>3</sup>・鈴木　孝義<sup>1,2</sup>",
+      "The effect on crystallization of heterometallic trinuclear Zn–Tb–Zn complex bearing tripodal ligand by addition of the corresponding Ni–Tb–Ni complex ",
       "(<sup>1</sup>Graduate School of Natural Science and Technology, Okayama Univ., <sup>2</sup>RIIS, Okayama Univ., <sup>3</sup>Advanced Science Research Center, Okayama Univ.) 〇Hiromu SAKATA<sup>1</sup>, Kazuma TAKAHARA<sup>1</sup>, Yukinari SUNATSUKI<sup>3</sup>, Takayoshi SUZUKI<sup>1,2</sup>"
     ],
     "lab": "2Aa-12",
@@ -3826,7 +3826,7 @@ export const data = [
     "reg": "73224",
     "sea": "Ni, Zn, Tb",
     "ses": "2Aa",
-    "con": "2Aa-12 The effect on crystallization of heterometallic trinuclear Zn–Tb–Zn complex bearing tripodal ligand by addition of the corresponding Ni–Tb–Ni complex  (<sup>1</sup>岡山大院自然・<sup>2</sup>岡山大基礎研・<sup>3</sup>岡山大自然生命科学研究支援センター) 〇坂田　大夢<sup>1</sup>・高原　一真<sup>1</sup>・砂月　幸成<sup>3</sup>・鈴木　孝義<sup>1,2</sup> 三脚状配位子を含む三核Zn-Tb-Zn錯体の結晶化に類似Ni-Tb-Ni錯体の添加が及ぼす効果 (<sup>1</sup>Graduate School of Natural Science and Technology, Okayama Univ., <sup>2</sup>RIIS, Okayama Univ., <sup>3</sup>Advanced Science Research Center, Okayama Univ.) 〇Hiromu SAKATA<sup>1</sup>, Kazuma TAKAHARA<sup>1</sup>, Yukinari SUNATSUKI<sup>3</sup>, Takayoshi SUZUKI<sup>1,2</sup> Ni, Zn, Tb"
+    "con": "2Aa-12 三脚状配位子を含む三核Zn-Tb-Zn錯体の結晶化に類似Ni-Tb-Ni錯体の添加が及ぼす効果 (<sup>1</sup>岡山大院自然・<sup>2</sup>岡山大基礎研・<sup>3</sup>岡山大自然生命科学研究支援センター) 〇坂田　大夢<sup>1</sup>・高原　一真<sup>1</sup>・砂月　幸成<sup>3</sup>・鈴木　孝義<sup>1,2</sup> The effect on crystallization of heterometallic trinuclear Zn–Tb–Zn complex bearing tripodal ligand by addition of the corresponding Ni–Tb–Ni complex  (<sup>1</sup>Graduate School of Natural Science and Technology, Okayama Univ., <sup>2</sup>RIIS, Okayama Univ., <sup>3</sup>Advanced Science Research Center, Okayama Univ.) 〇Hiromu SAKATA<sup>1</sup>, Kazuma TAKAHARA<sup>1</sup>, Yukinari SUNATSUKI<sup>3</sup>, Takayoshi SUZUKI<sup>1,2</sup> Ni, Zn, Tb"
   },
   {
     "inf": [
@@ -3868,19 +3868,6 @@ export const data = [
     "sea": "La, Ce, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu",
     "ses": "2Aa",
     "con": "2Aa-15 核医学のためのホスホン酸ピリジンアームを持つ 12 員環配位子が配位したランタノイド錯体の合成と性質 (<sup>1</sup>大阪大学大学院理学研究科・<sup>2</sup>大阪大学RIセンター) 〇浜崎 健太<sup>1</sup>・馬場 一彰<sup>1</sup>・永田 光知郎<sup>1</sup>・吉村 崇<sup>2</sup> Synthesis and Properties of Lanthanide Complexes with a Twelve-Membered Macrocyclic Ligand Having Phosphonic Pyridine Arms for Nuclear Medicine (<sup>1</sup>Graduate School of Science, Osaka Univ., <sup>2</sup>RI center, Osaka Univ.) 〇Kenta HAMASAKI<sup>1</sup>, Kazuaki BABA<sup>1</sup>, Kojiro NAGATA<sup>1</sup>, Takashi YOSHIMURA<sup>2</sup> La, Ce, Nd, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu"
-  },
-  {
-    "inf": [
-      "What are some challenges in developing molecular machines based on coordination compounds by using Ru - ruthenium?",
-      "(<sup>1</sup>Depatment of Chemistry, Highland College of Technology (An Innovation Polytechnic)) 〇Modou Lamin, SANYANG<sup></sup>, Ismaila JKUWARA<sup></sup>"
-    ],
-    "lab": "2Aa-16",
-    "pdf": "pdf/2Aa-16.pdf",
-    "pre": "tn/2Aa-16.jpg",
-    "reg": "73014",
-    "sea": "Ru",
-    "ses": "2Aa",
-    "con": "2Aa-16 What are some challenges in developing molecular machines based on coordination compounds by using Ru - ruthenium? (<sup>1</sup>Depatment of Chemistry, Highland College of Technology (An Innovation Polytechnic)) 〇Modou Lamin, SANYANG<sup></sup>, Ismaila JKUWARA<sup></sup> Ru"
   },
   {
     "inf": [
@@ -4146,7 +4133,7 @@ export const data = [
   {
     "inf": [
       "Water-solvation-dependent Spin Transitions in Co<sup>II</sup>-[M<sup>IV/V</sup>(CN)<sub>8</sub>]<sup>4-/3-</sup> salts",
-      "(<sup>1</sup>The University of Tokyo, School of Science, Department of Chemistry) 〇Olaf STEFANCZYK<sup>1</sup>, Qinyu SONG<sup>1</sup>, Guanping LI<sup>1</sup>, Kunal KUMAR<sup>1</sup>, Kazuki NAKAMUR<sup>1</sup>, Koji NAKABAYASHI<sup>1</sup>, Shin-ichi OHKOSHI<sup>1</sup>"
+      "(<sup>1</sup>The University of Tokyo, School of Science, Department of Chemistry) 〇Olaf STEFANCZYK<sup>1</sup>, Qinyu SONG<sup>1</sup>, Guanping LI<sup>1</sup>, Kunal KUMAR<sup>1</sup>, Kazuki NAKAMURA<sup>1</sup>, Koji NAKABAYASHI<sup>1</sup>, Shin-ichi OHKOSHI<sup>1</sup>"
     ],
     "lab": "2Ac-06",
     "pdf": "pdf/2Ac-06.pdf",
@@ -4154,7 +4141,7 @@ export const data = [
     "reg": "73564",
     "sea": "Co, Mo, W",
     "ses": "2Ac",
-    "con": "2Ac-06 Water-solvation-dependent Spin Transitions in Co<sup>II</sup>-[M<sup>IV/V</sup>(CN)<sub>8</sub>]<sup>4-/3-</sup> salts (<sup>1</sup>The University of Tokyo, School of Science, Department of Chemistry) 〇Olaf STEFANCZYK<sup>1</sup>, Qinyu SONG<sup>1</sup>, Guanping LI<sup>1</sup>, Kunal KUMAR<sup>1</sup>, Kazuki NAKAMUR<sup>1</sup>, Koji NAKABAYASHI<sup>1</sup>, Shin-ichi OHKOSHI<sup>1</sup> Co, Mo, W"
+    "con": "2Ac-06 Water-solvation-dependent Spin Transitions in Co<sup>II</sup>-[M<sup>IV/V</sup>(CN)<sub>8</sub>]<sup>4-/3-</sup> salts (<sup>1</sup>The University of Tokyo, School of Science, Department of Chemistry) 〇Olaf STEFANCZYK<sup>1</sup>, Qinyu SONG<sup>1</sup>, Guanping LI<sup>1</sup>, Kunal KUMAR<sup>1</sup>, Kazuki NAKAMURA<sup>1</sup>, Koji NAKABAYASHI<sup>1</sup>, Shin-ichi OHKOSHI<sup>1</sup> Co, Mo, W"
   },
   {
     "inf": [
@@ -4400,9 +4387,9 @@ export const data = [
   },
   {
     "inf": [
-      "Syntheses and properties of heterometallic one-dimensional chains comprised platinum-nickel trinuclear complexes with two kinds of spin state",
-      "(<sup>1</sup>岐阜大院自然科技・<sup>2</sup>岐阜大工) 〇安達 友教<sup>1</sup>・植村 一広<sup>2</sup>",
       "2つのスピン状態をとりえる白金-ニッケル三核錯体の異種金属一次元鎖化と物性",
+      "(<sup>1</sup>岐阜大院自然科技・<sup>2</sup>岐阜大工) 〇安達 友教<sup>1</sup>・植村 一広<sup>2</sup>",
+      "Syntheses and properties of heterometallic one-dimensional chains comprised platinum-nickel trinuclear complexes with two kinds of spin state",
       "(<sup>1</sup>Graduate School of Natural Science and Technology, Gifu Univ., <sup>2</sup>Graduate School of Engineering, Gifu Univ.) 〇Tomonori ADACHI<sup>1</sup>, Kazuhiro UEMURA<sup>2</sup>"
     ],
     "lab": "2B-10",
@@ -4411,7 +4398,7 @@ export const data = [
     "reg": "73299",
     "sea": "Ni, Pt, Rh",
     "ses": "2B",
-    "con": "2B-10 Syntheses and properties of heterometallic one-dimensional chains comprised platinum-nickel trinuclear complexes with two kinds of spin state (<sup>1</sup>岐阜大院自然科技・<sup>2</sup>岐阜大工) 〇安達 友教<sup>1</sup>・植村 一広<sup>2</sup> 2つのスピン状態をとりえる白金-ニッケル三核錯体の異種金属一次元鎖化と物性 (<sup>1</sup>Graduate School of Natural Science and Technology, Gifu Univ., <sup>2</sup>Graduate School of Engineering, Gifu Univ.) 〇Tomonori ADACHI<sup>1</sup>, Kazuhiro UEMURA<sup>2</sup> Ni, Pt, Rh"
+    "con": "2B-10 2つのスピン状態をとりえる白金-ニッケル三核錯体の異種金属一次元鎖化と物性 (<sup>1</sup>岐阜大院自然科技・<sup>2</sup>岐阜大工) 〇安達 友教<sup>1</sup>・植村 一広<sup>2</sup> Syntheses and properties of heterometallic one-dimensional chains comprised platinum-nickel trinuclear complexes with two kinds of spin state (<sup>1</sup>Graduate School of Natural Science and Technology, Gifu Univ., <sup>2</sup>Graduate School of Engineering, Gifu Univ.) 〇Tomonori ADACHI<sup>1</sup>, Kazuhiro UEMURA<sup>2</sup> Ni, Pt, Rh"
   },
   {
     "inf": [
@@ -4747,9 +4734,9 @@ export const data = [
   },
   {
     "inf": [
-      "Structures and Properties of Iron-Sulfur Clusters Encapsulated in a Macrocyclic Ligand",
-      "(<sup>1</sup>阪大院理) 〇山中 慶太<sup>1</sup>・畑中 翼<sup>1</sup>・舩橋 靖博<sup>1</sup>",
       "大環状配位子内に構築した鉄硫黄クラスターの構造と性質",
+      "(<sup>1</sup>阪大院理) 〇山中 慶太<sup>1</sup>・畑中 翼<sup>1</sup>・舩橋 靖博<sup>1</sup>",
+      "Structures and Properties of Iron-Sulfur Clusters Encapsulated in a Macrocyclic Ligand",
       "(<sup>1</sup>Osaka Univ.) 〇Keita YAMANAKA<sup>1</sup>, Tsubasa HATANAKA<sup>1</sup>, Yasuhiro FUNAHASHI<sup>1</sup>"
     ],
     "lab": "2E-03",
@@ -4758,7 +4745,7 @@ export const data = [
     "reg": "73019",
     "sea": "Fe",
     "ses": "2E",
-    "con": "2E-03 Structures and Properties of Iron-Sulfur Clusters Encapsulated in a Macrocyclic Ligand (<sup>1</sup>阪大院理) 〇山中 慶太<sup>1</sup>・畑中 翼<sup>1</sup>・舩橋 靖博<sup>1</sup> 大環状配位子内に構築した鉄硫黄クラスターの構造と性質 (<sup>1</sup>Osaka Univ.) 〇Keita YAMANAKA<sup>1</sup>, Tsubasa HATANAKA<sup>1</sup>, Yasuhiro FUNAHASHI<sup>1</sup> Fe"
+    "con": "2E-03 大環状配位子内に構築した鉄硫黄クラスターの構造と性質 (<sup>1</sup>阪大院理) 〇山中 慶太<sup>1</sup>・畑中 翼<sup>1</sup>・舩橋 靖博<sup>1</sup> Structures and Properties of Iron-Sulfur Clusters Encapsulated in a Macrocyclic Ligand (<sup>1</sup>Osaka Univ.) 〇Keita YAMANAKA<sup>1</sup>, Tsubasa HATANAKA<sup>1</sup>, Yasuhiro FUNAHASHI<sup>1</sup> Fe"
   },
   {
     "inf": [
@@ -4791,7 +4778,7 @@ export const data = [
   {
     "inf": [
       "Burst of DNA Double-Strand Break by Dicopper Complexes with _p_-Cresol-2,6-bis(amide-dpa) and its DNA Target Modified Ligands: Acceleration by a DNA-Targeting 9-Phenanthrenyl Group",
-      "(<sup>1</sup>Graduate School of Science and Engineering) ★Machi HATA<sup>1</sup>, Masahito KODERA<sup>1</sup>"
+      "(<sup>1</sup>Graduate School of Science and Engineering, Doshisha University) ★Machi HATA<sup>1</sup>, Masahito KODERA<sup>1</sup>"
     ],
     "lab": "2E-06",
     "pdf": "pdf/2E-06.pdf",
@@ -4799,7 +4786,7 @@ export const data = [
     "reg": "73166",
     "sea": "Cu",
     "ses": "2E",
-    "con": "2E-06 Burst of DNA Double-Strand Break by Dicopper Complexes with _p_-Cresol-2,6-bis(amide-dpa) and its DNA Target Modified Ligands: Acceleration by a DNA-Targeting 9-Phenanthrenyl Group (<sup>1</sup>Graduate School of Science and Engineering) ★Machi HATA<sup>1</sup>, Masahito KODERA<sup>1</sup> Cu"
+    "con": "2E-06 Burst of DNA Double-Strand Break by Dicopper Complexes with _p_-Cresol-2,6-bis(amide-dpa) and its DNA Target Modified Ligands: Acceleration by a DNA-Targeting 9-Phenanthrenyl Group (<sup>1</sup>Graduate School of Science and Engineering, Doshisha University) ★Machi HATA<sup>1</sup>, Masahito KODERA<sup>1</sup> Cu"
   },
   {
     "inf": [
@@ -4858,7 +4845,7 @@ export const data = [
   {
     "inf": [
       "Enantioselective copper-protein hybrid catalysts by chemical modification near the active site",
-      "(<sup>1</sup>Graduate School of Agriculture, Osaka Metropolitan University) 〇Yoshitsugu Morita<sup></sup>, Hiroki Kubo<sup></sup>, Ryusei Matsumoto<sup></sup>, Nobutaka Fujueda<sup></sup>"
+      "(<sup>1</sup>Graduate School of Agriculture, Osaka Metropolitan University) 〇Yoshitsugu Morita<sup></sup>, Hiroki Kubo<sup></sup>, Ryusei Matsumoto<sup></sup>, Nobutaka Fujieda<sup></sup>"
     ],
     "lab": "2E-11",
     "pdf": "pdf/2E-11.pdf",
@@ -4866,7 +4853,7 @@ export const data = [
     "reg": "73538",
     "sea": "Cu",
     "ses": "2E",
-    "con": "2E-11 Enantioselective copper-protein hybrid catalysts by chemical modification near the active site (<sup>1</sup>Graduate School of Agriculture, Osaka Metropolitan University) 〇Yoshitsugu Morita<sup></sup>, Hiroki Kubo<sup></sup>, Ryusei Matsumoto<sup></sup>, Nobutaka Fujueda<sup></sup> Cu"
+    "con": "2E-11 Enantioselective copper-protein hybrid catalysts by chemical modification near the active site (<sup>1</sup>Graduate School of Agriculture, Osaka Metropolitan University) 〇Yoshitsugu Morita<sup></sup>, Hiroki Kubo<sup></sup>, Ryusei Matsumoto<sup></sup>, Nobutaka Fujieda<sup></sup> Cu"
   },
   {
     "inf": [
@@ -5347,7 +5334,7 @@ export const data = [
   },
   {
     "inf": [
-      "Construction and evaluation of catalytic activity of multi-dimensional structure of paddlewheel-type complexes by post-synthetic molecular modification",
+      "Reticular imine-linked covalent metal-organic frameworks based on paddlewheel diruthenium/dirhodium nodes: syntheses and photochemical catalytic reduction of CO2 depending on di-metal site",
       "(<sup>1</sup>Department of chemistry, Graduate school of science, Tohoku University, <sup>2</sup>Institute of Material Research, Tohoku University, <sup>3</sup>International Research Center for Hydrogen Energy, Kyushu University, <sup>4</sup>Division of Applied Chemistry, Graduate School of Engineering, Osaka University) ★Chisa ITOH<sup>1</sup>, Haruka YOSHINO<sup>1,2</sup>, Wataru KOSAKA<sup>1,2</sup>, Yusuke OOTANI<sup>2</sup>, Momoji KUBO<sup>2</sup>, Junko MATSUDA<sup>3</sup>, Toyohiko KONNO<sup>2</sup>, Masaki KITADA<sup>4</sup>, Mio KONDO<sup>4</sup>, Shigeyuki MASAOKA<sup>4</sup>, Hitoshi MIYASAKA<sup>1,2</sup>"
     ],
     "lab": "2Fc-06",
@@ -5356,7 +5343,7 @@ export const data = [
     "reg": "73537",
     "sea": "Ru, Rh",
     "ses": "2Fc",
-    "con": "2Fc-06 Construction and evaluation of catalytic activity of multi-dimensional structure of paddlewheel-type complexes by post-synthetic molecular modification (<sup>1</sup>Department of chemistry, Graduate school of science, Tohoku University, <sup>2</sup>Institute of Material Research, Tohoku University, <sup>3</sup>International Research Center for Hydrogen Energy, Kyushu University, <sup>4</sup>Division of Applied Chemistry, Graduate School of Engineering, Osaka University) ★Chisa ITOH<sup>1</sup>, Haruka YOSHINO<sup>1,2</sup>, Wataru KOSAKA<sup>1,2</sup>, Yusuke OOTANI<sup>2</sup>, Momoji KUBO<sup>2</sup>, Junko MATSUDA<sup>3</sup>, Toyohiko KONNO<sup>2</sup>, Masaki KITADA<sup>4</sup>, Mio KONDO<sup>4</sup>, Shigeyuki MASAOKA<sup>4</sup>, Hitoshi MIYASAKA<sup>1,2</sup> Ru, Rh"
+    "con": "2Fc-06 Reticular imine-linked covalent metal-organic frameworks based on paddlewheel diruthenium/dirhodium nodes: syntheses and photochemical catalytic reduction of CO2 depending on di-metal site (<sup>1</sup>Department of chemistry, Graduate school of science, Tohoku University, <sup>2</sup>Institute of Material Research, Tohoku University, <sup>3</sup>International Research Center for Hydrogen Energy, Kyushu University, <sup>4</sup>Division of Applied Chemistry, Graduate School of Engineering, Osaka University) ★Chisa ITOH<sup>1</sup>, Haruka YOSHINO<sup>1,2</sup>, Wataru KOSAKA<sup>1,2</sup>, Yusuke OOTANI<sup>2</sup>, Momoji KUBO<sup>2</sup>, Junko MATSUDA<sup>3</sup>, Toyohiko KONNO<sup>2</sup>, Masaki KITADA<sup>4</sup>, Mio KONDO<sup>4</sup>, Shigeyuki MASAOKA<sup>4</sup>, Hitoshi MIYASAKA<sup>1,2</sup> Ru, Rh"
   },
   {
     "inf": [
@@ -5585,9 +5572,9 @@ export const data = [
   {
     "inf": [
       "Zrクラスター錯体とポリ酸を用いた機能性多孔質空間の構築",
-      "(<sup>1</sup>九州大学大学院理学府) 〇〇末田 悠太<sup>1</sup>・ルウェ バンジャマン<sup>1</sup>・大谷 亮<sup>1</sup>・大場 正昭<sup>1</sup>",
+      "(<sup>1</sup>九州大学大学院理学府) 〇末田 悠太<sup>1</sup>・ルウェ バンジャマン<sup>1</sup>・大谷 亮<sup>1</sup>・大場 正昭<sup>1</sup>",
       "Construction of porous functional space consisting of polyoxometalates and Zr-cluster complexes",
-      "(<sup>1</sup>Graduate School of Science, Kyushu University) 〇〇Yuta Sueda<sup>1</sup>, Benjamin Le Ouay<sup>1</sup>, Ryo Ohtani<sup>1</sup>, Masaaki Ohba <sup>1</sup>"
+      "(<sup>1</sup>Graduate School of Science, Kyushu University) 〇Yuta Sueda<sup>1</sup>, Benjamin Le Ouay<sup>1</sup>, Ryo Ohtani<sup>1</sup>, Masaaki Ohba <sup>1</sup>"
     ],
     "lab": "2PA-08",
     "pdf": "pdf/2PA-08.pdf",
@@ -5595,7 +5582,7 @@ export const data = [
     "reg": "73312",
     "sea": "Zr, Mo",
     "ses": "2PA",
-    "con": "2PA-08 Zrクラスター錯体とポリ酸を用いた機能性多孔質空間の構築 (<sup>1</sup>九州大学大学院理学府) 〇〇末田 悠太<sup>1</sup>・ルウェ バンジャマン<sup>1</sup>・大谷 亮<sup>1</sup>・大場 正昭<sup>1</sup> Construction of porous functional space consisting of polyoxometalates and Zr-cluster complexes (<sup>1</sup>Graduate School of Science, Kyushu University) 〇〇Yuta Sueda<sup>1</sup>, Benjamin Le Ouay<sup>1</sup>, Ryo Ohtani<sup>1</sup>, Masaaki Ohba <sup>1</sup> Zr, Mo"
+    "con": "2PA-08 Zrクラスター錯体とポリ酸を用いた機能性多孔質空間の構築 (<sup>1</sup>九州大学大学院理学府) 〇末田 悠太<sup>1</sup>・ルウェ バンジャマン<sup>1</sup>・大谷 亮<sup>1</sup>・大場 正昭<sup>1</sup> Construction of porous functional space consisting of polyoxometalates and Zr-cluster complexes (<sup>1</sup>Graduate School of Science, Kyushu University) 〇Yuta Sueda<sup>1</sup>, Benjamin Le Ouay<sup>1</sup>, Ryo Ohtani<sup>1</sup>, Masaaki Ohba <sup>1</sup> Zr, Mo"
   },
   {
     "inf": [
@@ -5824,9 +5811,9 @@ export const data = [
   },
   {
     "inf": [
-      "Intercalation effect of tri-coordinated cation to an iron mixed-valence complex with layered magnetic sheet structure",
-      "(<sup>1</sup>東理大院理) 〇澤柳 佑希<sup>1</sup>・金友 拓哉<sup>1</sup>・榎本 真哉<sup>1</sup>",
       "鉄混合原子価層状磁性体に対する3配位型カチオン挿入効果",
+      "(<sup>1</sup>東理大院理) 〇澤柳 佑希<sup>1</sup>・金友 拓哉<sup>1</sup>・榎本 真哉<sup>1</sup>",
+      "Intercalation effect of tri-coordinated cation to an iron mixed-valence complex with layered magnetic sheet structure",
       "(<sup>1</sup>Tokyo Univ. of Sci.) 〇Yuki SAWAYANAGI<sup>1</sup>, Takuya KANETOMO<sup>1</sup>, Masaya ENOMOTO<sup>1</sup>"
     ],
     "lab": "2PA-24",
@@ -5835,7 +5822,7 @@ export const data = [
     "reg": "73319",
     "sea": "Fe",
     "ses": "2PA",
-    "con": "2PA-24 Intercalation effect of tri-coordinated cation to an iron mixed-valence complex with layered magnetic sheet structure (<sup>1</sup>東理大院理) 〇澤柳 佑希<sup>1</sup>・金友 拓哉<sup>1</sup>・榎本 真哉<sup>1</sup> 鉄混合原子価層状磁性体に対する3配位型カチオン挿入効果 (<sup>1</sup>Tokyo Univ. of Sci.) 〇Yuki SAWAYANAGI<sup>1</sup>, Takuya KANETOMO<sup>1</sup>, Masaya ENOMOTO<sup>1</sup> Fe"
+    "con": "2PA-24 鉄混合原子価層状磁性体に対する3配位型カチオン挿入効果 (<sup>1</sup>東理大院理) 〇澤柳 佑希<sup>1</sup>・金友 拓哉<sup>1</sup>・榎本 真哉<sup>1</sup> Intercalation effect of tri-coordinated cation to an iron mixed-valence complex with layered magnetic sheet structure (<sup>1</sup>Tokyo Univ. of Sci.) 〇Yuki SAWAYANAGI<sup>1</sup>, Takuya KANETOMO<sup>1</sup>, Masaya ENOMOTO<sup>1</sup> Fe"
   },
   {
     "inf": [
@@ -6150,9 +6137,9 @@ export const data = [
   },
   {
     "inf": [
-      "Precise Arrangement of Metal Ions in a Pentanuclear Scaffold",
-      "(<sup>1</sup>阪大院工・<sup>2</sup>東工大院理 ・<sup>3</sup>JSTさきがけ) 〇坂本　雅也<sup>1</sup>・友田　美紗<sup>1</sup>・Zi Lang GOO<sup>1</sup>・嵯峨　裕<sup>1</sup>・近藤　美欧<sup>1, 2, 3</sup>・正岡　重行<sup>1</sup>",
       "5核金属錯体骨格への金属イオンの精密配置",
+      "(<sup>1</sup>阪大院工・<sup>2</sup>東工大院理 ・<sup>3</sup>JSTさきがけ) 〇坂本　雅也<sup>1</sup>・友田　美紗<sup>1</sup>・Zi Lang GOO<sup>1</sup>・嵯峨　裕<sup>1</sup>・近藤　美欧<sup>1, 2, 3</sup>・正岡　重行<sup>1</sup>",
+      "Precise Arrangement of Metal Ions in a Pentanuclear Scaffold",
       "(<sup>1</sup>Graduate School of Engineering, Osaka University, <sup>2</sup>School of Science, Tokyo Institute of Technology, <sup>3</sup>JST PRESTO) 〇Masaya SAKAMOTO<sup>1</sup>, Misa TOMODA<sup>1</sup>, Zi Lang GOO<sup>1</sup>, Yutaka SAGA<sup>1</sup>, Mio KONDO<sup>1, 2, 3</sup>, Shigeyuki MASAOKA<sup>1</sup>"
     ],
     "lab": "2PA-46",
@@ -6161,7 +6148,7 @@ export const data = [
     "reg": "73429",
     "sea": "Ru, Os, Cu",
     "ses": "2PA",
-    "con": "2PA-46 Precise Arrangement of Metal Ions in a Pentanuclear Scaffold (<sup>1</sup>阪大院工・<sup>2</sup>東工大院理 ・<sup>3</sup>JSTさきがけ) 〇坂本　雅也<sup>1</sup>・友田　美紗<sup>1</sup>・Zi Lang GOO<sup>1</sup>・嵯峨　裕<sup>1</sup>・近藤　美欧<sup>1, 2, 3</sup>・正岡　重行<sup>1</sup> 5核金属錯体骨格への金属イオンの精密配置 (<sup>1</sup>Graduate School of Engineering, Osaka University, <sup>2</sup>School of Science, Tokyo Institute of Technology, <sup>3</sup>JST PRESTO) 〇Masaya SAKAMOTO<sup>1</sup>, Misa TOMODA<sup>1</sup>, Zi Lang GOO<sup>1</sup>, Yutaka SAGA<sup>1</sup>, Mio KONDO<sup>1, 2, 3</sup>, Shigeyuki MASAOKA<sup>1</sup> Ru, Os, Cu"
+    "con": "2PA-46 5核金属錯体骨格への金属イオンの精密配置 (<sup>1</sup>阪大院工・<sup>2</sup>東工大院理 ・<sup>3</sup>JSTさきがけ) 〇坂本　雅也<sup>1</sup>・友田　美紗<sup>1</sup>・Zi Lang GOO<sup>1</sup>・嵯峨　裕<sup>1</sup>・近藤　美欧<sup>1, 2, 3</sup>・正岡　重行<sup>1</sup> Precise Arrangement of Metal Ions in a Pentanuclear Scaffold (<sup>1</sup>Graduate School of Engineering, Osaka University, <sup>2</sup>School of Science, Tokyo Institute of Technology, <sup>3</sup>JST PRESTO) 〇Masaya SAKAMOTO<sup>1</sup>, Misa TOMODA<sup>1</sup>, Zi Lang GOO<sup>1</sup>, Yutaka SAGA<sup>1</sup>, Mio KONDO<sup>1, 2, 3</sup>, Shigeyuki MASAOKA<sup>1</sup> Ru, Os, Cu"
   },
   {
     "inf": [
@@ -6718,19 +6705,6 @@ export const data = [
   },
   {
     "inf": [
-      "Temperature-Dependent Spontaneous Resolution of a Tetrahedral Chiral-Only-at-Nickel(II) Complex",
-      "(<sup>1</sup>Department of Chemistry, Graduate School of Science, The University of Tokyo) 〇Yuanfei LIU<sup>1</sup>, Hitoshi UBE<sup>1</sup>, Mitsuhiko SHIONOYA<sup>1</sup>"
-    ],
-    "lab": "2PA-84",
-    "pdf": "pdf/2PA-84.pdf",
-    "pre": "tn/2PA-84.jpg",
-    "reg": "73388",
-    "sea": "Ni",
-    "ses": "2PA",
-    "con": "2PA-84 Temperature-Dependent Spontaneous Resolution of a Tetrahedral Chiral-Only-at-Nickel(II) Complex (<sup>1</sup>Department of Chemistry, Graduate School of Science, The University of Tokyo) 〇Yuanfei LIU<sup>1</sup>, Hitoshi UBE<sup>1</sup>, Mitsuhiko SHIONOYA<sup>1</sup> Ni"
-  },
-  {
-    "inf": [
       "軸不斉を有するシッフ塩基型亜鉛(II)単核錯体の合成と物性",
       "(<sup>1</sup>茨城大学大学院理工学研究科　・<sup>2</sup>東京都立大学大学院理学研究科・<sup>3</sup>北里大学大学院理学研究科・<sup>4</sup>京都府立大学大学院生命環境科学研究科・<sup>5</sup>筑波大学大学院数理物質科学研究科) 〇田内大喜<sup>1</sup>・小林礼知<sup>2</sup>・菅野克哉<sup>1</sup>・長谷川真士<sup>3</sup>・真崎康博<sup>3</sup>・椿一典<sup>4</sup>・志賀拓也<sup>5</sup>・杉浦健一<sup>2</sup>・森聖治<sup>1</sup>・西川浩之<sup>1</sup>",
       "Synthesis and physical properties of mononuclear zinc(II) complex coordinated by axially chiral Schiff base type ligand",
@@ -6743,6 +6717,19 @@ export const data = [
     "sea": "Zn",
     "ses": "2PA",
     "con": "2PA-84 軸不斉を有するシッフ塩基型亜鉛(II)単核錯体の合成と物性 (<sup>1</sup>茨城大学大学院理工学研究科　・<sup>2</sup>東京都立大学大学院理学研究科・<sup>3</sup>北里大学大学院理学研究科・<sup>4</sup>京都府立大学大学院生命環境科学研究科・<sup>5</sup>筑波大学大学院数理物質科学研究科) 〇田内大喜<sup>1</sup>・小林礼知<sup>2</sup>・菅野克哉<sup>1</sup>・長谷川真士<sup>3</sup>・真崎康博<sup>3</sup>・椿一典<sup>4</sup>・志賀拓也<sup>5</sup>・杉浦健一<sup>2</sup>・森聖治<sup>1</sup>・西川浩之<sup>1</sup> Synthesis and physical properties of mononuclear zinc(II) complex coordinated by axially chiral Schiff base type ligand (<sup>1</sup> Ibaraki University, Graduate School of Science and Engineering, <sup>2</sup>Tokyo Metropolitan University, Graduate School of Science, <sup>3</sup>Kitasato University, Graduate School of Science, <sup>4</sup>Kyoto Prefectural University, Graduate School of Life and Environmental Sciences, <sup>5</sup>University of Tsukuba, Graduate School of Pure and Appl. Sci.) 〇Daiki TAUCHI<sup>1</sup>, Reichi KOBAYASHI<sup>2</sup>, Katsuya KANNO<sup>1</sup>, Masashi HASEGAWA<sup>3</sup>, Yasuhiro MAZAKI<sup>3</sup>, Kazunori TSUBAKI<sup>4</sup>, Takuya SHIGA<sup>5</sup>, Ken-ichi SUGIURA<sup>2</sup>, Seji MORI<sup>1</sup>, Hiroyuki NISHIKAWA<sup>1</sup> Zn"
+  },
+  {
+    "inf": [
+      "Temperature-Dependent Spontaneous Resolution of a Tetrahedral Chiral-Only-at-Nickel(II) Complex",
+      "(<sup>1</sup>Department of Chemistry, Graduate School of Science, The University of Tokyo) 〇Yuanfei LIU<sup>1</sup>, Hitoshi UBE<sup>1</sup>, Mitsuhiko SHIONOYA<sup>1</sup>"
+    ],
+    "lab": "2PA-85",
+    "pdf": "pdf/2PA-85.pdf",
+    "pre": "tn/2PA-85.jpg",
+    "reg": "73388",
+    "sea": "Ni",
+    "ses": "2PA",
+    "con": "2PA-85 Temperature-Dependent Spontaneous Resolution of a Tetrahedral Chiral-Only-at-Nickel(II) Complex (<sup>1</sup>Department of Chemistry, Graduate School of Science, The University of Tokyo) 〇Yuanfei LIU<sup>1</sup>, Hitoshi UBE<sup>1</sup>, Mitsuhiko SHIONOYA<sup>1</sup> Ni"
   },
   {
     "inf": [
@@ -6878,7 +6865,7 @@ export const data = [
   {
     "inf": [
       "Dynamical Two-electrons Exchange Phenomenon of Gold Mixed-Valence System by Means of High-pressure <sup>197</sup>Au Mӧssbauer Spectroscopy",
-      "(<sup>1</sup>1 - \\tGraduate School of Arts and Sciences, The University of Tokyo, <sup>2</sup>2 - \\tMarian Smoluchowski Institute of Physics, Jagiellonian University, Poland) 〇Norimichi KOJIMA<sup></sup>, Jan STANEK<sup></sup>"
+      "(<sup>1</sup>Graduate School of Arts and Sciences, The University of Tokyo, <sup>2</sup>Marian Smoluchowski Institute of Physics, Jagiellonian University, Poland) 〇Norimichi KOJIMA<sup></sup>, Jan STANEK<sup></sup>"
     ],
     "lab": "2PB-10",
     "pdf": "pdf/2PB-10.pdf",
@@ -6886,7 +6873,7 @@ export const data = [
     "reg": "73369",
     "sea": "Au, Cs",
     "ses": "2PB",
-    "con": "2PB-10 Dynamical Two-electrons Exchange Phenomenon of Gold Mixed-Valence System by Means of High-pressure <sup>197</sup>Au Mӧssbauer Spectroscopy (<sup>1</sup>1 - \\tGraduate School of Arts and Sciences, The University of Tokyo, <sup>2</sup>2 - \\tMarian Smoluchowski Institute of Physics, Jagiellonian University, Poland) 〇Norimichi KOJIMA<sup></sup>, Jan STANEK<sup></sup> Au, Cs"
+    "con": "2PB-10 Dynamical Two-electrons Exchange Phenomenon of Gold Mixed-Valence System by Means of High-pressure <sup>197</sup>Au Mӧssbauer Spectroscopy (<sup>1</sup>Graduate School of Arts and Sciences, The University of Tokyo, <sup>2</sup>Marian Smoluchowski Institute of Physics, Jagiellonian University, Poland) 〇Norimichi KOJIMA<sup></sup>, Jan STANEK<sup></sup> Au, Cs"
   },
   {
     "inf": [
@@ -7274,9 +7261,9 @@ export const data = [
   },
   {
     "inf": [
-      "Vinylidene rearrangement of nitrogen-substituted internal alkynes at ruthenium complexes",
-      "(<sup>1</sup>中大院理工・<sup>2</sup>お茶の水女子大院人間文化創成科学) 〇穐本純花<sup>1</sup>・三坪拓矢<sup>1</sup>・青木寛<sup>1</sup>・坂尻浩介<sup>1</sup>・桑原拓也<sup>2</sup>・岩本貴寛<sup>1</sup>・石井洋一<sup>1</sup>",
       "ルテニウム錯体上での窒素置換内部アルキンのビニリデン転位          ",
+      "(<sup>1</sup>中大院理工・<sup>2</sup>お茶の水女子大院人間文化創成科学) 〇穐本純花<sup>1</sup>・三坪拓矢<sup>1</sup>・青木寛<sup>1</sup>・坂尻浩介<sup>1</sup>・桑原拓也<sup>2</sup>・岩本貴寛<sup>1</sup>・石井洋一<sup>1</sup>",
+      "Vinylidene rearrangement of nitrogen-substituted internal alkynes at ruthenium complexes",
       "(<sup>1</sup>Chuo Univ., <sup>2</sup>Ochanomizu Univ.) 〇Sumika Akimoto<sup>1</sup>, Takuya Mitsubo<sup>1</sup>,  Yutaka Aoki<sup>1</sup>, Kosuke Sakajiri<sup>1</sup>, Takuya Kuwabara<sup>2</sup>, Takahiro Iwamoto<sup>1</sup>, Youichi Ishii<sup>1</sup>"
     ],
     "lab": "2PD-06",
@@ -7285,7 +7272,7 @@ export const data = [
     "reg": "73423",
     "sea": "Ru",
     "ses": "2PD",
-    "con": "2PD-06 Vinylidene rearrangement of nitrogen-substituted internal alkynes at ruthenium complexes (<sup>1</sup>中大院理工・<sup>2</sup>お茶の水女子大院人間文化創成科学) 〇穐本純花<sup>1</sup>・三坪拓矢<sup>1</sup>・青木寛<sup>1</sup>・坂尻浩介<sup>1</sup>・桑原拓也<sup>2</sup>・岩本貴寛<sup>1</sup>・石井洋一<sup>1</sup> ルテニウム錯体上での窒素置換内部アルキンのビニリデン転位           (<sup>1</sup>Chuo Univ., <sup>2</sup>Ochanomizu Univ.) 〇Sumika Akimoto<sup>1</sup>, Takuya Mitsubo<sup>1</sup>,  Yutaka Aoki<sup>1</sup>, Kosuke Sakajiri<sup>1</sup>, Takuya Kuwabara<sup>2</sup>, Takahiro Iwamoto<sup>1</sup>, Youichi Ishii<sup>1</sup> Ru"
+    "con": "2PD-06 ルテニウム錯体上での窒素置換内部アルキンのビニリデン転位           (<sup>1</sup>中大院理工・<sup>2</sup>お茶の水女子大院人間文化創成科学) 〇穐本純花<sup>1</sup>・三坪拓矢<sup>1</sup>・青木寛<sup>1</sup>・坂尻浩介<sup>1</sup>・桑原拓也<sup>2</sup>・岩本貴寛<sup>1</sup>・石井洋一<sup>1</sup> Vinylidene rearrangement of nitrogen-substituted internal alkynes at ruthenium complexes (<sup>1</sup>Chuo Univ., <sup>2</sup>Ochanomizu Univ.) 〇Sumika Akimoto<sup>1</sup>, Takuya Mitsubo<sup>1</sup>,  Yutaka Aoki<sup>1</sup>, Kosuke Sakajiri<sup>1</sup>, Takuya Kuwabara<sup>2</sup>, Takahiro Iwamoto<sup>1</sup>, Youichi Ishii<sup>1</sup> Ru"
   },
   {
     "inf": [
@@ -7394,9 +7381,9 @@ export const data = [
   },
   {
     "inf": [
-      "Neutron and X-ray Small Angle Scattering of Laccase from _Rhus vernicifera_",
-      "(<sup>1</sup>茨城大学理工学研究科量子線科学専攻・<sup>2</sup>茨城大学フロンティア応用原子科学研究センター・<sup>3</sup>Australian Nuclear Science and Technology Organization) 〇菅井 碧宙<sup>1</sup>・中山 綾乃<sup>1</sup>・山口 峻英<sup>1,2</sup>・Kathleen Wood<sup>3</sup>・高妻 孝光<sup>1,2</sup>",
       "中性子・X 線小角散乱法によるウルシ由来ラッカーゼの構造解析",
+      "(<sup>1</sup>茨城大学理工学研究科量子線科学専攻・<sup>2</sup>茨城大学フロンティア応用原子科学研究センター・<sup>3</sup>Australian Nuclear Science and Technology Organization) 〇菅井 碧宙<sup>1</sup>・中山 綾乃<sup>1</sup>・山口 峻英<sup>1,2</sup>・Kathleen Wood<sup>3</sup>・高妻 孝光<sup>1,2</sup>",
+      "Neutron and X-ray Small Angle Scattering of Laccase from _Rhus vernicifera_",
       "(<sup>1</sup>Institute of Quantum Beam Science, Ibaraki University, <sup>2</sup>Frontier Research Center for Applied Atomic Sciences, Ibaraki University, <sup>3</sup>Australian Nuclear Science and Technology Organization) 〇Aozora SUGAI<sup>1</sup>, Ayano NAKAYAMA<sup>1</sup>, Takahide YAMAGUCHI<sup>1,2</sup>, Kathleen WOOD<sup>3</sup>, Takamitsu KOHZUMA<sup>1,2</sup>"
     ],
     "lab": "2PE-04",
@@ -7405,7 +7392,7 @@ export const data = [
     "reg": "73218",
     "sea": "Cu",
     "ses": "2PE",
-    "con": "2PE-04 Neutron and X-ray Small Angle Scattering of Laccase from _Rhus vernicifera_ (<sup>1</sup>茨城大学理工学研究科量子線科学専攻・<sup>2</sup>茨城大学フロンティア応用原子科学研究センター・<sup>3</sup>Australian Nuclear Science and Technology Organization) 〇菅井 碧宙<sup>1</sup>・中山 綾乃<sup>1</sup>・山口 峻英<sup>1,2</sup>・Kathleen Wood<sup>3</sup>・高妻 孝光<sup>1,2</sup> 中性子・X 線小角散乱法によるウルシ由来ラッカーゼの構造解析 (<sup>1</sup>Institute of Quantum Beam Science, Ibaraki University, <sup>2</sup>Frontier Research Center for Applied Atomic Sciences, Ibaraki University, <sup>3</sup>Australian Nuclear Science and Technology Organization) 〇Aozora SUGAI<sup>1</sup>, Ayano NAKAYAMA<sup>1</sup>, Takahide YAMAGUCHI<sup>1,2</sup>, Kathleen WOOD<sup>3</sup>, Takamitsu KOHZUMA<sup>1,2</sup> Cu"
+    "con": "2PE-04 中性子・X 線小角散乱法によるウルシ由来ラッカーゼの構造解析 (<sup>1</sup>茨城大学理工学研究科量子線科学専攻・<sup>2</sup>茨城大学フロンティア応用原子科学研究センター・<sup>3</sup>Australian Nuclear Science and Technology Organization) 〇菅井 碧宙<sup>1</sup>・中山 綾乃<sup>1</sup>・山口 峻英<sup>1,2</sup>・Kathleen Wood<sup>3</sup>・高妻 孝光<sup>1,2</sup> Neutron and X-ray Small Angle Scattering of Laccase from _Rhus vernicifera_ (<sup>1</sup>Institute of Quantum Beam Science, Ibaraki University, <sup>2</sup>Frontier Research Center for Applied Atomic Sciences, Ibaraki University, <sup>3</sup>Australian Nuclear Science and Technology Organization) 〇Aozora SUGAI<sup>1</sup>, Ayano NAKAYAMA<sup>1</sup>, Takahide YAMAGUCHI<sup>1,2</sup>, Kathleen WOOD<sup>3</sup>, Takamitsu KOHZUMA<sup>1,2</sup> Cu"
   },
   {
     "inf": [
@@ -7632,9 +7619,9 @@ export const data = [
   },
   {
     "inf": [
-      "Photocatalytic reduction of carbon dioxide by using a boron complex and a rhenium complex",
-      "(<sup>1</sup>東京工科大学工学部応用化学科) 〇木原 咲穂<sup>1</sup>・下地 浩希<sup>1</sup>・森本 樹<sup>1</sup>",
       "ホウ素錯体とレニウム錯体を用いた光触媒的二酸化炭素還元",
+      "(<sup>1</sup>東京工科大学工学部応用化学科) 〇木原 咲穂<sup>1</sup>・下地 浩希<sup>1</sup>・森本 樹<sup>1</sup>",
+      "Photocatalytic reduction of carbon dioxide by using a boron complex and a rhenium complex",
       "(<sup>1</sup>Department of Applied Chemistry, Faculty of Engineering, Tokyo University of Technology) 〇Sakiho KIHARA<sup>1</sup>, Hiroki SHIMOJI<sup>1</sup>, Tatsuki MORIMOTO<sup>1</sup>"
     ],
     "lab": "2PF-13",
@@ -7643,7 +7630,7 @@ export const data = [
     "reg": "73595",
     "sea": "Re, B",
     "ses": "2PF",
-    "con": "2PF-13 Photocatalytic reduction of carbon dioxide by using a boron complex and a rhenium complex (<sup>1</sup>東京工科大学工学部応用化学科) 〇木原 咲穂<sup>1</sup>・下地 浩希<sup>1</sup>・森本 樹<sup>1</sup> ホウ素錯体とレニウム錯体を用いた光触媒的二酸化炭素還元 (<sup>1</sup>Department of Applied Chemistry, Faculty of Engineering, Tokyo University of Technology) 〇Sakiho KIHARA<sup>1</sup>, Hiroki SHIMOJI<sup>1</sup>, Tatsuki MORIMOTO<sup>1</sup> Re, B"
+    "con": "2PF-13 ホウ素錯体とレニウム錯体を用いた光触媒的二酸化炭素還元 (<sup>1</sup>東京工科大学工学部応用化学科) 〇木原 咲穂<sup>1</sup>・下地 浩希<sup>1</sup>・森本 樹<sup>1</sup> Photocatalytic reduction of carbon dioxide by using a boron complex and a rhenium complex (<sup>1</sup>Department of Applied Chemistry, Faculty of Engineering, Tokyo University of Technology) 〇Sakiho KIHARA<sup>1</sup>, Hiroki SHIMOJI<sup>1</sup>, Tatsuki MORIMOTO<sup>1</sup> Re, B"
   },
   {
     "inf": [
@@ -7749,9 +7736,9 @@ export const data = [
   {
     "inf": [
       "銅ポルフィリン錯体の電解重合を用いたCO<sub>2</sub>還元能を有する電極担持触媒の開発",
-      "(<sup>1</sup>Graduate School of Engineering, Osaka University・<sup>2</sup>School of Science, Tokyo Institute of Technology・<sup>3</sup>JST PRESTO) 〇勝平千里<sup>1</sup>・松﨑拓実<sup>1</sup>・グージーラン<sup>1</sup>・嵯峨裕<sup>1</sup>・近藤美欧<sup>1,2,3</sup>・正岡重行<sup>1</sup>",
+      "(<sup>1</sup>阪大院工・<sup>2</sup>東工大院理・<sup>3</sup>JSTさきがけ) 〇勝平千里<sup>1</sup>・松﨑拓実<sup>1</sup>・グージーラン<sup>1</sup>・嵯峨裕<sup>1</sup>・近藤美欧<sup>1,2,3</sup>・正岡重行<sup>1</sup>",
       "Development of Electrode-Supported Catalysts with CO<sub>2</sub> Reduction Ability using Electrochemical Polymerization of Copper Porphyrin Complexes",
-      "(<sup>1</sup>阪大院工, <sup>2</sup>東工大院理, <sup>3</sup>JSTさきがけ) 〇Senri KATSUHIRA<sup>1</sup>, Takumi MATSUZAKI<sup>1</sup>, Zi Lang GOO<sup>1</sup>, Yutaka SAGA<sup>1</sup>, Mio KONDO<sup>1,2,3</sup>, Shigeyuki MASAOKA<sup>1</sup>"
+      "(<sup>1</sup>Graduate School of Engineering, Osaka University, <sup>2</sup>School of Science, Tokyo Institute of Technology, <sup>3</sup>JST PRESTO) 〇Senri KATSUHIRA<sup>1</sup>, Takumi MATSUZAKI<sup>1</sup>, Zi Lang GOO<sup>1</sup>, Yutaka SAGA<sup>1</sup>, Mio KONDO<sup>1,2,3</sup>, Shigeyuki MASAOKA<sup>1</sup>"
     ],
     "lab": "2PF-21",
     "pdf": "pdf/2PF-21.pdf",
@@ -7759,7 +7746,7 @@ export const data = [
     "reg": "73428",
     "sea": "Cu",
     "ses": "2PF",
-    "con": "2PF-21 銅ポルフィリン錯体の電解重合を用いたCO<sub>2</sub>還元能を有する電極担持触媒の開発 (<sup>1</sup>Graduate School of Engineering, Osaka University・<sup>2</sup>School of Science, Tokyo Institute of Technology・<sup>3</sup>JST PRESTO) 〇勝平千里<sup>1</sup>・松﨑拓実<sup>1</sup>・グージーラン<sup>1</sup>・嵯峨裕<sup>1</sup>・近藤美欧<sup>1,2,3</sup>・正岡重行<sup>1</sup> Development of Electrode-Supported Catalysts with CO<sub>2</sub> Reduction Ability using Electrochemical Polymerization of Copper Porphyrin Complexes (<sup>1</sup>阪大院工, <sup>2</sup>東工大院理, <sup>3</sup>JSTさきがけ) 〇Senri KATSUHIRA<sup>1</sup>, Takumi MATSUZAKI<sup>1</sup>, Zi Lang GOO<sup>1</sup>, Yutaka SAGA<sup>1</sup>, Mio KONDO<sup>1,2,3</sup>, Shigeyuki MASAOKA<sup>1</sup> Cu"
+    "con": "2PF-21 銅ポルフィリン錯体の電解重合を用いたCO<sub>2</sub>還元能を有する電極担持触媒の開発 (<sup>1</sup>阪大院工・<sup>2</sup>東工大院理・<sup>3</sup>JSTさきがけ) 〇勝平千里<sup>1</sup>・松﨑拓実<sup>1</sup>・グージーラン<sup>1</sup>・嵯峨裕<sup>1</sup>・近藤美欧<sup>1,2,3</sup>・正岡重行<sup>1</sup> Development of Electrode-Supported Catalysts with CO<sub>2</sub> Reduction Ability using Electrochemical Polymerization of Copper Porphyrin Complexes (<sup>1</sup>Graduate School of Engineering, Osaka University, <sup>2</sup>School of Science, Tokyo Institute of Technology, <sup>3</sup>JST PRESTO) 〇Senri KATSUHIRA<sup>1</sup>, Takumi MATSUZAKI<sup>1</sup>, Zi Lang GOO<sup>1</sup>, Yutaka SAGA<sup>1</sup>, Mio KONDO<sup>1,2,3</sup>, Shigeyuki MASAOKA<sup>1</sup> Cu"
   },
   {
     "inf": [
@@ -8052,221 +8039,6 @@ export const data = [
     "sea": "Cu, Bi",
     "ses": "2PF",
     "con": "2PF-41 ハロゲン化金属とジケトピロロピロール誘導体を用いた有機薄膜太陽電池の作製 (<sup>1</sup>近畿大学) 〇三輪　勇貴<sup>1</sup>・髙橋　直大<sup>1</sup>・田中　仙君<sup>1</sup>・鬼頭　宏任<sup>1</sup>・大久保　貴志<sup>1</sup> Fabrication of organic thin-film solar cells using metal halides and diketopyrrolopyrrole derivatives. (<sup>1</sup>Kindai Univ.) 〇Yuki MIWA<sup>1</sup>, Naohiro TAKAHASHI<sup>1</sup>, Senku TANAKA<sup>1</sup>, Hirotaka KITOH-NISHIOKA<sup>1</sup>, Takashi OKUBO<sup>1</sup> Cu, Bi"
-  },
-  {
-    "inf": [
-      "Reticular imine-linked covalent metal-organic frameworks based on paddlewheel diruthenium/dirhodium nodes: syntheses and photochemical catalytic reduction of CO<sub>2</sub> depending on di-metal site",
-      "(<sup>1</sup>Department of chemistry, Graduate school of science, Tohoku University, <sup>2</sup>Institute of Material Research, Tohoku University, <sup>3</sup>International Research Center for Hydrogen Energy, Kyushu University, <sup>4</sup>Division of Applied Chemistry, Graduate School of Engineering, Osaka University) ★Chisa ITOH<sup>1</sup>, Haruka YOSHINO<sup>1,2</sup>, Wataru KOSAKA<sup>1,2</sup>, Yusuke OOTANI<sup>2</sup>, Momoji KUBO<sup>2</sup>, Junko MATSUDA<sup>3</sup>, Toyohiko KONNO<sup>2</sup>, Masaki KITADA<sup>4</sup>, Mio KONDO<sup>4</sup>, Shigeyuki MASAOKA<sup>4</sup>, Hitoshi MIYASAKA<sup>1,2</sup>"
-    ],
-    "lab": "999-996",
-    "pdf": "pdf/999-996.pdf",
-    "pre": "tn/999-996.jpg",
-    "reg": "73536",
-    "sea": "Ru, Rh",
-    "ses": "999",
-    "con": "999-996 Reticular imine-linked covalent metal-organic frameworks based on paddlewheel diruthenium/dirhodium nodes: syntheses and photochemical catalytic reduction of CO<sub>2</sub> depending on di-metal site (<sup>1</sup>Department of chemistry, Graduate school of science, Tohoku University, <sup>2</sup>Institute of Material Research, Tohoku University, <sup>3</sup>International Research Center for Hydrogen Energy, Kyushu University, <sup>4</sup>Division of Applied Chemistry, Graduate School of Engineering, Osaka University) ★Chisa ITOH<sup>1</sup>, Haruka YOSHINO<sup>1,2</sup>, Wataru KOSAKA<sup>1,2</sup>, Yusuke OOTANI<sup>2</sup>, Momoji KUBO<sup>2</sup>, Junko MATSUDA<sup>3</sup>, Toyohiko KONNO<sup>2</sup>, Masaki KITADA<sup>4</sup>, Mio KONDO<sup>4</sup>, Shigeyuki MASAOKA<sup>4</sup>, Hitoshi MIYASAKA<sup>1,2</sup> Ru, Rh"
-  },
-  {
-    "inf": [
-      "Tetranuclear Nickel Complexes Sandwiched by Two Cyclooctatetraene ligands: Theoretical Study of Geometry and Bonding",
-      "(<sup>1</sup>Kyoto University, <sup>2</sup>Tokyo Intitute for Technology) 〇Yu Tian<sup>1</sup>, Tetsuro Murahashi<sup>2</sup>, Shigeyoshi Sakaki<sup>1</sup>"
-    ],
-    "lab": "999-997",
-    "pdf": "pdf/999-997.pdf",
-    "pre": "tn/999-997.jpg",
-    "reg": "73467",
-    "sea": "Ni",
-    "ses": "999",
-    "con": "999-997 Tetranuclear Nickel Complexes Sandwiched by Two Cyclooctatetraene ligands: Theoretical Study of Geometry and Bonding (<sup>1</sup>Kyoto University, <sup>2</sup>Tokyo Intitute for Technology) 〇Yu Tian<sup>1</sup>, Tetsuro Murahashi<sup>2</sup>, Shigeyoshi Sakaki<sup>1</sup> Ni"
-  },
-  {
-    "inf": [
-      "Polarization switching on [CoCr] dinuclear complex with an enantiopure ligand based on valence tautomerism via single-crystal to single-crystal transformation",
-      "(<sup>1</sup>Kyushu univeristy, Department of Chemistry, <sup>2</sup> IMCE) ★Wenwei Zheng<sup>1</sup>, Shu-Qi Wu<sup>2</sup>, Shengqun Su<sup>2</sup>, Osamu Sato<sup>1,2</sup>"
-    ],
-    "lab": "999-998",
-    "pdf": "pdf/999-998.pdf",
-    "pre": "tn/999-998.jpg",
-    "reg": "73421",
-    "sea": "(Co, Cr)",
-    "ses": "999",
-    "con": "999-998 Polarization switching on [CoCr] dinuclear complex with an enantiopure ligand based on valence tautomerism via single-crystal to single-crystal transformation (<sup>1</sup>Kyushu univeristy, Department of Chemistry, <sup>2</sup> IMCE) ★Wenwei Zheng<sup>1</sup>, Shu-Qi Wu<sup>2</sup>, Shengqun Su<sup>2</sup>, Osamu Sato<sup>1,2</sup> (Co, Cr)"
-  },
-  {
-    "inf": [
-      "Structural and optical analyses of a cyanido-bridged CoW assembly showing temperature- and photo-induced phase transition",
-      "(<sup>1</sup>Department of Chemistry, School of Science, University of Tokyo) 〇Kazuki Nakamura<sup>1</sup>, Shota Kobayashi<sup>1</sup>, Koji Nakabayashi<sup>1</sup>, Shin-ichi Ohkoshi<sup>1</sup>"
-    ],
-    "lab": "999-999",
-    "pdf": "pdf/999-999.pdf",
-    "pre": "tn/999-999.jpg",
-    "reg": "73020",
-    "sea": "Co,W",
-    "ses": "999",
-    "con": "999-999 Structural and optical analyses of a cyanido-bridged CoW assembly showing temperature- and photo-induced phase transition (<sup>1</sup>Department of Chemistry, School of Science, University of Tokyo) 〇Kazuki Nakamura<sup>1</sup>, Shota Kobayashi<sup>1</sup>, Koji Nakabayashi<sup>1</sup>, Shin-ichi Ohkoshi<sup>1</sup> Co,W"
-  },
-  {
-    "inf": [
-      "MOF前駆体含有ポリアミック酸溶液を用いたMetal-Organic Frameworkの直接合成",
-      "(<sup>1</sup>甲南大院FIRST・<sup>2</sup>甲南大学) 〇江口 慧一<sup>1</sup>・髙嶋 洋平<sup>2</sup>・赤松 謙介<sup>2</sup>・鶴岡 孝章<sup>2</sup>",
-      "Direct synthetic approach for MOF-dispersed polymer thin films using a poly(amic acid) solution containing MOF precursors",
-      "(<sup>1</sup>Konan University, <sup>2</sup>Konan University) 〇Keiichi EGUCHI<sup>1</sup>, Yohei TAKASHIMA<sup>2</sup>, Kensuke AKAMATSU<sup>2</sup>, Takaaki TSURUOKA<sup>2</sup>"
-    ],
-    "lab": "Aに変更",
-    "pdf": "pdf/Aに変更.pdf",
-    "pre": "tn/Aに変更.jpg",
-    "reg": "73370",
-    "sea": "Cu",
-    "ses": "Aに変",
-    "con": "Aに変更 MOF前駆体含有ポリアミック酸溶液を用いたMetal-Organic Frameworkの直接合成 (<sup>1</sup>甲南大院FIRST・<sup>2</sup>甲南大学) 〇江口 慧一<sup>1</sup>・髙嶋 洋平<sup>2</sup>・赤松 謙介<sup>2</sup>・鶴岡 孝章<sup>2</sup> Direct synthetic approach for MOF-dispersed polymer thin films using a poly(amic acid) solution containing MOF precursors (<sup>1</sup>Konan University, <sup>2</sup>Konan University) 〇Keiichi EGUCHI<sup>1</sup>, Yohei TAKASHIMA<sup>2</sup>, Kensuke AKAMATSU<sup>2</sup>, Takaaki TSURUOKA<sup>2</sup> Cu"
-  },
-  {
-    "inf": [
-      "鉄ーアニル酸系錯体をホスト層とする層状化合物の合成と物性",
-      "(<sup>1</sup>福岡大学理学部) 〇白倉　丈<sup>1</sup>・石川　立太<sup>1</sup>・三島　章雄<sup>1</sup>・濱口　智彦<sup>1</sup>・川田　知<sup>1</sup>",
-      "Synthesis and properties of interlayer compounds with Iron-Anilate complexes as host layers",
-      "(<sup>1</sup>Fukuoka University, Department of Chemistry) 〇Jo Shirakura<sup>1</sup>, Ryuta Ishikawa<sup>1</sup>, Akio Mishima<sup>1</sup>, Tomohiko Hamaguchi<sup>1</sup>, Satoshi Kawata<sup>1</sup>"
-    ],
-    "lab": "とりやめ",
-    "pdf": "pdf/とりやめ.pdf",
-    "pre": "tn/とりやめ.jpg",
-    "reg": "73337",
-    "sea": "Fe",
-    "ses": "とりや",
-    "con": "とりやめ 鉄ーアニル酸系錯体をホスト層とする層状化合物の合成と物性 (<sup>1</sup>福岡大学理学部) 〇白倉　丈<sup>1</sup>・石川　立太<sup>1</sup>・三島　章雄<sup>1</sup>・濱口　智彦<sup>1</sup>・川田　知<sup>1</sup> Synthesis and properties of interlayer compounds with Iron-Anilate complexes as host layers (<sup>1</sup>Fukuoka University, Department of Chemistry) 〇Jo Shirakura<sup>1</sup>, Ryuta Ishikawa<sup>1</sup>, Akio Mishima<sup>1</sup>, Tomohiko Hamaguchi<sup>1</sup>, Satoshi Kawata<sup>1</sup> Fe"
-  },
-  {
-    "inf": [
-      "CoFe二核錯体の水素結合集積化による熱誘起分子内電子移動制御",
-      "(<sup>1</sup>熊大院先端) ◎福島 陸<sup>1</sup>・張 中岳<sup>1</sup>・関根 良博<sup>1</sup>・速水 真也<sup>1</sup>",
-      "Control of Thermally Induced Intramolecular Electron Transfer by Hydrogen-Bond Assembly of Dinuclear CoFe Complexes",
-      "(<sup>1</sup>Kumamoto Univ.) ◎Riku FUKUSHIMA<sup>1</sup>, Zhongyue ZHANG<sup>1</sup>, Yoshihiro SEKINE<sup>1</sup>, Shinya HAYAMI<sup>1</sup>"
-    ],
-    "lab": "削除",
-    "pdf": "pdf/削除.pdf",
-    "pre": "tn/削除.jpg",
-    "reg": "73588",
-    "sea": "Co, Fe",
-    "ses": "削",
-    "con": "削除 CoFe二核錯体の水素結合集積化による熱誘起分子内電子移動制御 (<sup>1</sup>熊大院先端) ◎福島 陸<sup>1</sup>・張 中岳<sup>1</sup>・関根 良博<sup>1</sup>・速水 真也<sup>1</sup> Control of Thermally Induced Intramolecular Electron Transfer by Hydrogen-Bond Assembly of Dinuclear CoFe Complexes (<sup>1</sup>Kumamoto Univ.) ◎Riku FUKUSHIMA<sup>1</sup>, Zhongyue ZHANG<sup>1</sup>, Yoshihiro SEKINE<sup>1</sup>, Shinya HAYAMI<sup>1</sup> Co, Fe"
-  },
-  {
-    "inf": [
-      "NiFe層状複水酸化物(LDH)ナノシート:低過電圧267 mV・高TOF 9.6 s<sup>–1</sup>で1 A cm<sup>–2</sup>を発生する酸素発生反応触媒",
-      "(<sup>1</sup>山形大院理工) 〇高木 裕暉<sup>1</sup>・石﨑 学<sup>1</sup>・栗原 正人<sup>1</sup>",
-      "NiFe Layered-Double-Hydroxide Nanosheets: An Oxygen-Evolution-Reaction Catalyst for Generating 1 A cm<sup>–2</sup> via a High Turnover Frequency of 9.6 s<sup>–1</sup> and a Low Overpotential of 267 mV",
-      "(<sup>1</sup>Yamagata Univ.) 〇Yuki Takaki<sup>1</sup>, Manabu Ishizaki<sup>1</sup>, Masato Kurihra<sup>1</sup>"
-    ],
-    "lab": "重複",
-    "pdf": "pdf/重複.pdf",
-    "pre": "tn/重複.jpg",
-    "reg": "73091",
-    "sea": "Fe,Ni",
-    "ses": "重",
-    "con": "重複 NiFe層状複水酸化物(LDH)ナノシート:低過電圧267 mV・高TOF 9.6 s<sup>–1</sup>で1 A cm<sup>–2</sup>を発生する酸素発生反応触媒 (<sup>1</sup>山形大院理工) 〇高木 裕暉<sup>1</sup>・石﨑 学<sup>1</sup>・栗原 正人<sup>1</sup> NiFe Layered-Double-Hydroxide Nanosheets: An Oxygen-Evolution-Reaction Catalyst for Generating 1 A cm<sup>–2</sup> via a High Turnover Frequency of 9.6 s<sup>–1</sup> and a Low Overpotential of 267 mV (<sup>1</sup>Yamagata Univ.) 〇Yuki Takaki<sup>1</sup>, Manabu Ishizaki<sup>1</sup>, Masato Kurihra<sup>1</sup> Fe,Ni"
-  },
-  {
-    "inf": [
-      "テトラチアゾール型フォトクロミック四座配位子およびその遷移金属錯体の合成と光応答",
-      "(<sup>1</sup>奈良先端大物質) 〇高畑 海渡<sup>1</sup>・野澤 真佑子<sup>1</sup>・山田 美穂子<sup>1</sup>・河合 壯<sup>1</sup>",
-      "Syntheses and photoresponsivity of a tetrathiazole-based tetradentate photochromic ligand and their transition metal complexes",
-      "(<sup>1</sup>Div. Mat. Sci., NAIST) 〇Kaito TAKAHATA<sup>1</sup>, Mayuko NOZAWA<sup>1</sup>, Mihoko YAMADA<sup>1</sup>, Tsuyoshi KAWAI<sup>1</sup>"
-    ],
-    "lab": "重複",
-    "pdf": "pdf/重複.pdf",
-    "pre": "tn/重複.jpg",
-    "reg": "73185",
-    "sea": "Cu",
-    "ses": "重",
-    "con": "重複 テトラチアゾール型フォトクロミック四座配位子およびその遷移金属錯体の合成と光応答 (<sup>1</sup>奈良先端大物質) 〇高畑 海渡<sup>1</sup>・野澤 真佑子<sup>1</sup>・山田 美穂子<sup>1</sup>・河合 壯<sup>1</sup> Syntheses and photoresponsivity of a tetrathiazole-based tetradentate photochromic ligand and their transition metal complexes (<sup>1</sup>Div. Mat. Sci., NAIST) 〇Kaito TAKAHATA<sup>1</sup>, Mayuko NOZAWA<sup>1</sup>, Mihoko YAMADA<sup>1</sup>, Tsuyoshi KAWAI<sup>1</sup> Cu"
-  },
-  {
-    "inf": [
-      "アミド含有二核化配位子の二核銅(Ⅱ)錯体が触媒するH<sub>2</sub>O<sub>2</sub>によるメタン酸化:二核銅錯体のメタン酸化におけるアミド錯体とアミデート錯体の活性比較",
-      "(<sup>1</sup>同志社大学大学院理工学研究科) 〇市川　菜摘<sup>1</sup>・小寺　政人<sup>1</sup>",
-      "Methane oxidation with H<sub>2</sub>O<sub>2</sub> catalyzed by dicopper(II) complexes supported by dinucleating amide and amidate ligands: comparison between amide- and amidate-complexes",
-      "(<sup>1</sup>Department of Science and Engineering, Doshisha University  ) 〇Natsumi ICHIKAWA<sup>1</sup>, Masahito KODERA<sup>1</sup>"
-    ],
-    "lab": "重複",
-    "pdf": "pdf/重複.pdf",
-    "pre": "tn/重複.jpg",
-    "reg": "73241",
-    "sea": "Cu",
-    "ses": "重",
-    "con": "重複 アミド含有二核化配位子の二核銅(Ⅱ)錯体が触媒するH<sub>2</sub>O<sub>2</sub>によるメタン酸化:二核銅錯体のメタン酸化におけるアミド錯体とアミデート錯体の活性比較 (<sup>1</sup>同志社大学大学院理工学研究科) 〇市川　菜摘<sup>1</sup>・小寺　政人<sup>1</sup> Methane oxidation with H<sub>2</sub>O<sub>2</sub> catalyzed by dicopper(II) complexes supported by dinucleating amide and amidate ligands: comparison between amide- and amidate-complexes (<sup>1</sup>Department of Science and Engineering, Doshisha University  ) 〇Natsumi ICHIKAWA<sup>1</sup>, Masahito KODERA<sup>1</sup> Cu"
-  },
-  {
-    "inf": [
-      "Catalytic Property of (Co<sub>2</sub>L<sub>2</sub>)(NO<sub>3</sub>) <sub>2</sub>·2.5H<sub>2</sub>O (HL=3,5-bis(2'-pyridyl)pyrazole) for Electrochemical CO<sub>2</sub> Reduction Reaction",
-      "(<sup>1</sup>Kyushu Univ., <sup>2</sup>Tohoku Univ.) 〇Yunyi PAN<sup>1</sup>, Masaki DONOSHITA<sup>1</sup>, Miho YAMAUCHI<sup>1,2</sup>"
-    ],
-    "lab": "重複",
-    "pdf": "pdf/重複.pdf",
-    "pre": "tn/重複.jpg",
-    "reg": "73251",
-    "sea": "Co",
-    "ses": "重",
-    "con": "重複 Catalytic Property of (Co<sub>2</sub>L<sub>2</sub>)(NO<sub>3</sub>) <sub>2</sub>·2.5H<sub>2</sub>O (HL=3,5-bis(2'-pyridyl)pyrazole) for Electrochemical CO<sub>2</sub> Reduction Reaction (<sup>1</sup>Kyushu Univ., <sup>2</sup>Tohoku Univ.) 〇Yunyi PAN<sup>1</sup>, Masaki DONOSHITA<sup>1</sup>, Miho YAMAUCHI<sup>1,2</sup> Co"
-  },
-  {
-    "inf": [
-      "可視光を用いた二酸化炭素還元におけるルテニウム錯体触媒のCNC配位子上の置換基効果",
-      "(<sup>1</sup>長崎大学院工) 〇守永 桃<sup>1</sup>・久保田 深優<sup>1</sup>・有川 康弘<sup>1</sup>・尾本 賢一郎<sup>1</sup>・作田 絵里<sup>1</sup>・馬越 啓介<sup>1</sup>",
-      "Comparison of Substituents on a CNC-type Pincer Ligand of Rutheniunm Catalysts in Photochemical CO<sub>2</sub> Reduction",
-      "(<sup>1</sup>Graduate School of Engineering. Nagasaki University) 〇Momo MORINAGA<sup>1</sup>, Miyu KUBOTA<sup>1</sup>, Yasuhiro ARIKAWA<sup>1</sup>, Kenichiro OMOTO<sup>1</sup>, Eri SAKUDA<sup>1</sup>, Keisuke UMAKOSHI<sup>1</sup>"
-    ],
-    "lab": "重複",
-    "pdf": "pdf/重複.pdf",
-    "pre": "tn/重複.jpg",
-    "reg": "73294",
-    "sea": "Ru",
-    "ses": "重",
-    "con": "重複 可視光を用いた二酸化炭素還元におけるルテニウム錯体触媒のCNC配位子上の置換基効果 (<sup>1</sup>長崎大学院工) 〇守永 桃<sup>1</sup>・久保田 深優<sup>1</sup>・有川 康弘<sup>1</sup>・尾本 賢一郎<sup>1</sup>・作田 絵里<sup>1</sup>・馬越 啓介<sup>1</sup> Comparison of Substituents on a CNC-type Pincer Ligand of Rutheniunm Catalysts in Photochemical CO<sub>2</sub> Reduction (<sup>1</sup>Graduate School of Engineering. Nagasaki University) 〇Momo MORINAGA<sup>1</sup>, Miyu KUBOTA<sup>1</sup>, Yasuhiro ARIKAWA<sup>1</sup>, Kenichiro OMOTO<sup>1</sup>, Eri SAKUDA<sup>1</sup>, Keisuke UMAKOSHI<sup>1</sup> Ru"
-  },
-  {
-    "inf": [
-      "二核ルテニウム錯体上での亜硝酸イオンから一酸化窒素への還元",
-      "(<sup>1</sup>長崎大学院工) 〇吉田　真太朗<sup>1</sup>・有川 康弘<sup>1</sup>・尾本 賢一郎<sup>1</sup>・作田 絵里<sup>1</sup>・馬越 啓介<sup>1</sup>",
-      "Reduction of a Nitrite-bridged Dinuclear Ruthenium Complex Producing Nitric Oxide.",
-      "(<sup>1</sup>Graduate School of Engineering, Nagasaki University) 〇Shintaro Yoshida<sup>1</sup>, Yasuhiro Arikawa<sup>1</sup>, Kenichiro Omoto<sup>1</sup>, Eri Sakuda<sup>1</sup>, Keisuke Umakoshi<sup>1</sup>"
-    ],
-    "lab": "重複",
-    "pdf": "pdf/重複.pdf",
-    "pre": "tn/重複.jpg",
-    "reg": "73335",
-    "sea": "Ru",
-    "ses": "重",
-    "con": "重複 二核ルテニウム錯体上での亜硝酸イオンから一酸化窒素への還元 (<sup>1</sup>長崎大学院工) 〇吉田　真太朗<sup>1</sup>・有川 康弘<sup>1</sup>・尾本 賢一郎<sup>1</sup>・作田 絵里<sup>1</sup>・馬越 啓介<sup>1</sup> Reduction of a Nitrite-bridged Dinuclear Ruthenium Complex Producing Nitric Oxide. (<sup>1</sup>Graduate School of Engineering, Nagasaki University) 〇Shintaro Yoshida<sup>1</sup>, Yasuhiro Arikawa<sup>1</sup>, Kenichiro Omoto<sup>1</sup>, Eri Sakuda<sup>1</sup>, Keisuke Umakoshi<sup>1</sup> Ru"
-  },
-  {
-    "inf": [
-      "二核ルテニウム錯体上での亜硝酸イオンから一酸化窒素への還元",
-      "(<sup>1</sup>長崎大学院工) 〇吉田 真太朗<sup>1</sup>・有川 康弘<sup>1</sup>・尾本 賢一郎<sup>1</sup>・作田 絵里<sup>1</sup>・馬越 啓介<sup>1</sup>",
-      "Reduction of a Nitrite-bridged Dinuclear Ruthenium Complex Producing Nitric Oxide.",
-      "(<sup>1</sup>Graduate School of Engineering, Nagasaki University) 〇Shintaro Yoshida<sup>1</sup>, Yasuhiro Arikawa<sup>1</sup>, Kenichiro Omoto<sup>1</sup>, Eri Sakuda<sup>1</sup>, Keisuke Umakoshi<sup>1</sup>"
-    ],
-    "lab": "重複",
-    "pdf": "pdf/重複.pdf",
-    "pre": "tn/重複.jpg",
-    "reg": "73362",
-    "sea": "Ru",
-    "ses": "重",
-    "con": "重複 二核ルテニウム錯体上での亜硝酸イオンから一酸化窒素への還元 (<sup>1</sup>長崎大学院工) 〇吉田 真太朗<sup>1</sup>・有川 康弘<sup>1</sup>・尾本 賢一郎<sup>1</sup>・作田 絵里<sup>1</sup>・馬越 啓介<sup>1</sup> Reduction of a Nitrite-bridged Dinuclear Ruthenium Complex Producing Nitric Oxide. (<sup>1</sup>Graduate School of Engineering, Nagasaki University) 〇Shintaro Yoshida<sup>1</sup>, Yasuhiro Arikawa<sup>1</sup>, Kenichiro Omoto<sup>1</sup>, Eri Sakuda<sup>1</sup>, Keisuke Umakoshi<sup>1</sup> Ru"
-  },
-  {
-    "inf": [
-      "高濃度ゼラチンによる単斜晶Cu-BTCの合成",
-      "(<sup>1</sup>長岡技術科学大学) 〇梅田　大輝<sup>1</sup>・高橋　由紀子<sup>1</sup>",
-      "Synthesis of monoclinic Cu-BTC using a highly concentrated gelatin solution",
-      "(<sup>1</sup>Nagaoka University of Thechnology) 〇Hiroki UMEDA<sup>1</sup>, Yukiko TAKAHASHI<sup>1</sup>"
-    ],
-    "lab": "重複",
-    "pdf": "pdf/重複.pdf",
-    "pre": "tn/重複.jpg",
-    "reg": "73517",
-    "sea": "Cu",
-    "ses": "重",
-    "con": "重複 高濃度ゼラチンによる単斜晶Cu-BTCの合成 (<sup>1</sup>長岡技術科学大学) 〇梅田　大輝<sup>1</sup>・高橋　由紀子<sup>1</sup> Synthesis of monoclinic Cu-BTC using a highly concentrated gelatin solution (<sup>1</sup>Nagaoka University of Thechnology) 〇Hiroki UMEDA<sup>1</sup>, Yukiko TAKAHASHI<sup>1</sup> Cu"
   },
   {
     "lab": "S1-01",

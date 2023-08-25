@@ -1,5 +1,5 @@
 <script>
-    import { directory } from "./directory.js";
+    import { directory } from "./Components/directory.js";
     import { marks } from "./stores.js";
 	// import { onMount } from 'svelte';
 

@@ -1,13 +1,13 @@
 <script>
     import { _ } from 'svelte-i18n';
-    import AsyncTable from "../asynctable.svelte";
+    import AsyncTable from "./Components/TimeTable/asynctable.svelte";
 
 
     let rooms = ["",""]
     
     let day3 = [
         [
-            {"bin":[9,0,60],  "id":"", "label":"9:00"},
+            {"bin":[9,0,60],   "id":"", "label":"9:00"},
             {"bin":[10,0,60],  "id":"", "label":"10:00"},
             {"bin":[11,0,60],  "id":"", "label":"11:00"},
             {"bin":[12,0,60],  "id":"", "label":"12:00"},
@@ -38,7 +38,7 @@
             {"bin":[20,0,60],  "id":"", "label":"20:00"},
         ],   
         [
-            {"bin":[18,0,30],   "id":"", "label":"-"},
+            {"bin":[18,0,30],   "id":"", "label":""},
             {"bin":[,,120],   "id":"", "label":$_("Banquet")},
         ],
     ]

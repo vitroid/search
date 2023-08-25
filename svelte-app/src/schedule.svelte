@@ -2,10 +2,10 @@
     import { _ } from 'svelte-i18n';
     import { Tab, TabList, TabPanel, Tabs } from './Components/Tabs/tabs.js';
     import SponsorTable from "./sponsortable.svelte";
-    import Top from "./JSCC/Top.svelte"
-    import Day1 from "./JSCC/Day1.svelte"
-    import Day2 from "./JSCC/Day2.svelte"
-    import Day3 from "./JSCC/Day3.svelte"
+    import Top from "./Top.svelte"
+    import Day1 from "./Day1.svelte"
+    import Day2 from "./Day2.svelte"
+    import Day3 from "./Day3.svelte"
 </script>
 
 <div class="tabsystem">

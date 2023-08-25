@@ -1,7 +1,7 @@
 <script>
     import { createEventDispatcher,onMount } from 'svelte';
-    import { directory } from "./directory.js";
-    import { marks } from './stores.js';
+    import { directory } from "../directory.js";
+    import { marks } from '../../stores.js';
 	const dispatch = createEventDispatcher();
 
     export let label;

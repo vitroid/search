@@ -1,5 +1,5 @@
 <script>
-    import ShortCut from "../shortcut.svelte";
+    import ShortCut from "./Components/shortcut.svelte";
 
     let shortcuts = [
         ["1PA", "^1PA-"],

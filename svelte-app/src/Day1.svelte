@@ -1,8 +1,8 @@
 <script>
     import { _ } from 'svelte-i18n';
-    import SessionTable from "../sessiontable.svelte";
-    import AsyncTable from "../asynctable.svelte";
-    import PosterTables from "../PosterTables.svelte";
+    import SessionTable from "./Components/SessionTable/sessiontable.svelte";
+    import AsyncTable from "./Components/TimeTable/asynctable.svelte";
+    import PosterTables from "./Components/PosterTable/PosterTables.svelte";
 
     let sessions=["1Aa", "1Ab", "1Ac", "1Ad", "1C", "1D", "1Fa", "1Fb", "1Fc", "1Fd"]
     let bins_am = ["9:00", "9:20", "9:40", "10:00", "10:20", "10:30", "10:50", "11:10", "11:30"]
@@ -21,43 +21,46 @@
             {"bin":[,,25],    "id":"S1-01", "label":"01"},
             {"bin":[,,25],    "id":"S1-02", "label":"02"},
             {"bin":[,,25],    "id":"S1-03", "label":"03"},
-            {"bin":[,,10],    "id":"", "label":""},
             {"bin":[,,25],    "id":"S1-04", "label":"04"},
+            {"bin":[,,10],    "id":"", "label":""},
             {"bin":[,,25],    "id":"S1-05", "label":"05"},
             {"bin":[,,25],    "id":"S1-06", "label":"06"},
-            {"bin":[,,25],    "id":"S1-07", "label":"07"}
+            {"bin":[,,5],     "id":"", "label":""}
         ],
         [
             {"bin":[15,0,5],  "id":"", "label":""},
             {"bin":[,,25],    "id":"S2-01", "label":"01"},
             {"bin":[,,25],    "id":"S2-02", "label":"02"},
             {"bin":[,,25],    "id":"S2-03", "label":"03"},
-            {"bin":[,,25],    "id":"S2-04", "label":"04"},
             {"bin":[,,10],    "id":"", "label":""},
+            {"bin":[,,25],    "id":"S2-04", "label":"04"},
             {"bin":[,,25],    "id":"S2-05", "label":"05"},
-            {"bin":[,,25],    "id":"S2-06", "label":"06"},
+            {"bin":[,,35],    "id":"S2-06", "label":"06"},
+            {"bin":[,,5],     "id":"", "label":""}
         ],
         [
             {"bin":[15,0,5],  "id":"", "label":""},
-            {"bin":[,,35],    "id":"S3-01", "label":"01"},
+            {"bin":[,,25],    "id":"S3-01", "label":"01"},
             {"bin":[,,25],    "id":"S3-02", "label":"02"},
-            {"bin":[,,25],    "id":"S3-03", "label":"03"},
             {"bin":[,,10],    "id":"", "label":""},
+            {"bin":[,,25],    "id":"S3-03", "label":"03"},
             {"bin":[,,25],    "id":"S3-04", "label":"04"},
             {"bin":[,,25],    "id":"S3-05", "label":"05"},
+            {"bin":[,,10],    "id":"", "label":""},
             {"bin":[,,25],    "id":"S3-06", "label":"06"},
             {"bin":[,,25],    "id":"S3-07", "label":"07"},
-            {"bin":[,,25],    "id":"S3-07", "label":"08"}
+            {"bin":[,,5],     "id":"", "label":""}
         ],
         [
             {"bin":[15,0,5],  "id":"", "label":""},
             {"bin":[,,30],    "id":"S4-01", "label":"01"},
-            {"bin":[,,25],    "id":"S4-02", "label":"02"},
+            {"bin":[,,30],    "id":"S4-02", "label":"02"},
             {"bin":[,,30],    "id":"S4-03", "label":"03"},
             {"bin":[,,10],    "id":"", "label":""},
             {"bin":[,,30],    "id":"S4-04", "label":"04"},
-            {"bin":[,,25],    "id":"S4-05", "label":"05"},
+            {"bin":[,,30],    "id":"S4-05", "label":"05"},
             {"bin":[,,30],    "id":"S4-06", "label":"06"},
+            {"bin":[,,5],     "id":"", "label":""}
         ],
         [
             {"bin":[15,0,5],  "id":"", "label":""},
@@ -68,17 +71,18 @@
             {"bin":[,,10],    "id":"", "label":""},
             {"bin":[,,25],    "id":"S5-05", "label":"05"},
             {"bin":[,,25],    "id":"S5-06", "label":"06"},
-            {"bin":[,,30],    "id":"S5-07", "label":"07"}
+            {"bin":[,,5],     "id":"", "label":""}
         ],
         [
             {"bin":[15,0,5],  "id":"", "label":""},
             {"bin":[,,30],    "id":"S6-01", "label":"01"},
             {"bin":[,,30],    "id":"S6-02", "label":"02"},
-            {"bin":[,,10],    "id":"", "label":""},
             {"bin":[,,30],    "id":"S6-03", "label":"03"},
+            {"bin":[,,10],    "id":"", "label":""},
             {"bin":[,,30],    "id":"S6-04", "label":"04"},
             {"bin":[,,30],    "id":"S6-05", "label":"05"},
             {"bin":[,,30],    "id":"S6-06", "label":"06"},
+            {"bin":[,,5],     "id":"", "label":""}
         ],
     ]
 

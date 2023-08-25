@@ -44,5 +44,8 @@ export const ja={
     "Abstract book": "講演要旨集",
     "Program book": "討論会プログラム集",
     "(lightweight)": "(軽量版)",
-    "JSCCAS": "錯体化学会 第73回討論会"
-}
+    "JSCCAS": "錯体化学会 第73回討論会",
+    "Opening Remark": "開会",
+    "Closing Remark": "閉会",
+    "Explanation": "解説",
+ }

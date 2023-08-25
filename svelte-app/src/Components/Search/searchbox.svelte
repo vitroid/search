@@ -1,6 +1,6 @@
 <script>
     import ResultView from "./resultview.svelte";
-    import { data } from "./JSCC/index.js";
+    export let data = {}
     export let search = "";
 
     $: {
@@ -76,5 +76,5 @@
 <div>
     <input type="text" id="q" on:keydown={key} autocomplete="off" placeholder="Search" bind:value={search} />
     {st}
-    <ResultView results={results} bind:this={resultView} />
+    <ResultView {data} {results} bind:this={resultView} />
 </div>

@@ -1,6 +1,7 @@
 <script>
     import PageNavi from "./pagenavi.svelte";
     import View from "./view.svelte";
+    export let data
     export let results = [];
 
     const max=10;
@@ -59,7 +60,7 @@
 <table>
     <tbody>
         {#each subset as record}
-        <View {record} />
+        <View {record} {data} />
         {/each}
     </tbody>
 </table>

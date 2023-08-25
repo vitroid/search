@@ -1,6 +1,6 @@
 <script lang="ts">
     import { _ } from 'svelte-i18n';
-    import SmartTable from '../smarttable.svelte';
+    import SmartTable from './Components/smarttable.svelte';
 
     let table
     _.subscribe(t=>{
