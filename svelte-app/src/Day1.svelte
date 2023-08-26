@@ -3,10 +3,33 @@
     // import SessionTable from "./Components/SessionTable/sessiontable.svelte";
     import AsyncTable from "./Components/TimeTable/asynctable.svelte";
     import PosterTables from "./Components/PosterTable/PosterTables.svelte";
+    import ShortCut from "./Components/shortcut.svelte";
     import {all_talks} from "./all_talks.js"
     let sessions=["Time", "1Aa", "1Ab", "1Ac", "1Ad", "1C", "1D", "1Fa", "1Fb", "1Fc", "1Fd"]
     // let bins_am = ["9:00", "9:20", "9:40", "10:00", "10:20", "10:30", "10:50", "11:10", "11:30"]
     // let slots_am = ["1", "2", "3", "4", "", "5", "6", "7", "8"]
+
+    const am_shortcuts = [
+        ["1Aa", "^1Aa-"],
+        ["1Ab", "^1Ab-"],
+        ["1Ac", "^1Ac-"],
+        ["1Ad", "^1Ad-"],
+        ["1C", "^1C-"],
+        ["1D", "^1D-"],
+        ["1Fa", "^1Fa-"],
+        ["1Fb", "^1Fb-"],
+        ["1Fc", "^1Fc-"],
+        ["1Fd", "^1Fd-"],
+    ]
+
+    const sy_shortcuts = [
+        ["S1", "^S1-"],
+        ["S2", "^S2-"],
+        ["S3", "^S3-"],
+        ["S4", "^S4-"],
+        ["S5", "^S5-"],
+        ["S6", "^S6-"],
+    ]
 
     const day1am = [
         [
@@ -132,78 +155,78 @@
 
     let symposia = [
         [
-            {"bin":[15,0,60], "id":"", "label":"15:00"},
-            {"bin":[,,60],    "id":"", "label":"16:00"},
-            {"bin":[,,60],    "id":"", "label":"17:00"},
-            {"bin":[,,60],    "id":"", "label":"18:00"},
+            {bin:[15,0,60], id:"", label:"15:00"},
+            {bin:[,,60],    id:"", label:"16:00"},
+            {bin:[,,60],    id:"", label:"17:00"},
+            {bin:[,,60],    id:"", label:"18:00"},
         ],
         [
-            {"bin":[15,0,5],  "id":"", "label":""},
-            {"bin":[,,25],    "id":"S1-01", "label":"01"},
-            {"bin":[,,25],    "id":"S1-02", "label":"02"},
-            {"bin":[,,25],    "id":"S1-03", "label":"03"},
-            {"bin":[,,25],    "id":"S1-04", "label":"04"},
-            {"bin":[,,10],    "id":"", "label":""},
-            {"bin":[,,25],    "id":"S1-05", "label":"05"},
-            {"bin":[,,25],    "id":"S1-06", "label":"06"},
-            {"bin":[,,5],     "id":"", "label":""}
+            {bin:[15,0,5],  id:"", label:""},
+            {bin:[,,25],    id:"S1-01", label:"01"},
+            {bin:[,,25],    id:"S1-02", label:"02"},
+            {bin:[,,25],    id:"S1-03", label:"03"},
+            {bin:[,,25],    id:"S1-04", label:"04"},
+            {bin:[,,10],    id:"", label:""},
+            {bin:[,,25],    id:"S1-05", label:"05"},
+            {bin:[,,25],    id:"S1-06", label:"06"},
+            {bin:[,,5],     id:"", label:""}
         ],
         [
-            {"bin":[15,0,5],  "id":"", "label":""},
-            {"bin":[,,25],    "id":"S2-01", "label":"01"},
-            {"bin":[,,25],    "id":"S2-02", "label":"02"},
-            {"bin":[,,25],    "id":"S2-03", "label":"03"},
-            {"bin":[,,10],    "id":"", "label":""},
-            {"bin":[,,25],    "id":"S2-04", "label":"04"},
-            {"bin":[,,25],    "id":"S2-05", "label":"05"},
-            {"bin":[,,35],    "id":"S2-06", "label":"06"},
-            {"bin":[,,5],     "id":"", "label":""}
+            {bin:[15,0,5],  id:"", label:""},
+            {bin:[,,25],    id:"S2-01", label:"01"},
+            {bin:[,,25],    id:"S2-02", label:"02"},
+            {bin:[,,25],    id:"S2-03", label:"03"},
+            {bin:[,,10],    id:"", label:""},
+            {bin:[,,25],    id:"S2-04", label:"04"},
+            {bin:[,,25],    id:"S2-05", label:"05"},
+            {bin:[,,35],    id:"S2-06", label:"06"},
+            {bin:[,,5],     id:"", label:""}
         ],
         [
-            {"bin":[15,0,5],  "id":"", "label":""},
-            {"bin":[,,25],    "id":"S3-01", "label":"01"},
-            {"bin":[,,25],    "id":"S3-02", "label":"02"},
-            {"bin":[,,10],    "id":"", "label":""},
-            {"bin":[,,25],    "id":"S3-03", "label":"03"},
-            {"bin":[,,25],    "id":"S3-04", "label":"04"},
-            {"bin":[,,25],    "id":"S3-05", "label":"05"},
-            {"bin":[,,10],    "id":"", "label":""},
-            {"bin":[,,25],    "id":"S3-06", "label":"06"},
-            {"bin":[,,25],    "id":"S3-07", "label":"07"},
-            {"bin":[,,5],     "id":"", "label":""}
+            {bin:[15,0,5],  id:"", label:""},
+            {bin:[,,25],    id:"S3-01", label:"01"},
+            {bin:[,,25],    id:"S3-02", label:"02"},
+            {bin:[,,10],    id:"", label:""},
+            {bin:[,,25],    id:"S3-03", label:"03"},
+            {bin:[,,25],    id:"S3-04", label:"04"},
+            {bin:[,,25],    id:"S3-05", label:"05"},
+            {bin:[,,10],    id:"", label:""},
+            {bin:[,,25],    id:"S3-06", label:"06"},
+            {bin:[,,25],    id:"S3-07", label:"07"},
+            {bin:[,,5],     id:"", label:""}
         ],
         [
-            {"bin":[15,0,5],  "id":"", "label":""},
-            {"bin":[,,30],    "id":"S4-01", "label":"01"},
-            {"bin":[,,30],    "id":"S4-02", "label":"02"},
-            {"bin":[,,30],    "id":"S4-03", "label":"03"},
-            {"bin":[,,10],    "id":"", "label":""},
-            {"bin":[,,30],    "id":"S4-04", "label":"04"},
-            {"bin":[,,30],    "id":"S4-05", "label":"05"},
-            {"bin":[,,30],    "id":"S4-06", "label":"06"},
-            {"bin":[,,5],     "id":"", "label":""}
+            {bin:[15,0,5],  id:"", label:""},
+            {bin:[,,30],    id:"S4-01", label:"01"},
+            {bin:[,,30],    id:"S4-02", label:"02"},
+            {bin:[,,30],    id:"S4-03", label:"03"},
+            {bin:[,,10],    id:"", label:""},
+            {bin:[,,30],    id:"S4-04", label:"04"},
+            {bin:[,,30],    id:"S4-05", label:"05"},
+            {bin:[,,30],    id:"S4-06", label:"06"},
+            {bin:[,,5],     id:"", label:""}
         ],
         [
-            {"bin":[15,0,5],  "id":"", "label":""},
-            {"bin":[,,25],    "id":"S5-01", "label":"01"},
-            {"bin":[,,25],    "id":"S5-02", "label":"02"},
-            {"bin":[,,25],    "id":"S5-03", "label":"03"},
-            {"bin":[,,30],    "id":"S5-04", "label":"04"},
-            {"bin":[,,10],    "id":"", "label":""},
-            {"bin":[,,25],    "id":"S5-05", "label":"05"},
-            {"bin":[,,25],    "id":"S5-06", "label":"06"},
-            {"bin":[,,5],     "id":"", "label":""}
+            {bin:[15,0,5],  id:"", label:""},
+            {bin:[,,25],    id:"S5-01", label:"01"},
+            {bin:[,,25],    id:"S5-02", label:"02"},
+            {bin:[,,25],    id:"S5-03", label:"03"},
+            {bin:[,,30],    id:"S5-04", label:"04"},
+            {bin:[,,10],    id:"", label:""},
+            {bin:[,,25],    id:"S5-05", label:"05"},
+            {bin:[,,25],    id:"S5-06", label:"06"},
+            {bin:[,,5],     id:"", label:""}
         ],
         [
-            {"bin":[15,0,5],  "id":"", "label":""},
-            {"bin":[,,30],    "id":"S6-01", "label":"01"},
-            {"bin":[,,30],    "id":"S6-02", "label":"02"},
-            {"bin":[,,30],    "id":"S6-03", "label":"03"},
-            {"bin":[,,10],    "id":"", "label":""},
-            {"bin":[,,30],    "id":"S6-04", "label":"04"},
-            {"bin":[,,30],    "id":"S6-05", "label":"05"},
-            {"bin":[,,30],    "id":"S6-06", "label":"06"},
-            {"bin":[,,5],     "id":"", "label":""}
+            {bin:[15,0,5],  id:"", label:""},
+            {bin:[,,30],    id:"S6-01", label:"01"},
+            {bin:[,,30],    id:"S6-02", label:"02"},
+            {bin:[,,30],    id:"S6-03", label:"03"},
+            {bin:[,,10],    id:"", label:""},
+            {bin:[,,30],    id:"S6-04", label:"04"},
+            {bin:[,,30],    id:"S6-05", label:"05"},
+            {bin:[,,30],    id:"S6-06", label:"06"},
+            {bin:[,,5],     id:"", label:""}
         ],
     ]
 
@@ -213,18 +236,32 @@
     <h1>
         {$_("Oral sessions")}
     </h1>
+    <div class="container">
     <AsyncTable 
         title={$_("Morning sessions")}
-        colnames={sessions}
         table={day1am}
         available={all_talks}
-        on:search />
+        on:search>
+        <td>Time</td>
+        {#each am_shortcuts as shortcut}
+        <td>
+            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search />
+        </td>
+        {/each}
+    </AsyncTable>
     <AsyncTable 
         table={symposia} 
-        colnames={rooms_sy} 
         title={$_("Symposia")} 
         available={all_talks}
-        on:search/>
+        on:search>
+        <td>Time</td>
+        {#each sy_shortcuts as shortcut}
+        <td>
+            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search />
+        </td>
+        {/each}
+    </AsyncTable>
+    </div>
 </div>
 <div class="panel">
     <h1>
@@ -236,6 +273,10 @@
 </div>
 
 <style>
+    td {
+        text-align: center;
+        margin: auto;
+    }
     .panel {
         background-color: #fff;
         border: 4px solid #fff;
@@ -257,5 +298,12 @@
         font-size: 120%;
         border-radius: 15px 15px 0px 0px;
         color: white;
+    }
+    .container {
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 5px;
     }
 </style>

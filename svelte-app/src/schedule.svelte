@@ -18,7 +18,6 @@
         <Tab>{$_("Supporters")}</Tab>
     </TabList>
 
-
     <TabPanel>
         <div class="container">
             <Top on:search />

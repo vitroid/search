@@ -2,7 +2,7 @@
     import { _ } from 'svelte-i18n';
     import Schedule from "./schedule.svelte";
     import SearchBox from "./Components/Search/searchbox.svelte";
-    import ShortCuts from "./shortcuts.svelte"
+    // import ShortCuts from "./shortcuts.svelte"
     import Banner from "./Banner.svelte"
     import { data } from "./index.js"
 
@@ -23,7 +23,7 @@
         <Banner />
 		<h2>{$_("SEARCH")}</h2>
 		<div class="search">
-			<ShortCuts on:search={searchHandler} />
+			<!-- <ShortCuts on:search={searchHandler} /> -->
 			<ul>
 				<li>{$_("hint1")}</li>
 				<li>{$_("hint2")}</li>

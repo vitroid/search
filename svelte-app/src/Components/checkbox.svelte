@@ -22,11 +22,11 @@
         }
         else{
             if ( (id in directory) && ( directory[id] ) ){
-                directory[id].style.backgroundColor = "#f0f0f0";
+                directory[id].style.backgroundColor = "#fff8";
                 directory[id].style.color = "#000";
             }
             if (_this){
-                _this.style.backgroundColor = "#f0f0f0";
+                _this.style.backgroundColor = "#fff8";
             }
         }
     })
