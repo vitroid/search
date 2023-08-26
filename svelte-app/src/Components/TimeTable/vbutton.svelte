@@ -19,12 +19,13 @@
             color="#fff"
         }
         else{
-            bgcolor = "#f0f0f0";
+            bgcolor = "#fff8";
             color="#000"
         }
         active = available.has(id)
         if ( ! active ){
-            bgcolor = "#f8f8f8"
+            bgcolor = "#ccc8"
+            color="#666"
         }
 	});
 
@@ -56,5 +57,6 @@
 <style>
     button {
         padding: 0px 4px 0px 4px;
+        /* margin: 2px; */
     }
 </style>

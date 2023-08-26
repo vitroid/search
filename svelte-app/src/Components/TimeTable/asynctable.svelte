@@ -1,8 +1,9 @@
 <script>
     import AsyncTableColumn from "./asynctablecolumn.svelte";
+    // import AsyncTableHeader from "./asynctableheader.svelte";
 
     export let table
-    export let colnames
+    // export let colnames
     export let title
     // a list of available (pushable, active) buttons.
     // ボタンを作るのは自由だが、availableに含まれていなければ押せない。
@@ -10,19 +11,39 @@
 
 </script>
 
-<div class="container2">
-    <h3>{title}</h3>
-    <div class="container">
-        {#each table as column, i}
-        <div class="column">
-            <AsyncTableColumn {column} label={colnames[i]} {available} on:search/>
-        </div>
-        {/each}
-    </div>
-</div>
+
+
+<table>
+    <tbody>
+        <tr class='header'>
+            <th colspan=99 class='corner'>
+                {title}
+            </th>
+        </tr>
+        <tr class='header'>
+            <slot></slot>
+        </tr>
+        <tr class='top'>
+            {#each table as column, i}
+            <td class="column">
+                <AsyncTableColumn {column} {available} on:search/>
+            </td>
+            {/each}
+        </tr>
+    </tbody>
+</table>
 
 <style>
-    .container2 {
+    .top {
+        vertical-align: top;
+        background: repeating-linear-gradient(
+  0deg,
+  #ffffff,
+  #ffffff 120px,
+  #e0e0ff 120px,
+  #e0e0ff 240px
+);    }
+    /* .container2 {
         display: flex;
         justify-content: start;
         flex-direction: column;
@@ -30,10 +51,12 @@
     }
     h3 {
         text-align: center;
-    }
-    .container {
+    }*/
+    table {
         display: flex;
         justify-content: start;
         flex-direction: row;
+        border: 0px;
+        cellspacing: 0px;
     }
 </style>
