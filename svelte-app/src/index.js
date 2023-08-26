@@ -8042,847 +8042,711 @@ export const data = [
   },
   {
     "lab": "S1-01",
-    "tit": "Use of Decoy Molecules to Manipulate P450BM3 Biotransformations",
-    "spe": "Osami Shoji",
-    "loc": "Nagoya University",
+    "tit": "Stimuli-Responsive Porous Crystals Based on Macrocycles",
+    "spe": "Hiroshi Sato",
+    "loc": "WPI-SKCM, Hiroshima Univ.; RIKEN CEMS; JST- PRESTO",
     "inf": [
-      "Use of Decoy Molecules to Manipulate P450BM3 Biotransformations",
-      "(Nagoya University) Osami Shoji"
+      "Stimuli-Responsive Porous Crystals Based on Macrocycles",
+      "(WPI-SKCM, Hiroshima Univ.; RIKEN CEMS; JST- PRESTO) Hiroshi Sato"
     ],
     "sea": "",
     "pdf": "pdf/S1-01.pdf",
     "pre": "tn/S1-01.jpg",
-    "con": "S1-01 Use of Decoy Molecules to Manipulate P450BM3 Biotransformations (Nagoya University) Osami Shoji "
+    "con": "S1-01 Stimuli-Responsive Porous Crystals Based on Macrocycles (WPI-SKCM, Hiroshima Univ.; RIKEN CEMS; JST- PRESTO) Hiroshi Sato "
   },
   {
     "lab": "S1-02",
-    "tit": "Synthetic and Coordination Chemistry in Cavity Quantum Electrodynamics",
-    "spe": "Kenji Hirai",
-    "loc": "Hokkaido University",
+    "tit": "Macrocyclic Metal Thiolates Complexes as the Precursors of Subnano-clusters",
+    "spe": "Takane Imaoka",
+    "loc": "Tokyo Institute of Technology",
     "inf": [
-      "Synthetic and Coordination Chemistry in Cavity Quantum Electrodynamics",
-      "(Hokkaido University) Kenji Hirai"
+      "Macrocyclic Metal Thiolates Complexes as the Precursors of Subnano-clusters",
+      "(Tokyo Institute of Technology) Takane Imaoka"
     ],
     "sea": "",
     "pdf": "pdf/S1-02.pdf",
     "pre": "tn/S1-02.jpg",
-    "con": "S1-02 Synthetic and Coordination Chemistry in Cavity Quantum Electrodynamics (Hokkaido University) Kenji Hirai "
+    "con": "S1-02 Macrocyclic Metal Thiolates Complexes as the Precursors of Subnano-clusters (Tokyo Institute of Technology) Takane Imaoka "
   },
   {
     "lab": "S1-03",
-    "tit": "Naphthyridines as Versatile Ligand Scaffolds for Bimetallic Bond Activation and Photocatalysis",
-    "spe": "Julia Khusnutdinova",
-    "loc": "Okinawa Institute of Science and Technology Graduate University",
+    "tit": "Synthesis of Highly Strained and Topologically Unique Aromatic Hydrocarbons",
+    "spe": "Yasutomo Segawa",
+    "loc": "IMS; SOKENDAI",
     "inf": [
-      "Naphthyridines as Versatile Ligand Scaffolds for Bimetallic Bond Activation and Photocatalysis",
-      "(Okinawa Institute of Science and Technology Graduate University) Julia Khusnutdinova"
+      "Synthesis of Highly Strained and Topologically Unique Aromatic Hydrocarbons",
+      "(IMS; SOKENDAI) Yasutomo Segawa"
     ],
     "sea": "",
     "pdf": "pdf/S1-03.pdf",
     "pre": "tn/S1-03.jpg",
-    "con": "S1-03 Naphthyridines as Versatile Ligand Scaffolds for Bimetallic Bond Activation and Photocatalysis (Okinawa Institute of Science and Technology Graduate University) Julia Khusnutdinova "
+    "con": "S1-03 Synthesis of Highly Strained and Topologically Unique Aromatic Hydrocarbons (IMS; SOKENDAI) Yasutomo Segawa "
   },
   {
     "lab": "S1-04",
-    "tit": "Stereoselective Synthesis with Small Protein as Metal Ligand",
-    "spe": "Nobutaka Fujieda",
-    "loc": "Osaka Metropolitan University",
+    "tit": "Chiral Supramolecular Assemblies Based on Planar-Chiral Pillar[n]arenes",
+    "spe": "Tomoki Ogoshi",
+    "loc": "Kyoto Univ.; Kanazawa Univ.",
     "inf": [
-      "Stereoselective Synthesis with Small Protein as Metal Ligand",
-      "(Osaka Metropolitan University) Nobutaka Fujieda"
+      "Chiral Supramolecular Assemblies Based on Planar-Chiral Pillar[n]arenes",
+      "(Kyoto Univ.; Kanazawa Univ.) Tomoki Ogoshi"
     ],
     "sea": "",
     "pdf": "pdf/S1-04.pdf",
     "pre": "tn/S1-04.jpg",
-    "con": "S1-04 Stereoselective Synthesis with Small Protein as Metal Ligand (Osaka Metropolitan University) Nobutaka Fujieda "
+    "con": "S1-04 Chiral Supramolecular Assemblies Based on Planar-Chiral Pillar[n]arenes (Kyoto Univ.; Kanazawa Univ.) Tomoki Ogoshi "
   },
   {
     "lab": "S1-05",
-    "tit": "Mechanochemistry-Oriented Reaction Design for Innovative Organic Transformations",
-    "spe": "Koji Kubota",
-    "loc": "Hokkaido University, WPI-ICReDD",
+    "tit": "Chiroptical Properties Derived from Unique Macrocyclic Structures",
+    "spe": "Sota Sato",
+    "loc": "The Univ. of Tokyo; IMS",
     "inf": [
-      "Mechanochemistry-Oriented Reaction Design for Innovative Organic Transformations",
-      "(Hokkaido University, WPI-ICReDD) Koji Kubota"
+      "Chiroptical Properties Derived from Unique Macrocyclic Structures",
+      "(The Univ. of Tokyo; IMS) Sota Sato"
     ],
     "sea": "",
     "pdf": "pdf/S1-05.pdf",
     "pre": "tn/S1-05.jpg",
-    "con": "S1-05 Mechanochemistry-Oriented Reaction Design for Innovative Organic Transformations (Hokkaido University, WPI-ICReDD) Koji Kubota "
+    "con": "S1-05 Chiroptical Properties Derived from Unique Macrocyclic Structures (The Univ. of Tokyo; IMS) Sota Sato "
   },
   {
     "lab": "S1-06",
-    "tit": "Molecular Design of Multinuclear Complexes for Artificial Photosynthesis",
-    "spe": "Yasuomi Yamazaki",
-    "loc": "The University of Tokyo",
+    "tit": "Precise Synthesis of Stereoregular Helical Polyacetylenes and Their Function as Chiral Materials",
+    "spe": "Katsuhiro Maeda",
+    "loc": "Kanazawa Univ.",
     "inf": [
-      "Molecular Design of Multinuclear Complexes for Artificial Photosynthesis",
-      "(The University of Tokyo) Yasuomi Yamazaki"
+      "Precise Synthesis of Stereoregular Helical Polyacetylenes and Their Function as Chiral Materials",
+      "(Kanazawa Univ.) Katsuhiro Maeda"
     ],
     "sea": "",
     "pdf": "pdf/S1-06.pdf",
     "pre": "tn/S1-06.jpg",
-    "con": "S1-06 Molecular Design of Multinuclear Complexes for Artificial Photosynthesis (The University of Tokyo) Yasuomi Yamazaki "
-  },
-  {
-    "lab": "S1-07",
-    "tit": "Catalytically Active Zeolitic Imidazolate Framework of Sodalite Topology with Redox Active Metal Sites",
-    "spe": "Yutaka Hitomi",
-    "loc": "Doshisha University",
-    "inf": [
-      "Catalytically Active Zeolitic Imidazolate Framework of Sodalite Topology with Redox Active Metal Sites",
-      "(Doshisha University) Yutaka Hitomi"
-    ],
-    "sea": "",
-    "pdf": "pdf/S1-07.pdf",
-    "pre": "tn/S1-07.jpg",
-    "con": "S1-07 Catalytically Active Zeolitic Imidazolate Framework of Sodalite Topology with Redox Active Metal Sites (Doshisha University) Yutaka Hitomi "
+    "con": "S1-06 Precise Synthesis of Stereoregular Helical Polyacetylenes and Their Function as Chiral Materials (Kanazawa Univ.) Katsuhiro Maeda "
   },
   {
     "lab": "S2-01",
-    "tit": "Metal–Organic Frameworks for Macromolecular Recognition and Separation",
-    "spe": "Nobuhiko Hosono",
-    "loc": "The University of Tokyo",
+    "tit": "Coordination Chemistry Driven Development of Catalysis",
+    "spe": "Kohei Takahashi",
+    "loc": "The Univ. of Tokyo",
     "inf": [
-      "Metal–Organic Frameworks for Macromolecular Recognition and Separation",
-      "(The University of Tokyo) Nobuhiko Hosono"
+      "Coordination Chemistry Driven Development of Catalysis",
+      "(The Univ. of Tokyo) Kohei Takahashi"
     ],
     "sea": "",
     "pdf": "pdf/S2-01.pdf",
     "pre": "tn/S2-01.jpg",
-    "con": "S2-01 Metal–Organic Frameworks for Macromolecular Recognition and Separation (The University of Tokyo) Nobuhiko Hosono "
+    "con": "S2-01 Coordination Chemistry Driven Development of Catalysis (The Univ. of Tokyo) Kohei Takahashi "
   },
   {
     "lab": "S2-02",
-    "tit": "Polymer Nanoparticles with Uniform Monomer Sequences for Sequence Specific Peptide Recognition",
-    "spe": "Yu Hoshino",
-    "loc": "Kyushu University",
+    "tit": "Nondissociative Chain Walking of Palladium Catalysts: Reaction Developments and Mechanistic Analyses",
+    "spe": "Takuya Kochi",
+    "loc": "Keio Univ.",
     "inf": [
-      "Polymer Nanoparticles with Uniform Monomer Sequences for Sequence Specific Peptide Recognition",
-      "(Kyushu University) Yu Hoshino"
+      "Nondissociative Chain Walking of Palladium Catalysts: Reaction Developments and Mechanistic Analyses",
+      "(Keio Univ.) Takuya Kochi"
     ],
     "sea": "",
     "pdf": "pdf/S2-02.pdf",
     "pre": "tn/S2-02.jpg",
-    "con": "S2-02 Polymer Nanoparticles with Uniform Monomer Sequences for Sequence Specific Peptide Recognition (Kyushu University) Yu Hoshino "
+    "con": "S2-02 Nondissociative Chain Walking of Palladium Catalysts: Reaction Developments and Mechanistic Analyses (Keio Univ.) Takuya Kochi "
   },
   {
     "lab": "S2-03",
-    "tit": "Phosphoester-based Crystalline Coordination Polymers for Molecular Recognition",
-    "spe": "Yuiko Handa",
-    "loc": "Saitama University",
+    "tit": "Unsymmetric Dinuclear Copper Synergistic Catalysts Supported by Tetradentate Phosphine Ligands",
+    "spe": "Takayuki Nakajima",
+    "loc": "Nara Women's Univ.",
     "inf": [
-      "Phosphoester-based Crystalline Coordination Polymers for Molecular Recognition",
-      "(Saitama University) Yuiko Handa"
+      "Unsymmetric Dinuclear Copper Synergistic Catalysts Supported by Tetradentate Phosphine Ligands",
+      "(Nara Women's Univ.) Takayuki Nakajima"
     ],
     "sea": "",
     "pdf": "pdf/S2-03.pdf",
     "pre": "tn/S2-03.jpg",
-    "con": "S2-03 Phosphoester-based Crystalline Coordination Polymers for Molecular Recognition (Saitama University) Yuiko Handa "
+    "con": "S2-03 Unsymmetric Dinuclear Copper Synergistic Catalysts Supported by Tetradentate Phosphine Ligands (Nara Women's Univ.) Takayuki Nakajima "
   },
   {
     "lab": "S2-04",
-    "tit": "Advanced Design of Macrocycles Utilizing Coordination Bonds for Molecular Recognition",
-    "spe": "Takashi Nakamura",
-    "loc": "University of Tsukuba",
+    "tit": "Lewis Base-Stabilized R2Si=E-Coordinated Complexes (E = O, S): Synthesis, Structures, and Reactivity",
+    "spe": "Takako Muraoka",
+    "loc": "Gunma Univ.",
     "inf": [
-      "Advanced Design of Macrocycles Utilizing Coordination Bonds for Molecular Recognition",
-      "(University of Tsukuba) Takashi Nakamura"
+      "Lewis Base-Stabilized R2Si=E-Coordinated Complexes (E = O, S): Synthesis, Structures, and Reactivity",
+      "(Gunma Univ.) Takako Muraoka"
     ],
     "sea": "",
     "pdf": "pdf/S2-04.pdf",
     "pre": "tn/S2-04.jpg",
-    "con": "S2-04 Advanced Design of Macrocycles Utilizing Coordination Bonds for Molecular Recognition (University of Tsukuba) Takashi Nakamura "
+    "con": "S2-04 Lewis Base-Stabilized R2Si=E-Coordinated Complexes (E = O, S): Synthesis, Structures, and Reactivity (Gunma Univ.) Takako Muraoka "
   },
   {
     "lab": "S2-05",
-    "tit": "Molecular, Material, and Process Designs with Direct Inverse Analysis",
-    "spe": "Hiromasa Kaneko",
-    "loc": "Meiji University",
+    "tit": "Stepwise Reductive Conversion of Sulfite on a Dinuclear Ruthenium Complex, Leading to H2S",
+    "spe": "Yasuhiro Arikawa",
+    "loc": "Nagasaki Univ.",
     "inf": [
-      "Molecular, Material, and Process Designs with Direct Inverse Analysis",
-      "(Meiji University) Hiromasa Kaneko"
+      "Stepwise Reductive Conversion of Sulfite on a Dinuclear Ruthenium Complex, Leading to H2S",
+      "(Nagasaki Univ.) Yasuhiro Arikawa"
     ],
     "sea": "",
     "pdf": "pdf/S2-05.pdf",
     "pre": "tn/S2-05.jpg",
-    "con": "S2-05 Molecular, Material, and Process Designs with Direct Inverse Analysis (Meiji University) Hiromasa Kaneko "
+    "con": "S2-05 Stepwise Reductive Conversion of Sulfite on a Dinuclear Ruthenium Complex, Leading to H2S (Nagasaki Univ.) Yasuhiro Arikawa "
   },
   {
     "lab": "S2-06",
-    "tit": "Molecular Manipulation by Confinement in a Coordination Cage for Precise Molecular Conversion",
-    "spe": "Hiroki Takezawa",
-    "loc": "The University of Tokyo",
+    "tit": "Design and Application of New Iridium Catalysts for Efficient Dehydrogenative Reactions of Organic Molecules",
+    "spe": "Ken-ichi Fujita",
+    "loc": "Kyoto Univ.",
     "inf": [
-      "Molecular Manipulation by Confinement in a Coordination Cage for Precise Molecular Conversion",
-      "(The University of Tokyo) Hiroki Takezawa"
+      "Design and Application of New Iridium Catalysts for Efficient Dehydrogenative Reactions of Organic Molecules",
+      "(Kyoto Univ.) Ken-ichi Fujita"
     ],
     "sea": "",
     "pdf": "pdf/S2-06.pdf",
     "pre": "tn/S2-06.jpg",
-    "con": "S2-06 Molecular Manipulation by Confinement in a Coordination Cage for Precise Molecular Conversion (The University of Tokyo) Hiroki Takezawa "
+    "con": "S2-06 Design and Application of New Iridium Catalysts for Efficient Dehydrogenative Reactions of Organic Molecules (Kyoto Univ.) Ken-ichi Fujita "
   },
   {
     "lab": "S3-01",
-    "tit": "Molecular photo(electro)chemical reduction of CO2: from C1 to coupling products",
-    "spe": "Marc Robert",
-    "loc": "University of Paris",
+    "tit": "Spin-correlated luminescence of radicals",
+    "spe": "Tetsuro Kusamoto",
+    "loc": "Osaka Univ.",
     "inf": [
-      "Molecular photo(electro)chemical reduction of CO2: from C1 to coupling products",
-      "(University of Paris) Marc Robert"
+      "Spin-correlated luminescence of radicals",
+      "(Osaka Univ.) Tetsuro Kusamoto"
     ],
     "sea": "",
     "pdf": "pdf/S3-01.pdf",
     "pre": "tn/S3-01.jpg",
-    "con": "S3-01 Molecular photo(electro)chemical reduction of CO2: from C1 to coupling products (University of Paris) Marc Robert "
+    "con": "S3-01 Spin-correlated luminescence of radicals (Osaka Univ.) Tetsuro Kusamoto "
   },
   {
     "lab": "S3-02",
-    "tit": "Enhancement of molecular electrocatalysts for CO2 reduction by cations and carbon material support",
-    "spe": "Shunsuke Sato",
-    "loc": "Toyota Central R&D Labs., Inc.",
+    "tit": "Multireference electronic structure of metal complexes and nuclear dynamics on the multiple potential energy surfaces",
+    "spe": "Yuki Kurashige",
+    "loc": "Kyoto Univ.",
     "inf": [
-      "Enhancement of molecular electrocatalysts for CO2 reduction by cations and carbon material support",
-      "(Toyota Central R&D Labs., Inc.) Shunsuke Sato"
+      "Multireference electronic structure of metal complexes and nuclear dynamics on the multiple potential energy surfaces",
+      "(Kyoto Univ.) Yuki Kurashige"
     ],
     "sea": "",
     "pdf": "pdf/S3-02.pdf",
     "pre": "tn/S3-02.jpg",
-    "con": "S3-02 Enhancement of molecular electrocatalysts for CO2 reduction by cations and carbon material support (Toyota Central R&D Labs., Inc.) Shunsuke Sato "
+    "con": "S3-02 Multireference electronic structure of metal complexes and nuclear dynamics on the multiple potential energy surfaces (Kyoto Univ.) Yuki Kurashige "
   },
   {
     "lab": "S3-03",
-    "tit": "Photochemical CO2 reduction with ruthenium(II)-complex catalysts inside the micropores of porous coordination polymers",
-    "spe": "Takashi Kajiwara",
-    "loc": "Kyoto University",
+    "tit": "Light- and Spin-induced Photofunctional Hybrid Materials",
+    "spe": "Ayumi Ishii",
+    "loc": "Waseda Univ.",
     "inf": [
-      "Photochemical CO2 reduction with ruthenium(II)-complex catalysts inside the micropores of porous coordination polymers",
-      "(Kyoto University) Takashi Kajiwara"
+      "Light- and Spin-induced Photofunctional Hybrid Materials",
+      "(Waseda Univ.) Ayumi Ishii"
     ],
     "sea": "",
     "pdf": "pdf/S3-03.pdf",
     "pre": "tn/S3-03.jpg",
-    "con": "S3-03 Photochemical CO2 reduction with ruthenium(II)-complex catalysts inside the micropores of porous coordination polymers (Kyoto University) Takashi Kajiwara "
+    "con": "S3-03 Light- and Spin-induced Photofunctional Hybrid Materials (Waseda Univ.) Ayumi Ishii "
   },
   {
     "lab": "S3-04",
-    "tit": "Photoinduced C–H carboxylation reactions of organic molecules with CO2",
-    "spe": "Naoki Ishida",
-    "loc": "Kyoto University",
+    "tit": "Photoreactions in the nanospace of metal-organic frameworks",
+    "spe": "Ryotaro Matsuda",
+    "loc": "Nagoya Univ.",
     "inf": [
-      "Photoinduced C–H carboxylation reactions of organic molecules with CO2",
-      "(Kyoto University) Naoki Ishida"
+      "Photoreactions in the nanospace of metal-organic frameworks",
+      "(Nagoya Univ.) Ryotaro Matsuda"
     ],
     "sea": "",
     "pdf": "pdf/S3-04.pdf",
     "pre": "tn/S3-04.jpg",
-    "con": "S3-04 Photoinduced C–H carboxylation reactions of organic molecules with CO2 (Kyoto University) Naoki Ishida "
+    "con": "S3-04 Photoreactions in the nanospace of metal-organic frameworks (Nagoya Univ.) Ryotaro Matsuda "
   },
   {
     "lab": "S3-05",
-    "tit": "Development of function-Integrated catalytic systems for photo- and electrochemical CO2 reduction",
-    "spe": "Mio Kondo",
-    "loc": "Osaka University",
+    "tit": "Photoinduced spin entanglement and decoherence in functionality of complex molecular systems",
+    "spe": "Yasuhiro Kobori",
+    "loc": "Kobe Univ.",
     "inf": [
-      "Development of function-Integrated catalytic systems for photo- and electrochemical CO2 reduction",
-      "(Osaka University) Mio Kondo"
+      "Photoinduced spin entanglement and decoherence in functionality of complex molecular systems",
+      "(Kobe Univ.) Yasuhiro Kobori"
     ],
     "sea": "",
     "pdf": "pdf/S3-05.pdf",
     "pre": "tn/S3-05.jpg",
-    "con": "S3-05 Development of function-Integrated catalytic systems for photo- and electrochemical CO2 reduction (Osaka University) Mio Kondo "
+    "con": "S3-05 Photoinduced spin entanglement and decoherence in functionality of complex molecular systems (Kobe Univ.) Yasuhiro Kobori "
   },
   {
     "lab": "S3-06",
-    "tit": "Photochemical and electrochemical CO2 reduction promoted by cobalt-based molecular catalysts",
-    "spe": "Kosei Yamauchi",
-    "loc": "Kyushu University",
+    "tit": "Structural Modification of Metal Complexes as Sensitizers and Redox shuttles for Dye-Sensitized Solar Cells",
+    "spe": "Tomohiro Higashino",
+    "loc": "Kyoto Univ.",
     "inf": [
-      "Photochemical and electrochemical CO2 reduction promoted by cobalt-based molecular catalysts",
-      "(Kyushu University) Kosei Yamauchi"
+      "Structural Modification of Metal Complexes as Sensitizers and Redox shuttles for Dye-Sensitized Solar Cells",
+      "(Kyoto Univ.) Tomohiro Higashino"
     ],
     "sea": "",
     "pdf": "pdf/S3-06.pdf",
     "pre": "tn/S3-06.jpg",
-    "con": "S3-06 Photochemical and electrochemical CO2 reduction promoted by cobalt-based molecular catalysts (Kyushu University) Kosei Yamauchi "
+    "con": "S3-06 Structural Modification of Metal Complexes as Sensitizers and Redox shuttles for Dye-Sensitized Solar Cells (Kyoto Univ.) Tomohiro Higashino "
   },
   {
     "lab": "S3-07",
-    "tit": "Ultrafast photoreaction dynamics in artificial photosynthesis systems studied by time-resolved XAFS",
-    "spe": "Shunsuke Nozawa",
-    "loc": "KEK",
+    "tit": "Asymmetric Induction of Chiral-at-Metal (Cluster) Complexes:　Controlling Stability and Reactivity",
+    "spe": "Mitsuhiko Shionoya",
+    "loc": "The Univ. of Tokyo",
     "inf": [
-      "Ultrafast photoreaction dynamics in artificial photosynthesis systems studied by time-resolved XAFS",
-      "(KEK) Shunsuke Nozawa"
+      "Asymmetric Induction of Chiral-at-Metal (Cluster) Complexes:　Controlling Stability and Reactivity",
+      "(The Univ. of Tokyo) Mitsuhiko Shionoya"
     ],
     "sea": "",
     "pdf": "pdf/S3-07.pdf",
     "pre": "tn/S3-07.jpg",
-    "con": "S3-07 Ultrafast photoreaction dynamics in artificial photosynthesis systems studied by time-resolved XAFS (KEK) Shunsuke Nozawa "
-  },
-  {
-    "lab": "S3-08",
-    "tit": "Application of ultrafast spectroscopy to understand CO2 reduction mechanisms of photosensitizer-catalyst dyad molecular systems",
-    "spe": "Kiyoshi Miyata",
-    "loc": "Kyushu University",
-    "inf": [
-      "Application of ultrafast spectroscopy to understand CO2 reduction mechanisms of photosensitizer-catalyst dyad molecular systems",
-      "(Kyushu University) Kiyoshi Miyata"
-    ],
-    "sea": "",
-    "pdf": "pdf/S3-08.pdf",
-    "pre": "tn/S3-08.jpg",
-    "con": "S3-08 Application of ultrafast spectroscopy to understand CO2 reduction mechanisms of photosensitizer-catalyst dyad molecular systems (Kyushu University) Kiyoshi Miyata "
+    "con": "S3-07 Asymmetric Induction of Chiral-at-Metal (Cluster) Complexes:　Controlling Stability and Reactivity (The Univ. of Tokyo) Mitsuhiko Shionoya "
   },
   {
     "lab": "S4-01",
-    "tit": "Synthesis and Catalysis of Multinuclear Metal and Metal-Oxo Clusters with Polyoxometalate Ligands",
-    "spe": "Kosuke Suzuki",
-    "loc": "The University of Tokyo",
+    "tit": "Integrated Molecular Structure Analysis for Academia and Industry",
+    "spe": "Sota Sato",
+    "loc": "The Univ. of Tokyo",
     "inf": [
-      "Synthesis and Catalysis of Multinuclear Metal and Metal-Oxo Clusters with Polyoxometalate Ligands",
-      "(The University of Tokyo) Kosuke Suzuki"
+      "Integrated Molecular Structure Analysis for Academia and Industry",
+      "(The Univ. of Tokyo) Sota Sato"
     ],
     "sea": "",
     "pdf": "pdf/S4-01.pdf",
     "pre": "tn/S4-01.jpg",
-    "con": "S4-01 Synthesis and Catalysis of Multinuclear Metal and Metal-Oxo Clusters with Polyoxometalate Ligands (The University of Tokyo) Kosuke Suzuki "
+    "con": "S4-01 Integrated Molecular Structure Analysis for Academia and Industry (The Univ. of Tokyo) Sota Sato "
   },
   {
     "lab": "S4-02",
-    "tit": "Water oxidation catalysis with multinuclear ruthenium complexes: studies in solution and on electrode surfaces",
-    "spe": "Yuta Tsubonouchi, Masayuki Yagi",
-    "loc": "Niigata University",
+    "tit": "Nonequilibrium dynamics of hydrogen in SrTiO3 simulated with positive muons",
+    "spe": "Takashi Ito",
+    "loc": "Japan Atomic Energy Agency",
     "inf": [
-      "Water oxidation catalysis with multinuclear ruthenium complexes: studies in solution and on electrode surfaces",
-      "(Niigata University) Yuta Tsubonouchi, Masayuki Yagi"
+      "Nonequilibrium dynamics of hydrogen in SrTiO3 simulated with positive muons",
+      "(Japan Atomic Energy Agency) Takashi Ito"
     ],
     "sea": "",
     "pdf": "pdf/S4-02.pdf",
     "pre": "tn/S4-02.jpg",
-    "con": "S4-02 Water oxidation catalysis with multinuclear ruthenium complexes: studies in solution and on electrode surfaces (Niigata University) Yuta Tsubonouchi, Masayuki Yagi "
+    "con": "S4-02 Nonequilibrium dynamics of hydrogen in SrTiO3 simulated with positive muons (Japan Atomic Energy Agency) Takashi Ito "
   },
   {
     "lab": "S4-03",
-    "tit": "Computational approach towards binuclear metal centers in proteins",
-    "spe": "Toru Saito",
-    "loc": "Hiroshima City University",
+    "tit": "Ultrafast control of physical properties in organic molecular compounds by using an intense terahertz electric-field pulse",
+    "spe": "Tatsuya Miyamoto",
+    "loc": "The Univ. of Tokyo",
     "inf": [
-      "Computational approach towards binuclear metal centers in proteins",
-      "(Hiroshima City University) Toru Saito"
+      "Ultrafast control of physical properties in organic molecular compounds by using an intense terahertz electric-field pulse",
+      "(The Univ. of Tokyo) Tatsuya Miyamoto"
     ],
     "sea": "",
     "pdf": "pdf/S4-03.pdf",
     "pre": "tn/S4-03.jpg",
-    "con": "S4-03 Computational approach towards binuclear metal centers in proteins (Hiroshima City University) Toru Saito "
+    "con": "S4-03 Ultrafast control of physical properties in organic molecular compounds by using an intense terahertz electric-field pulse (The Univ. of Tokyo) Tatsuya Miyamoto "
   },
   {
     "lab": "S4-04",
-    "tit": "EPR Spectroscopy Reveals Active Site Rearrangements of Di-Mn center in Inorganic Pyrophosphatase",
-    "spe": "Masaki Horitani,1,2 Yuri Kasu,1 Hiroshi Sugimoto,3 Keiichi Watanabe1",
-    "loc": "1Saga University, 2Kagoshima University, 3RIKEN",
+    "tit": "Decoding Material Properties: An Adventure in Microscopic Image Analysis",
+    "spe": "Hayaru Shouno",
+    "loc": "The Univ. of Electro-Communications",
     "inf": [
-      "EPR Spectroscopy Reveals Active Site Rearrangements of Di-Mn center in Inorganic Pyrophosphatase",
-      "(1Saga University, 2Kagoshima University, 3RIKEN) Masaki Horitani,1,2 Yuri Kasu,1 Hiroshi Sugimoto,3 Keiichi Watanabe1"
+      "Decoding Material Properties: An Adventure in Microscopic Image Analysis",
+      "(The Univ. of Electro-Communications) Hayaru Shouno"
     ],
     "sea": "",
     "pdf": "pdf/S4-04.pdf",
     "pre": "tn/S4-04.jpg",
-    "con": "S4-04 EPR Spectroscopy Reveals Active Site Rearrangements of Di-Mn center in Inorganic Pyrophosphatase (1Saga University, 2Kagoshima University, 3RIKEN) Masaki Horitani,1,2 Yuri Kasu,1 Hiroshi Sugimoto,3 Keiichi Watanabe1 "
+    "con": "S4-04 Decoding Material Properties: An Adventure in Microscopic Image Analysis (The Univ. of Electro-Communications) Hayaru Shouno "
   },
   {
     "lab": "S4-05",
-    "tit": "Designing hetero-dinuclear metal complexes with adjacent reaction sites for synergistic catalysis",
-    "spe": "Dachao Hong",
-    "loc": "The National Institute of Advanced Industrial Science and Technology",
+    "tit": "Visualization of reactions inside solid materials by operando X-ray spectroimaging",
+    "spe": "Hirosuke Matsui",
+    "loc": "Nagoya Univ.",
     "inf": [
-      "Designing hetero-dinuclear metal complexes with adjacent reaction sites for synergistic catalysis",
-      "(The National Institute of Advanced Industrial Science and Technology) Dachao Hong"
+      "Visualization of reactions inside solid materials by operando X-ray spectroimaging",
+      "(Nagoya Univ.) Hirosuke Matsui"
     ],
     "sea": "",
     "pdf": "pdf/S4-05.pdf",
     "pre": "tn/S4-05.jpg",
-    "con": "S4-05 Designing hetero-dinuclear metal complexes with adjacent reaction sites for synergistic catalysis (The National Institute of Advanced Industrial Science and Technology) Dachao Hong "
+    "con": "S4-05 Visualization of reactions inside solid materials by operando X-ray spectroimaging (Nagoya Univ.) Hirosuke Matsui "
   },
   {
     "lab": "S4-06",
-    "tit": "Merging Two Transition Metals for Homogeneous Catalysis",
-    "spe": "Jun Takaya",
-    "loc": "Tokyo Institute of Technology",
+    "tit": "Molecular Electron Microscopy for Capturing Clusters Non-equilibrium Dynamics",
+    "spe": "Takayuki Nakamuro",
+    "loc": "The Univ. of Tokyo",
     "inf": [
-      "Merging Two Transition Metals for Homogeneous Catalysis",
-      "(Tokyo Institute of Technology) Jun Takaya"
+      "Molecular Electron Microscopy for Capturing Clusters Non-equilibrium Dynamics",
+      "(The Univ. of Tokyo) Takayuki Nakamuro"
     ],
     "sea": "",
     "pdf": "pdf/S4-06.pdf",
     "pre": "tn/S4-06.jpg",
-    "con": "S4-06 Merging Two Transition Metals for Homogeneous Catalysis (Tokyo Institute of Technology) Jun Takaya "
+    "con": "S4-06 Molecular Electron Microscopy for Capturing Clusters Non-equilibrium Dynamics (The Univ. of Tokyo) Takayuki Nakamuro "
   },
   {
     "lab": "S5-01",
-    "tit": "Designed Reactive Complexes Enabling Photo-induced Elementalization Reactions",
-    "spe": "Yuki Nagashima",
-    "loc": "Tokyo Institute of Technology",
+    "tit": "Primary Copper(I)-Dioxygen Adducts; Copper(II)-Superoxo Formation, Stabilization & Reactivity",
+    "spe": "Kenneth D. Karlin",
+    "loc": "Johns Hopkins Univ. Baltimore USA",
     "inf": [
-      "Designed Reactive Complexes Enabling Photo-induced Elementalization Reactions",
-      "(Tokyo Institute of Technology) Yuki Nagashima"
+      "Primary Copper(I)-Dioxygen Adducts; Copper(II)-Superoxo Formation, Stabilization & Reactivity",
+      "(Johns Hopkins Univ. Baltimore USA) Kenneth D. Karlin"
     ],
     "sea": "",
     "pdf": "pdf/S5-01.pdf",
     "pre": "tn/S5-01.jpg",
-    "con": "S5-01 Designed Reactive Complexes Enabling Photo-induced Elementalization Reactions (Tokyo Institute of Technology) Yuki Nagashima "
+    "con": "S5-01 Primary Copper(I)-Dioxygen Adducts; Copper(II)-Superoxo Formation, Stabilization & Reactivity (Johns Hopkins Univ. Baltimore USA) Kenneth D. Karlin "
   },
   {
     "lab": "S5-02",
-    "tit": "Construction of Catalysts for Small Molecule Conversions based on the Control of Reaction Fields",
-    "spe": "Mio Kondo",
-    "loc": "Osaka University",
+    "tit": "Aqueous Biomimetic Chemistry of Heme Proteins Using Porphyrin / Cyclodextrin Supramolecular Complexes",
+    "spe": "Hiroaki Kitagishi",
+    "loc": "Doshisha Univ.",
     "inf": [
-      "Construction of Catalysts for Small Molecule Conversions based on the Control of Reaction Fields",
-      "(Osaka University) Mio Kondo"
+      "Aqueous Biomimetic Chemistry of Heme Proteins Using Porphyrin / Cyclodextrin Supramolecular Complexes",
+      "(Doshisha Univ.) Hiroaki Kitagishi"
     ],
     "sea": "",
     "pdf": "pdf/S5-02.pdf",
     "pre": "tn/S5-02.jpg",
-    "con": "S5-02 Construction of Catalysts for Small Molecule Conversions based on the Control of Reaction Fields (Osaka University) Mio Kondo "
+    "con": "S5-02 Aqueous Biomimetic Chemistry of Heme Proteins Using Porphyrin / Cyclodextrin Supramolecular Complexes (Doshisha Univ.) Hiroaki Kitagishi "
   },
   {
     "lab": "S5-03",
-    "tit": "Designing Multidentate Silyl Ligands for Metal Catalysts toward Functionalization of Strong Bonds",
-    "spe": "Takashi Komuro",
-    "loc": "Tohoku University",
+    "tit": "A Melody of Unique Enzymatic Reactions",
+    "spe": "Michihiko Kobayashi",
+    "loc": "Univ. Tsukuba",
     "inf": [
-      "Designing Multidentate Silyl Ligands for Metal Catalysts toward Functionalization of Strong Bonds",
-      "(Tohoku University) Takashi Komuro"
+      "A Melody of Unique Enzymatic Reactions",
+      "(Univ. Tsukuba) Michihiko Kobayashi"
     ],
     "sea": "",
     "pdf": "pdf/S5-03.pdf",
     "pre": "tn/S5-03.jpg",
-    "con": "S5-03 Designing Multidentate Silyl Ligands for Metal Catalysts toward Functionalization of Strong Bonds (Tohoku University) Takashi Komuro "
+    "con": "S5-03 A Melody of Unique Enzymatic Reactions (Univ. Tsukuba) Michihiko Kobayashi "
   },
   {
     "lab": "S5-04",
-    "tit": "From Uranium-Mediated Small Molecule Activation to the Electrocatalytic Production of H2 from Water-Taking Advantage of Depleted Uranium as a Nuclear Waste Products",
-    "spe": "Karsten Meyer",
-    "loc": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "tit": "Cyclopropanation by Nonheme Iron Enzymes",
+    "spe": "Richiro Ushimaru",
+    "loc": "Univ. Tokyo",
     "inf": [
-      "From Uranium-Mediated Small Molecule Activation to the Electrocatalytic Production of H2 from Water-Taking Advantage of Depleted Uranium as a Nuclear Waste Products",
-      "(Friedrich-Alexander-Universität Erlangen-Nürnberg) Karsten Meyer"
+      "Cyclopropanation by Nonheme Iron Enzymes",
+      "(Univ. Tokyo) Richiro Ushimaru"
     ],
     "sea": "",
     "pdf": "pdf/S5-04.pdf",
     "pre": "tn/S5-04.jpg",
-    "con": "S5-04 From Uranium-Mediated Small Molecule Activation to the Electrocatalytic Production of H2 from Water-Taking Advantage of Depleted Uranium as a Nuclear Waste Products (Friedrich-Alexander-Universität Erlangen-Nürnberg) Karsten Meyer "
+    "con": "S5-04 Cyclopropanation by Nonheme Iron Enzymes (Univ. Tokyo) Richiro Ushimaru "
   },
   {
     "lab": "S5-05",
-    "tit": "Development of Metallonanobelt and Their Derivatives Based on Kinetically-controlled Self-assembly",
-    "spe": "Yoko Sakata",
-    "loc": "Kanazawa University",
+    "tit": "Catalytic Activity at Molecular Interface with “Soft” Inorganic Solid",
+    "spe": "Shoko Kume",
+    "loc": "Hiroshima Univ.",
     "inf": [
-      "Development of Metallonanobelt and Their Derivatives Based on Kinetically-controlled Self-assembly",
-      "(Kanazawa University) Yoko Sakata"
+      "Catalytic Activity at Molecular Interface with “Soft” Inorganic Solid",
+      "(Hiroshima Univ.) Shoko Kume"
     ],
     "sea": "",
     "pdf": "pdf/S5-05.pdf",
     "pre": "tn/S5-05.jpg",
-    "con": "S5-05 Development of Metallonanobelt and Their Derivatives Based on Kinetically-controlled Self-assembly (Kanazawa University) Yoko Sakata "
+    "con": "S5-05 Catalytic Activity at Molecular Interface with “Soft” Inorganic Solid (Hiroshima Univ.) Shoko Kume "
   },
   {
     "lab": "S5-06",
-    "tit": "Transition-Metal-Catalyzed Carboxylation of C(sp3)–H bonds with CO2",
-    "spe": "Tsuyoshi Mita",
-    "loc": "Hokkaido University, JST-ERATO",
+    "tit": "Improvement of Technology and Solution of Problems in Organic Synthesis Research in the Company",
+    "spe": "Kenji Kitayama",
+    "loc": "Daicel Corporation",
     "inf": [
-      "Transition-Metal-Catalyzed Carboxylation of C(sp3)–H bonds with CO2",
-      "(Hokkaido University, JST-ERATO) Tsuyoshi Mita"
+      "Improvement of Technology and Solution of Problems in Organic Synthesis Research in the Company",
+      "(Daicel Corporation) Kenji Kitayama"
     ],
     "sea": "",
     "pdf": "pdf/S5-06.pdf",
     "pre": "tn/S5-06.jpg",
-    "con": "S5-06 Transition-Metal-Catalyzed Carboxylation of C(sp3)–H bonds with CO2 (Hokkaido University, JST-ERATO) Tsuyoshi Mita "
-  },
-  {
-    "lab": "S5-07",
-    "tit": "Interplay between Computation and Experiment: Catalyst Design Based on Various Attractive Non-Covalent Interactions",
-    "spe": "Masahiro Yamanaka",
-    "loc": "Rikkyo University",
-    "inf": [
-      "Interplay between Computation and Experiment: Catalyst Design Based on Various Attractive Non-Covalent Interactions",
-      "(Rikkyo University) Masahiro Yamanaka"
-    ],
-    "sea": "",
-    "pdf": "pdf/S5-07.pdf",
-    "pre": "tn/S5-07.jpg",
-    "con": "S5-07 Interplay between Computation and Experiment: Catalyst Design Based on Various Attractive Non-Covalent Interactions (Rikkyo University) Masahiro Yamanaka "
+    "con": "S5-06 Improvement of Technology and Solution of Problems in Organic Synthesis Research in the Company (Daicel Corporation) Kenji Kitayama "
   },
   {
     "lab": "S6-01",
-    "tit": "The Development of Battery Electrode Materials through Mechanical Milling Approach",
-    "spe": "Naoaki Yabuuchi",
-    "loc": "Yokohama National University",
+    "tit": "How to Utilize Supramolecular Methodology for Achieving Highly Potent Artificial Oxygenase",
+    "spe": "Yasuyuki Yamada",
+    "loc": "Nagoya Univ.",
     "inf": [
-      "The Development of Battery Electrode Materials through Mechanical Milling Approach",
-      "(Yokohama National University) Naoaki Yabuuchi"
+      "How to Utilize Supramolecular Methodology for Achieving Highly Potent Artificial Oxygenase",
+      "(Nagoya Univ.) Yasuyuki Yamada"
     ],
     "sea": "",
     "pdf": "pdf/S6-01.pdf",
     "pre": "tn/S6-01.jpg",
-    "con": "S6-01 The Development of Battery Electrode Materials through Mechanical Milling Approach (Yokohama National University) Naoaki Yabuuchi "
+    "con": "S6-01 How to Utilize Supramolecular Methodology for Achieving Highly Potent Artificial Oxygenase (Nagoya Univ.) Yasuyuki Yamada "
   },
   {
     "lab": "S6-02",
-    "tit": "Formations of Coordination Networks beyond Conventional Reactions",
-    "spe": "Hiroyoshi Ohtsu",
-    "loc": "Sony Group Corporation",
+    "tit": "Platforms to assemble photosensitizers and catalytic species to realize artificial photosynthesis",
+    "spe": "Yusuke Yamada",
+    "loc": "Osaka Metropolitan Univ.",
     "inf": [
-      "Formations of Coordination Networks beyond Conventional Reactions",
-      "(Sony Group Corporation) Hiroyoshi Ohtsu"
+      "Platforms to assemble photosensitizers and catalytic species to realize artificial photosynthesis",
+      "(Osaka Metropolitan Univ.) Yusuke Yamada"
     ],
     "sea": "",
     "pdf": "pdf/S6-02.pdf",
     "pre": "tn/S6-02.jpg",
-    "con": "S6-02 Formations of Coordination Networks beyond Conventional Reactions (Sony Group Corporation) Hiroyoshi Ohtsu "
+    "con": "S6-02 Platforms to assemble photosensitizers and catalytic species to realize artificial photosynthesis (Osaka Metropolitan Univ.) Yusuke Yamada "
   },
   {
     "lab": "S6-03",
-    "tit": "Mechanochemical Assisted Synthesis of Zeolitic Porous Materials with Structural Flexibility and Their Adsorption Performances",
-    "spe": "Shunsuke Tanaka",
-    "loc": "Kansai University",
+    "tit": "Artificial Mononuclear Non-heme Metalloenzymes for Stereoselective Synthesis",
+    "spe": "Nobutaka Fujieda",
+    "loc": "Osaka Metropolitan Univ.",
     "inf": [
-      "Mechanochemical Assisted Synthesis of Zeolitic Porous Materials with Structural Flexibility and Their Adsorption Performances",
-      "(Kansai University) Shunsuke Tanaka"
+      "Artificial Mononuclear Non-heme Metalloenzymes for Stereoselective Synthesis",
+      "(Osaka Metropolitan Univ.) Nobutaka Fujieda"
     ],
     "sea": "",
     "pdf": "pdf/S6-03.pdf",
     "pre": "tn/S6-03.jpg",
-    "con": "S6-03 Mechanochemical Assisted Synthesis of Zeolitic Porous Materials with Structural Flexibility and Their Adsorption Performances (Kansai University) Shunsuke Tanaka "
+    "con": "S6-03 Artificial Mononuclear Non-heme Metalloenzymes for Stereoselective Synthesis (Osaka Metropolitan Univ.) Nobutaka Fujieda "
   },
   {
     "lab": "S6-04",
-    "tit": "Surface Structure Analysis of Molecular Crystals",
-    "spe": "Yusuke Wakabayashi",
-    "loc": "Tohoku University",
+    "tit": "Introduction and Divergent Evolution of Metal Bipyridine Complexes within Protein Environments",
+    "spe": "Woon Ju Song",
+    "loc": "Seoul National Univ.",
     "inf": [
-      "Surface Structure Analysis of Molecular Crystals",
-      "(Tohoku University) Yusuke Wakabayashi"
+      "Introduction and Divergent Evolution of Metal Bipyridine Complexes within Protein Environments",
+      "(Seoul National Univ.) Woon Ju Song"
     ],
     "sea": "",
     "pdf": "pdf/S6-04.pdf",
     "pre": "tn/S6-04.jpg",
-    "con": "S6-04 Surface Structure Analysis of Molecular Crystals (Tohoku University) Yusuke Wakabayashi "
+    "con": "S6-04 Introduction and Divergent Evolution of Metal Bipyridine Complexes within Protein Environments (Seoul National Univ.) Woon Ju Song "
   },
   {
     "lab": "S6-05",
-    "tit": "Development of Solid-state Reactions as Environmentally Friendly Synthesis of Highly Luminescent Cu(I) Complexes",
-    "spe": "Atsushi Kobayashi",
-    "loc": "Hokkaido University",
+    "tit": "Employing Artificial Metalloenzymes in Biochemical Contexts",
+    "spe": "Yasunori Okamoto",
+    "loc": "Tohoku Univ.",
     "inf": [
-      "Development of Solid-state Reactions as Environmentally Friendly Synthesis of Highly Luminescent Cu(I) Complexes",
-      "(Hokkaido University) Atsushi Kobayashi"
+      "Employing Artificial Metalloenzymes in Biochemical Contexts",
+      "(Tohoku Univ.) Yasunori Okamoto"
     ],
     "sea": "",
     "pdf": "pdf/S6-05.pdf",
     "pre": "tn/S6-05.jpg",
-    "con": "S6-05 Development of Solid-state Reactions as Environmentally Friendly Synthesis of Highly Luminescent Cu(I) Complexes (Hokkaido University) Atsushi Kobayashi "
+    "con": "S6-05 Employing Artificial Metalloenzymes in Biochemical Contexts (Tohoku Univ.) Yasunori Okamoto "
   },
   {
     "lab": "S6-06",
-    "tit": "Mechanochemical Organic Synthesis with Metal-Containing Compounds",
-    "spe": "Hajime Ito",
-    "loc": "Hokkaido University",
+    "tit": "Therapeutic In Vivo Synthetic Chemistry",
+    "spe": "Katsunori Tanaka",
+    "loc": "TokyoTech, RIKEN",
     "inf": [
-      "Mechanochemical Organic Synthesis with Metal-Containing Compounds",
-      "(Hokkaido University) Hajime Ito"
+      "Therapeutic In Vivo Synthetic Chemistry",
+      "(TokyoTech, RIKEN) Katsunori Tanaka"
     ],
     "sea": "",
     "pdf": "pdf/S6-06.pdf",
     "pre": "tn/S6-06.jpg",
-    "con": "S6-06 Mechanochemical Organic Synthesis with Metal-Containing Compounds (Hokkaido University) Hajime Ito "
+    "con": "S6-06 Therapeutic In Vivo Synthetic Chemistry (TokyoTech, RIKEN) Katsunori Tanaka "
   },
   {
     "lab": "S7-01",
-    "tit": "Development of Catalyst in CO2 Utilization for Storage and Production of H2",
-    "spe": "Yuichiro Himeda",
-    "loc": "AIST",
+    "tit": "半導体材料を用いる初の医薬品開発",
+    "spe": "小林 光",
+    "loc": "大阪大学産業科学研究所",
     "inf": [
-      "Development of Catalyst in CO2 Utilization for Storage and Production of H2",
-      "(AIST) Yuichiro Himeda"
+      "半導体材料を用いる初の医薬品開発",
+      "(大阪大学産業科学研究所) 小林 光"
     ],
     "sea": "",
     "pdf": "pdf/S7-01.pdf",
     "pre": "tn/S7-01.jpg",
-    "con": "S7-01 Development of Catalyst in CO2 Utilization for Storage and Production of H2 (AIST) Yuichiro Himeda "
+    "con": "S7-01 半導体材料を用いる初の医薬品開発 (大阪大学産業科学研究所) 小林 光 "
   },
   {
     "lab": "S7-02",
-    "tit": "Chromatography Separation of Hydrogen Isotopes at Ambient Temperature using Dihydrogen Complexes",
-    "spe": "Shinya Takaishi",
-    "loc": "Tohoku University",
+    "tit": "シリコン製剤の医学への応用",
+    "spe": "島田昌一",
+    "loc": "大阪大学医学系研究科",
     "inf": [
-      "Chromatography Separation of Hydrogen Isotopes at Ambient Temperature using Dihydrogen Complexes",
-      "(Tohoku University) Shinya Takaishi"
+      "シリコン製剤の医学への応用",
+      "(大阪大学医学系研究科) 島田昌一"
     ],
     "sea": "",
     "pdf": "pdf/S7-02.pdf",
     "pre": "tn/S7-02.jpg",
-    "con": "S7-02 Chromatography Separation of Hydrogen Isotopes at Ambient Temperature using Dihydrogen Complexes (Tohoku University) Shinya Takaishi "
+    "con": "S7-02 シリコン製剤の医学への応用 (大阪大学医学系研究科) 島田昌一 "
   },
   {
     "lab": "S7-03",
-    "tit": "Nonequilibrium Synthesis for New Alloy Nanoparticles Showing High Water Slitting Catalytic Activities",
-    "spe": "Kohei Kusada",
-    "loc": "Kyoto University",
+    "tit": "血液中の微量元素を用いた病気のリスク診断",
+    "spe": "岡本直幸",
+    "loc": "株式会社レナテック",
     "inf": [
-      "Nonequilibrium Synthesis for New Alloy Nanoparticles Showing High Water Slitting Catalytic Activities",
-      "(Kyoto University) Kohei Kusada"
+      "血液中の微量元素を用いた病気のリスク診断",
+      "(株式会社レナテック) 岡本直幸"
     ],
     "sea": "",
     "pdf": "pdf/S7-03.pdf",
     "pre": "tn/S7-03.jpg",
-    "con": "S7-03 Nonequilibrium Synthesis for New Alloy Nanoparticles Showing High Water Slitting Catalytic Activities (Kyoto University) Kohei Kusada "
+    "con": "S7-03 血液中の微量元素を用いた病気のリスク診断 (株式会社レナテック) 岡本直幸 "
   },
   {
     "lab": "S7-04",
-    "tit": "Iridium Complexes Bearing a Pyridonate-based Functional Ligand: Highly Active Catalysts for Dehydrogenative and Hydrogenative Reactions of Organic Molecules and Their Application in Hydrogen Storage System",
-    "spe": "Ken-ichi Fujita",
-    "loc": "Kyoto University",
+    "tit": "薬理活性を有するアブラナ科植物由来のグリコシドと金属イオンの反応性",
+    "spe": "Laurenzo D. V. Alba",
+    "loc": "デラサール大学理学部",
     "inf": [
-      "Iridium Complexes Bearing a Pyridonate-based Functional Ligand: Highly Active Catalysts for Dehydrogenative and Hydrogenative Reactions of Organic Molecules and Their Application in Hydrogen Storage System",
-      "(Kyoto University) Ken-ichi Fujita"
+      "薬理活性を有するアブラナ科植物由来のグリコシドと金属イオンの反応性",
+      "(デラサール大学理学部) Laurenzo D. V. Alba"
     ],
     "sea": "",
     "pdf": "pdf/S7-04.pdf",
     "pre": "tn/S7-04.jpg",
-    "con": "S7-04 Iridium Complexes Bearing a Pyridonate-based Functional Ligand: Highly Active Catalysts for Dehydrogenative and Hydrogenative Reactions of Organic Molecules and Their Application in Hydrogen Storage System (Kyoto University) Ken-ichi Fujita "
+    "con": "S7-04 薬理活性を有するアブラナ科植物由来のグリコシドと金属イオンの反応性 (デラサール大学理学部) Laurenzo D. V. Alba "
   },
   {
     "lab": "S7-05",
-    "tit": "Sustainable Energy Cycles based on Water Splitting and CO2 Reduction",
-    "spe": "Ken Sakai",
-    "loc": "Kyushu University",
+    "tit": "医理連携による新規核医学治療薬の開発",
+    "spe": "渡部直史",
+    "loc": "大阪大学医学系研究科",
     "inf": [
-      "Sustainable Energy Cycles based on Water Splitting and CO2 Reduction",
-      "(Kyushu University) Ken Sakai"
+      "医理連携による新規核医学治療薬の開発",
+      "(大阪大学医学系研究科) 渡部直史"
     ],
     "sea": "",
     "pdf": "pdf/S7-05.pdf",
     "pre": "tn/S7-05.jpg",
-    "con": "S7-05 Sustainable Energy Cycles based on Water Splitting and CO2 Reduction (Kyushu University) Ken Sakai "
+    "con": "S7-05 医理連携による新規核医学治療薬の開発 (大阪大学医学系研究科) 渡部直史 "
   },
   {
-    "lab": "S8-01",
-    "tit": "Magneto-electric Correlation in Organic-inorganic Hybrid Systems",
-    "spe": "Kouji Taniguchi",
-    "loc": "Tokyo Institute of Technology",
+    "lab": "Aw-07",
+    "awn": "研究奨励賞",
+    "loc": "京都大学高等研究院・物質―細胞統合システム拠点 ",
+    "spe": "大竹　研一",
+    "tit": "多孔性配位化合物の構造の柔軟性を利用した機能の開拓 ",
     "inf": [
-      "Magneto-electric Correlation in Organic-inorganic Hybrid Systems",
-      "(Tokyo Institute of Technology) Kouji Taniguchi"
+      "多孔性配位化合物の構造の柔軟性を利用した機能の開拓 ",
+      "(京都大学高等研究院・物質―細胞統合システム拠点 ) 大竹　研一"
     ],
     "sea": "",
-    "pdf": "pdf/S8-01.pdf",
-    "pre": "tn/S8-01.jpg",
-    "con": "S8-01 Magneto-electric Correlation in Organic-inorganic Hybrid Systems (Tokyo Institute of Technology) Kouji Taniguchi "
+    "pdf": "pdf/Aw-07.pdf",
+    "pre": "tn/Aw-07.jpg",
+    "con": "Aw-07 多孔性配位化合物の構造の柔軟性を利用した機能の開拓  (京都大学高等研究院・物質―細胞統合システム拠点 ) 大竹　研一 "
   },
   {
-    "lab": "S8-02",
-    "tit": "Functional Organic-inorganic Hybrids Consisting of Nitrido- tetracyanometallate Units",
-    "spe": "Ryo Ohtani",
-    "loc": "Kyushu University",
+    "lab": "Aw-08",
+    "awn": "研究奨励賞",
+    "loc": "東京大学大学院総合文化研究科",
+    "spe": "堀内　新之介",
+    "tit": "有機ホストと金属錯体からなる新奇分子集合体の創出と機能開拓 ",
     "inf": [
-      "Functional Organic-inorganic Hybrids Consisting of Nitrido- tetracyanometallate Units",
-      "(Kyushu University) Ryo Ohtani"
+      "有機ホストと金属錯体からなる新奇分子集合体の創出と機能開拓 ",
+      "(東京大学大学院総合文化研究科) 堀内　新之介"
     ],
     "sea": "",
-    "pdf": "pdf/S8-02.pdf",
-    "pre": "tn/S8-02.jpg",
-    "con": "S8-02 Functional Organic-inorganic Hybrids Consisting of Nitrido- tetracyanometallate Units (Kyushu University) Ryo Ohtani "
-  },
-  {
-    "lab": "S8-03",
-    "tit": "Solid State Chemistry Approaches from Conventional Oxide-Based Ceramics to Organic-Inorganic Hybrid Compounds",
-    "spe": "Takafumi Yamamoto",
-    "loc": "Tokyo Institute of Technology",
-    "inf": [
-      "Solid State Chemistry Approaches from Conventional Oxide-Based Ceramics to Organic-Inorganic Hybrid Compounds",
-      "(Tokyo Institute of Technology) Takafumi Yamamoto"
-    ],
-    "sea": "",
-    "pdf": "pdf/S8-03.pdf",
-    "pre": "tn/S8-03.jpg",
-    "con": "S8-03 Solid State Chemistry Approaches from Conventional Oxide-Based Ceramics to Organic-Inorganic Hybrid Compounds (Tokyo Institute of Technology) Takafumi Yamamoto "
-  },
-  {
-    "lab": "S8-04",
-    "tit": "Synthetic Design of Liquid, Glassy, and Amorphous Coordination Polymers",
-    "spe": "Shin-ichiro Noro",
-    "loc": "Hokkaido University",
-    "inf": [
-      "Synthetic Design of Liquid, Glassy, and Amorphous Coordination Polymers",
-      "(Hokkaido University) Shin-ichiro Noro"
-    ],
-    "sea": "",
-    "pdf": "pdf/S8-04.pdf",
-    "pre": "tn/S8-04.jpg",
-    "con": "S8-04 Synthetic Design of Liquid, Glassy, and Amorphous Coordination Polymers (Hokkaido University) Shin-ichiro Noro "
-  },
-  {
-    "lab": "S8-05",
-    "tit": "Glass Formability of Coordination Polymers/MOF Crystals and their Conductive and Optical Properties",
-    "spe": "Satoshi Horike",
-    "loc": "Kyoto University",
-    "inf": [
-      "Glass Formability of Coordination Polymers/MOF Crystals and their Conductive and Optical Properties",
-      "(Kyoto University) Satoshi Horike"
-    ],
-    "sea": "",
-    "pdf": "pdf/S8-05.pdf",
-    "pre": "tn/S8-05.jpg",
-    "con": "S8-05 Glass Formability of Coordination Polymers/MOF Crystals and their Conductive and Optical Properties (Kyoto University) Satoshi Horike "
-  },
-  {
-    "lab": "S8-06",
-    "tit": "Preparation of Metal Carbodiimides by Ammonia Nitridation Method and Environment-responsive Crystal Structures",
-    "spe": "Yuji Masubuchi",
-    "loc": "Hokkaido University",
-    "inf": [
-      "Preparation of Metal Carbodiimides by Ammonia Nitridation Method and Environment-responsive Crystal Structures",
-      "(Hokkaido University) Yuji Masubuchi"
-    ],
-    "sea": "",
-    "pdf": "pdf/S8-06.pdf",
-    "pre": "tn/S8-06.jpg",
-    "con": "S8-06 Preparation of Metal Carbodiimides by Ammonia Nitridation Method and Environment-responsive Crystal Structures (Hokkaido University) Yuji Masubuchi "
-  },
-  {
-    "lab": "2Fb-Aw",
-    "tit": "Coherent Spin Manipulation in Magnetic Molecules",
-    "loc": "South China University of Technology",
-    "spe": "Shang-Da Jiang",
-    "awn": "JSCC International Award for Creative Work\n錯体化学会　国際奨励賞",
-    "inf": [
-      "Coherent Spin Manipulation in Magnetic Molecules",
-      "(South China University of Technology) Shang-Da Jiang"
-    ],
-    "sea": "",
-    "pdf": "pdf/2Fb-Aw.pdf",
-    "pre": "tn/2Fb-Aw.jpg",
-    "con": "2Fb-Aw Coherent Spin Manipulation in Magnetic Molecules (South China University of Technology) Shang-Da Jiang "
-  },
-  {
-    "lab": "2Fa-Aw",
-    "awn": "JSCC Research Encouragement Award\n錯体化学会　研究奨励賞",
-    "tit": "Studies on dynamic structures constructed by anisotropic assemblies of tetracyanometallate units\nテトラシアノ金属錯体を用いた異方的かつ動的な構造体に関する研究",
-    "loc": "Kyushu University\n九州大学",
-    "spe": "Ryo Ohtani\n大谷 亮",
-    "inf": [
-      "テトラシアノ金属錯体を用いた異方的かつ動的な構造体に関する研究",
-      "(九州大学) 大谷 亮",
-      "Studies on dynamic structures constructed by anisotropic assemblies of tetracyanometallate units",
-      "(Kyushu University) Ryo Ohtani"
-    ],
-    "sea": "",
-    "pdf": "pdf/2Fa-Aw.pdf",
-    "pre": "tn/2Fa-Aw.jpg",
-    "con": "2Fa-Aw テトラシアノ金属錯体を用いた異方的かつ動的な構造体に関する研究 (九州大学) 大谷 亮 Studies on dynamic structures constructed by anisotropic assemblies of tetracyanometallate units (Kyushu University) Ryo Ohtani "
-  },
-  {
-    "lab": "2Fc-Aw",
-    "awn": "JSCC Research Encouragement Award\n錯体化学会　研究奨励賞",
-    "tit": "Studies on Biosynthesis and Catalysis of Metal-sulfur Clusters\n遷移金属-硫黄クラスターの生合成と触媒活性に関する研究",
-    "loc": "Kyoto University\n京都大学",
-    "spe": "Kazuki Tanifuji\n谷藤 一樹",
-    "inf": [
-      "遷移金属-硫黄クラスターの生合成と触媒活性に関する研究",
-      "(京都大学) 谷藤 一樹",
-      "Studies on Biosynthesis and Catalysis of Metal-sulfur Clusters",
-      "(Kyoto University) Kazuki Tanifuji"
-    ],
-    "sea": "",
-    "pdf": "pdf/2Fc-Aw.pdf",
-    "pre": "tn/2Fc-Aw.jpg",
-    "con": "2Fc-Aw 遷移金属-硫黄クラスターの生合成と触媒活性に関する研究 (京都大学) 谷藤 一樹 Studies on Biosynthesis and Catalysis of Metal-sulfur Clusters (Kyoto University) Kazuki Tanifuji "
+    "pdf": "pdf/Aw-08.pdf",
+    "pre": "tn/Aw-08.jpg",
+    "con": "Aw-08 有機ホストと金属錯体からなる新奇分子集合体の創出と機能開拓  (東京大学大学院総合文化研究科) 堀内　新之介 "
   },
   {
     "lab": "Aw-01",
-    "awn": "JSCC Award\n錯体化学会　学会賞",
-    "tit": "Generation and Functions of Oxidation Active Metal Species\n金属−酸化活性種の創出と機能解明",
-    "loc": "Osaka University\n大阪大学",
-    "spe": "Shinobu Itoh\n伊東 忍",
+    "awn": "学会賞",
+    "loc": "九州大学・主幹教授",
+    "spe": "君塚信夫",
+    "tit": "金属錯体と分子組織化学の融合に関する研究 ",
     "inf": [
-      "金属−酸化活性種の創出と機能解明",
-      "(大阪大学) 伊東 忍",
-      "Generation and Functions of Oxidation Active Metal Species",
-      "(Osaka University) Shinobu Itoh"
+      "金属錯体と分子組織化学の融合に関する研究 ",
+      "(九州大学・主幹教授) 君塚信夫"
     ],
     "sea": "",
     "pdf": "pdf/Aw-01.pdf",
     "pre": "tn/Aw-01.jpg",
-    "con": "Aw-01 金属−酸化活性種の創出と機能解明 (大阪大学) 伊東 忍 Generation and Functions of Oxidation Active Metal Species (Osaka University) Shinobu Itoh "
-  },
-  {
-    "lab": "Aw-02",
-    "awn": "JSCC International Award\n錯体化学会　国際賞",
-    "tit": "“Super-Oxidized” Iron Nitrido & “Super-Reduced” Iron Nitrosyl Complexes in tris-Carbene Coordination Spheres – and How Iron Really Feels About it",
-    "loc": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-    "spe": "Karsten Meyer",
-    "inf": [
-      "“Super-Oxidized” Iron Nitrido & “Super-Reduced” Iron Nitrosyl Complexes in tris-Carbene Coordination Spheres – and How Iron Really Feels About it",
-      "(Friedrich-Alexander-Universität Erlangen-Nürnberg) Karsten Meyer"
-    ],
-    "sea": "",
-    "pdf": "pdf/Aw-02.pdf",
-    "pre": "tn/Aw-02.jpg",
-    "con": "Aw-02 “Super-Oxidized” Iron Nitrido & “Super-Reduced” Iron Nitrosyl Complexes in tris-Carbene Coordination Spheres – and How Iron Really Feels About it (Friedrich-Alexander-Universität Erlangen-Nürnberg) Karsten Meyer "
+    "con": "Aw-01 金属錯体と分子組織化学の融合に関する研究  (九州大学・主幹教授) 君塚信夫 "
   },
   {
     "lab": "Aw-03",
-    "awn": "JSCC Award for Creative Work\n錯体化学会　学術賞",
-    "tit": "Development of Guest-responsive Functional Coordination Polymers\nゲスト応答型機能性配位高分子の開発",
-    "loc": "Kyushu University\n九州大学",
-    "spe": "Masaaki Ohba\n大場 正昭",
+    "awn": "学術賞",
+    "loc": "東京工業大学・准教授",
+    "spe": "今岡享稔",
+    "tit": "電子顕微鏡による金属クラスターの動的配位構造の研究 ",
     "inf": [
-      "ゲスト応答型機能性配位高分子の開発",
-      "(九州大学) 大場 正昭",
-      "Development of Guest-responsive Functional Coordination Polymers",
-      "(Kyushu University) Masaaki Ohba"
+      "電子顕微鏡による金属クラスターの動的配位構造の研究 ",
+      "(東京工業大学・准教授) 今岡享稔"
     ],
     "sea": "",
     "pdf": "pdf/Aw-03.pdf",
     "pre": "tn/Aw-03.jpg",
-    "con": "Aw-03 ゲスト応答型機能性配位高分子の開発 (九州大学) 大場 正昭 Development of Guest-responsive Functional Coordination Polymers (Kyushu University) Masaaki Ohba "
-  },
-  {
-    "lab": "Aw-04",
-    "awn": "JSCC International Award\n錯体化学会　国際賞",
-    "tit": "Living Libraries of Intermetallic Superatoms",
-    "loc": "Technical University of Munich",
-    "spe": "Roland A. Fischer",
-    "inf": [
-      "Living Libraries of Intermetallic Superatoms",
-      "(Technical University of Munich) Roland A. Fischer"
-    ],
-    "sea": "",
-    "pdf": "pdf/Aw-04.pdf",
-    "pre": "tn/Aw-04.jpg",
-    "con": "Aw-04 Living Libraries of Intermetallic Superatoms (Technical University of Munich) Roland A. Fischer "
+    "con": "Aw-03 電子顕微鏡による金属クラスターの動的配位構造の研究  (東京工業大学・准教授) 今岡享稔 "
   },
   {
     "lab": "Aw-05",
-    "awn": "JSCC Contribution Award\n錯体化学会　貢献賞",
-    "tit": "Development of water splitting photocatalysts and their application\n水分解光触媒の開発とその応用",
-    "loc": "The University of Tokyo, Shinshu University\n東京大学・信州大学",
-    "spe": "Kazunari Domen\n堂免 一成",
+    "awn": "貢献賞",
+    "loc": "桐蔭横浜大学・特任教授；東京大学先端科学技術研究センター・フェロー",
+    "spe": "宮坂　力",
+    "tit": "金属ハロゲン化物ペロブスカイト結晶による光電変換の高効率化の研究",
     "inf": [
-      "水分解光触媒の開発とその応用",
-      "(東京大学・信州大学) 堂免 一成",
-      "Development of water splitting photocatalysts and their application",
-      "(The University of Tokyo, Shinshu University) Kazunari Domen"
+      "金属ハロゲン化物ペロブスカイト結晶による光電変換の高効率化の研究",
+      "(桐蔭横浜大学・特任教授；東京大学先端科学技術研究センター・フェロー) 宮坂　力"
     ],
     "sea": "",
     "pdf": "pdf/Aw-05.pdf",
     "pre": "tn/Aw-05.jpg",
-    "con": "Aw-05 水分解光触媒の開発とその応用 (東京大学・信州大学) 堂免 一成 Development of water splitting photocatalysts and their application (The University of Tokyo, Shinshu University) Kazunari Domen "
+    "con": "Aw-05 金属ハロゲン化物ペロブスカイト結晶による光電変換の高効率化の研究 (桐蔭横浜大学・特任教授；東京大学先端科学技術研究センター・フェロー) 宮坂　力 "
+  },
+  {
+    "lab": "Aw-02",
+    "awn": "国際賞",
+    "loc": "Massachusetts Institute of Technology",
+    "spe": "Professor Christopher C. Cummins",
+    "tit": "Coordination Chemistry of Small Molecule Activation, Generation, and Transfer ",
+    "inf": [
+      "Coordination Chemistry of Small Molecule Activation, Generation, and Transfer ",
+      "(Massachusetts Institute of Technology) Professor Christopher C. Cummins"
+    ],
+    "sea": "",
+    "pdf": "pdf/Aw-02.pdf",
+    "pre": "tn/Aw-02.jpg",
+    "con": "Aw-02 Coordination Chemistry of Small Molecule Activation, Generation, and Transfer  (Massachusetts Institute of Technology) Professor Christopher C. Cummins "
+  },
+  {
+    "lab": "Aw-04",
+    "awn": "国際賞",
+    "loc": "Johns Hopkins University",
+    "spe": "Professor Kenneth Daniel Karlin",
+    "tit": "Bioinorganic Approach to Investigate Small Molecule Activation by Transition Metal Ions ",
+    "inf": [
+      "Bioinorganic Approach to Investigate Small Molecule Activation by Transition Metal Ions ",
+      "(Johns Hopkins University) Professor Kenneth Daniel Karlin"
+    ],
+    "sea": "",
+    "pdf": "pdf/Aw-04.pdf",
+    "pre": "tn/Aw-04.jpg",
+    "con": "Aw-04 Bioinorganic Approach to Investigate Small Molecule Activation by Transition Metal Ions  (Johns Hopkins University) Professor Kenneth Daniel Karlin "
+  },
+  {
+    "lab": "Aw-06",
+    "awn": "国際奨励賞",
+    "loc": "National University of Singapore",
+    "spe": "Professor Dan Zhao",
+    "tit": "Metal-Organic Frameworks in Membrane Technologies ",
+    "inf": [
+      "Metal-Organic Frameworks in Membrane Technologies ",
+      "(National University of Singapore) Professor Dan Zhao"
+    ],
+    "sea": "",
+    "pdf": "pdf/Aw-06.pdf",
+    "pre": "tn/Aw-06.jpg",
+    "con": "Aw-06 Metal-Organic Frameworks in Membrane Technologies  (National University of Singapore) Professor Dan Zhao "
   }
 ]
 ;

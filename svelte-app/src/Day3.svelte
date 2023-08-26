@@ -1,6 +1,7 @@
 <script>
     import { _ } from 'svelte-i18n';
     import AsyncTable from "./Components/TimeTable/asynctable.svelte";
+    import ShortCut from "./Components/shortcut.svelte";
     import {all_talks} from "./all_talks.js"
 
 
@@ -57,6 +58,9 @@
         available={all_talks}
         on:search>
         <td>Time</td>
+        <td>
+            <ShortCut label={$_("Award lectures")} query={"^Aw-"} on:search />
+        </td>
     </AsyncTable>
     <AsyncTable 
         table={banquet} 
