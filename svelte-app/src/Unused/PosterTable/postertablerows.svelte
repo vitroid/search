@@ -1,6 +1,6 @@
 <script>
     import PosterTableRow from "./postertablerow.svelte";
-    export let label;
+    export let prefix;
     export let items;
 
     let rows;
@@ -15,5 +15,5 @@
 </script>
 
 {#each rows as row, _}
-<PosterTableRow label={label} row={row} {items} on:search />
+<PosterTableRow {prefix} {row} {items} on:search />
 {/each}

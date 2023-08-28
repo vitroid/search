@@ -1,6 +1,6 @@
 <script>
     import PosterButton from "./posterbutton.svelte";
-    export let label;
+    export let prefix;
     export let row;
     export let items;
 
@@ -8,11 +8,11 @@
 
 <tr class='row'>
     <th class='row'>
-        {label}{row}
+        {prefix}{row}
     </th>
     {#each [0,1,2,3,4,5,6,7,8,9] as i}
     <td class="row">
-    <PosterButton order={i} row={row} label={label} items={items} on:search />
+    <PosterButton order={i} {row} {prefix} {items} on:search />
     </td>
     {/each}
 </tr>

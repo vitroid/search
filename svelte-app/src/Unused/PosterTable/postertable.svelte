@@ -3,7 +3,7 @@
 
     export let title;
     export let sessions;
-
+    // 部屋ごとに細分されたポスター表
 </script>
 
 <div>
@@ -21,7 +21,7 @@
                 {/each}
             </tr>
             {#each sessions as session}
-            <PosterTableRows label={session.label} items={session.items} on:search />
+            <PosterTableRows prefix={session.prefix} items={session.items} on:search />
             {/each}
         </tbody>
     </table>

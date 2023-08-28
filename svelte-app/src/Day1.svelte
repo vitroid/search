@@ -2,7 +2,7 @@
     import { _ } from 'svelte-i18n';
     // import SessionTable from "./Components/SessionTable/sessiontable.svelte";
     import AsyncTable from "./Components/TimeTable/asynctable.svelte";
-    import PosterTables from "./Components/PosterTable/PosterTables.svelte";
+    import PosterTables from "./PosterTables.svelte";
     import ShortCut from "./Components/shortcut.svelte";
     import {all_talks} from "./all_talks.js"
     let sessions=["Time", "1Aa", "1Ab", "1Ac", "1Ad", "1C", "1D", "1Fa", "1Fb", "1Fc", "1Fd"]
@@ -268,7 +268,6 @@
         {$_("Poster sessions")}
     </h1>
     <PosterTables 
-        available={all_talks}
         on:search/>
 </div>
 
