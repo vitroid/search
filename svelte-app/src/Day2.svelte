@@ -166,8 +166,9 @@
             {bin:[,,60],  id:"", label:"19:00"},
             {bin:[,,60],  id:"", label:"20:00"},
         ],
-        [
-            {bin:[15,0,40], id:"", label:""},
+        [ // Aa 
+            {bin:[15,0,30], id:"Aw-07", label:$_("JSCC Research Encouragement Award")},
+            {bin:[,,10],    id:"", label:""},
             {bin:[,,20],    id:"2Aa-09", label:"09"},
             {bin:[,,20],    id:"2Aa-10", label:"10"},
             {bin:[,,20],    id:"2Aa-11", label:"11"},
@@ -216,8 +217,9 @@
             {bin:[,,20],    id:"2C-10", label:"10"},
         ],
         [
-            {bin:[15,0,30], id:"Aw-06", label:$_("JSCC International Award for Creative Work")},
-            {bin:[,,10],    id:"", label:""},
+            {bin:[15,0,40], id:"", label:""},
+            // {bin:[15,0,30], id:"Aw-06", label:$_("JSCC International Award for Creative Work")},
+            // {bin:[,,10],    id:"", label:""},
             {bin:[,,20],    id:"2D-09", label:"09"},
             {bin:[,,20],    id:"2D-10", label:"10"},
             {bin:[,,20],    id:"2D-11", label:"11"},
@@ -242,8 +244,10 @@
             {bin:[,,20],    id:"2E-11", label:"11"},
         ],
         [
-            {bin:[15,0,30], id:"Aw-07", label:$_("JSCC Research Encouragement Award")},
+            {bin:[15,0,30], id:"Aw-08", label:$_("JSCC Research Encouragement Award")},
             {bin:[,,10],    id:"", label:""},
+            // {bin:[15,0,30], id:"Aw-07", label:$_("JSCC Research Encouragement Award")},
+            // {bin:[,,10],    id:"", label:""},
             {bin:[,,20],    id:"2Fa-09", label:"09"},
             {bin:[,,20],    id:"2Fa-10", label:"10"},
             {bin:[,,20],    id:"2Fa-11", label:"11"},
@@ -254,8 +258,9 @@
             {bin:[,,20],    id:"2Fa-15", label:"15"},
         ],
         [
-            {bin:[15,0,30], id:"Aw-08", label:$_("JSCC Research Encouragement Award")},
-            {bin:[,,10],    id:"", label:""},
+            {bin:[15,0,40], id:"", label:""},
+            // {bin:[15,0,30], id:"Aw-08", label:$_("JSCC Research Encouragement Award")},
+            // {bin:[,,10],    id:"", label:""},
             {bin:[,,20],    id:"2Fb-09", label:"09"},
             {bin:[,,20],    id:"2Fb-10", label:"10"},
             {bin:[,,20],    id:"2Fb-11", label:"11"},

@@ -1,7 +1,6 @@
 <script lang="ts">
     import VButton from "./vbutton.svelte";
     export let column
-    // export let label
     export let available
 
     $: {
@@ -20,9 +19,5 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
-    }
-    .head {
-        font-weight: bold;
-        text-align: center;
     }
 </style>

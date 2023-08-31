@@ -34,11 +34,6 @@
         margin: 0px;
         /* background-color: #ddd; */
     }
-    th.col {
-        text-align: center;
-        padding: 2px 2px 0;
-        width: 22px;
-    }
     tr.header{
         background-color: #fff;
     }
