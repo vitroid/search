@@ -6,23 +6,22 @@
     import ShortCut from "./Components/shortcut.svelte";
     import {all_talks} from "./all_talks.js"
 
-    const rooms_day2am = ["Time", "2Aa", "2Ab", "2Ac", "2B", "2C", "2D", "2E", "2Fa", "2Fb", "2Fc"]
+    const rooms_day2am = ["2Aa", "2Ab", "2Ac", "2B", "2C", "2D", "2E", "2Fa", "2Fb", "2Fc"]
     // let bins_am = ["9:00", "9:20", "9:40", "10:00", "10:20", "10:30", "10:50", "11:10", "11:30"]
     // let slots_am = ["1", "2", "3", "4", "", "5", "6", "7", "8"]
 
-    const am_shortcuts = [
-        ["2Aa", "^2Aa-"],
-        ["2Ab", "^2Ab-"],
-        ["2Ac", "^2Ac-"],
-        ["2B", "^2B-"],
-        ["2C", "^2C-"],
-        ["2D", "^2D-"],
-        ["2E", "^2E-"],
-        ["2Fa", "^2Fa-"],
-        ["2Fb", "^2Fb-"],
-        ["2Fc", "^2Fc-"],
-    ]
-
+    const shortcuts = {
+        "2Aa": "^2Aa-",
+        "2Ab": "^2Ab-",
+        "2Ac": "^2Ac-",
+        "2B": "^2B-",
+        "2C": "^2C-",
+        "2D": "^2D-",
+        "2E": "^2E-",
+        "2Fa": "^2Fa-",
+        "2Fb": "^2Fb-",
+        "2Fc": "^2Fc-",
+    }
 
     const day2am = [
         [
@@ -108,54 +107,41 @@
             // {bin:[,,20],   id: "2E-08", label:"08"},
         ],
         [
-            {bin:[9,0,20], id: "1Fa-01", label:"01"},
-            {bin:[,,20],   id: "1Fa-02", label:"02"},
-            {bin:[,,20],   id: "1Fa-03", label:"03"},
-            {bin:[,,20],   id: "1Fa-04", label:"04"},
+            {bin:[9,0,20], id: "2Fa-01", label:"01"},
+            {bin:[,,20],   id: "2Fa-02", label:"02"},
+            {bin:[,,20],   id: "2Fa-03", label:"03"},
+            {bin:[,,20],   id: "2Fa-04", label:"04"},
             {bin:[,,10],   id: "", label:""},
-            {bin:[,,20],   id: "1Fa-05", label:"05"},
-            {bin:[,,20],   id: "1Fa-06", label:"06"},
-            {bin:[,,20],   id: "1Fa-07", label:"07"},
-            {bin:[,,20],   id: "1Fa-08", label:"08"},
+            {bin:[,,20],   id: "2Fa-05", label:"05"},
+            {bin:[,,20],   id: "2Fa-06", label:"06"},
+            {bin:[,,20],   id: "2Fa-07", label:"07"},
+            {bin:[,,20],   id: "2Fa-08", label:"08"},
         ],
         [
-            {bin:[9,0,20], id: "1Fb-01", label:"01"},
-            {bin:[,,20],   id: "1Fb-02", label:"02"},
-            {bin:[,,20],   id: "1Fb-03", label:"03"},
-            {bin:[,,20],   id: "1Fb-04", label:"04"},
+            {bin:[9,0,20], id: "2Fb-01", label:"01"},
+            {bin:[,,20],   id: "2Fb-02", label:"02"},
+            {bin:[,,20],   id: "2Fb-03", label:"03"},
+            {bin:[,,20],   id: "2Fb-04", label:"04"},
             {bin:[,,10],   id: "", label:""},
-            {bin:[,,20],   id: "1Fb-05", label:"05"},
-            {bin:[,,20],   id: "1Fb-06", label:"06"},
-            {bin:[,,20],   id: "1Fb-07", label:"07"},
-            {bin:[,,20],   id: "1Fb-08", label:"08"},
+            {bin:[,,20],   id: "2Fb-05", label:"05"},
+            {bin:[,,20],   id: "2Fb-06", label:"06"},
+            {bin:[,,20],   id: "2Fb-07", label:"07"},
+            {bin:[,,20],   id: "2Fb-08", label:"08"},
         ],
         [
-            {bin:[9,0,20], id: "1Fc-01", label:"01"},
-            {bin:[,,20],   id: "1Fc-02", label:"02"},
-            {bin:[,,20],   id: "1Fc-03", label:"03"},
-            {bin:[,,20],   id: "1Fc-04", label:"04"},
+            {bin:[9,0,20], id: "2Fc-01", label:"01"},
+            {bin:[,,20],   id: "2Fc-02", label:"02"},
+            {bin:[,,20],   id: "2Fc-03", label:"03"},
+            {bin:[,,20],   id: "2Fc-04", label:"04"},
             {bin:[,,10],   id: "", label:""},
-            {bin:[,,20],   id: "1Fc-05", label:"05"},
-            {bin:[,,20],   id: "1Fc-06", label:"06"},
-            {bin:[,,20],   id: "1Fc-07", label:"07"},
-            // {bin:[,,20],   id: "1Fc-08", label:"08"},
+            {bin:[,,20],   id: "2Fc-05", label:"05"},
+            {bin:[,,20],   id: "2Fc-06", label:"06"},
+            {bin:[,,20],   id: "2Fc-07", label:"07"},
+            {bin:[,,20],   id: "2Fc-08", label:"08"},
         ],
     ]
 
-    const pm_shortcuts = [
-        ["2Aa", "^2Aa-"],
-        ["2Ab", "^2Ab-"],
-        ["2Ac", "^2Ac-"],
-        ["2B", "^2B-"],
-        ["2C", "^2C-"],
-        ["2D", "^2D-"],
-        ["2E", "^2E-"],
-        ["2Fa", "^2Fa-"],
-        ["2Fb", "^2Fb-"],
-        ["2Fc", "^2Fc-"],
-    ]
-
-    let rooms_day2pm = ["Time", "2Aa", "2Ab", "2Ac", "2B", "2C", "2D/S7", "2E", "2Fa", "2Fb", "2Fc"]
+    let rooms_day2pm = ["2Aa", "2Ab", "2Ac", "2B", "2C", "2D", "2E", "2Fa", "2Fb", "2Fc"]
 
     let day2pm = [
         [
@@ -167,8 +153,9 @@
             {bin:[,,60],  id:"", label:"20:00"},
         ],
         [ // Aa 
-            {bin:[15,0,30], id:"Aw-07", label:$_("JSCC Research Encouragement Award")},
-            {bin:[,,10],    id:"", label:""},
+            {bin:[15,0,40], id:"", label:""},
+            // {bin:[15,0,30], id:"Aw-07", label:$_("JSCC Research Encouragement Award")},
+            // {bin:[,,10],    id:"", label:""},
             {bin:[,,20],    id:"2Aa-09", label:"09"},
             {bin:[,,20],    id:"2Aa-10", label:"10"},
             {bin:[,,20],    id:"2Aa-11", label:"11"},
@@ -217,14 +204,14 @@
             {bin:[,,20],    id:"2C-10", label:"10"},
         ],
         [
-            {bin:[15,0,40], id:"", label:""},
+            {bin:[15,0,30], id:"Aw-07", label:$_("JSCC Research Encouragement Award")},
+            {bin:[,,10],    id:"", label:""},
             // {bin:[15,0,30], id:"Aw-06", label:$_("JSCC International Award for Creative Work")},
             // {bin:[,,10],    id:"", label:""},
             {bin:[,,20],    id:"2D-09", label:"09"},
             {bin:[,,20],    id:"2D-10", label:"10"},
             {bin:[,,20],    id:"2D-11", label:"11"},
-            {bin:[,,80],    id:"", label:""},
-            {bin:[,,10],    id:"", label:$_("Explanation")+" 1"},
+            {bin:[18,0,10],    id:"", label:$_("Explanation")+" 1"},
             {bin:[,,20],    id:"S7-01", label:"S7-01"},
             {bin:[,,20],    id:"S7-02", label:"S7-02"},
             {bin:[,,5],     id:"", label:""},
@@ -280,7 +267,7 @@
             {bin:[,,20],    id:"2Fc-13", label:"13"},
             {bin:[,,20],    id:"2Fc-14", label:"14"},
             {bin:[,,20],    id:"2Fc-15", label:"15"},
-            {bin:[,,20],    id:"2Fc-16", label:"16"},
+            // {bin:[,,20],    id:"2Fc-16", label:"16"},
         ]        
     ]
 
@@ -295,11 +282,12 @@
             table={day2am} 
             title={$_("Morning sessions")}
             available={all_talks}
+            startminute={9*60+0}
             on:search>
             <td>Time</td>
-            {#each am_shortcuts as shortcut}
+            {#each rooms_day2am as room}
             <td>
-                <ShortCut label={shortcut[0]} query={shortcut[1]} on:search />
+                <ShortCut label={room} query={shortcuts[room]} on:search />
             </td>
             {/each}
         </AsyncTable>
@@ -307,11 +295,12 @@
             table={day2pm} 
             title={$_("Afternoon sessions")} 
             available={all_talks}
+            startminute={15*60+0}
             on:search>
             <td>Time</td>
-            {#each pm_shortcuts as shortcut}
+            {#each rooms_day2pm as room}
             <td>
-                <ShortCut label={shortcut[0]} query={shortcut[1]} on:search />
+                <ShortCut label={room} query={shortcuts[room]} on:search />
             </td>
             {/each}
         </AsyncTable>

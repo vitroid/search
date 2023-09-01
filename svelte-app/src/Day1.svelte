@@ -42,8 +42,8 @@
             {bin:[,,20],   id: "1Aa-02", label:"02"},
             {bin:[,,20],   id: "1Aa-03", label:"03"},
             {bin:[,,20],   id: "1Aa-04", label:"04"},
-            {bin:[,,10],   id: "", label:""},
-            {bin:[,,20],   id: "1Aa-05", label:"05"},
+            // {bin:[,,10],   id: "", label:""},
+            {bin:[10,30,20],   id: "1Aa-05", label:"05"},
             {bin:[,,20],   id: "1Aa-06", label:"06"},
             {bin:[,,20],   id: "1Aa-07", label:"07"},
             {bin:[,,20],   id: "1Aa-08", label:"08"},
@@ -241,6 +241,7 @@
         title={$_("Morning sessions")}
         table={day1am}
         available={all_talks}
+        startminute={9*60+0}
         on:search>
         <td>Time</td>
         {#each am_shortcuts as shortcut}
@@ -253,6 +254,7 @@
         table={symposia} 
         title={$_("Symposia")} 
         available={all_talks}
+        startminute=900
         on:search>
         <td>Time</td>
         {#each sy_shortcuts as shortcut}

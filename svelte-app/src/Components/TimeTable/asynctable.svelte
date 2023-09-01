@@ -1,15 +1,14 @@
 <script>
     import AsyncTableColumn from "./asynctablecolumn.svelte";
-    // import AsyncTableHeader from "./asynctableheader.svelte";
 
     export let table
-    // export let colnames
     export let title
     // a list of available (pushable, active) buttons.
     // ボタンを作るのは自由だが、availableに含まれていなければ押せない。
     export let available
-
-</script>
+    // 上端の時刻. 分単位(時刻は60倍する)の整数
+    export let startminute
+    </script>
 
 
 
@@ -26,7 +25,7 @@
         <tr class='top'>
             {#each table as column, i}
             <td class="column">
-                <AsyncTableColumn {column} {available} on:search/>
+                <AsyncTableColumn {column} {available} {startminute} on:search/>
             </td>
             {/each}
         </tr>
@@ -37,21 +36,13 @@
     .top {
         vertical-align: top;
         background: repeating-linear-gradient(
-  0deg,
-  #ffffff,
-  #ffffff 120px,
-  #e0e0ff 120px,
-  #e0e0ff 240px
-);    }
-    /* .container2 {
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
-        margin: 5px;
+            0deg,
+            #ffffff,
+            #ffffff 120px,
+            #e0e0ff 120px,
+            #e0e0ff 240px
+        );
     }
-    h3 {
-        text-align: center;
-    }*/
     table {
         display: flex;
         justify-content: start;

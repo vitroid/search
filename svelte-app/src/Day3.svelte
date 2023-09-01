@@ -24,8 +24,8 @@
             {bin:[,,60],     id:"Aw-02", label:$_("JSCC International Award")},
             {bin:[,,5],      id:"", label:""},
             {bin:[,,45],     id:"Aw-03", label:$_("JSCC Award for Creative Work")},
-            {bin:[,,125],     id:"", label:""},
-            {bin:[,,30],     id:"Aw-06", label:$_("JSCC International Award for Creative Work")},
+            // {bin:[,,125],     id:"", label:""},
+            {bin:[14,0,30],     id:"Aw-06", label:$_("JSCC International Award for Creative Work")},
             {bin:[,,5],      id:"", label:""},
             {bin:[,,60],     id:"Aw-04", label:$_("JSCC International Award")},
             {bin:[,,10],     id:"", label:""},
@@ -56,6 +56,7 @@
         table={day3} 
         title={$_("awardvenue")} 
         available={all_talks}
+        startminute={9*60+0}
         on:search>
         <td>Time</td>
         <td>
@@ -66,6 +67,7 @@
         table={banquet} 
         title={$_("banquetvenue")} 
         available={all_talks}
+        startminute={18*60+0}
         on:search>
         <td>Time</td>
     </AsyncTable>
