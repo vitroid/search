@@ -1,2 +1,4 @@
 build/chem/.htaccess
 build/chem-access/jscc73.htpasswd
+Pipfile.lock
+build/chem-access/jscc73.htdigest
