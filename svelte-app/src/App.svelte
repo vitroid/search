@@ -2,10 +2,10 @@
     import { _ } from 'svelte-i18n';
     import Schedule from "./schedule.svelte";
     import SearchBox from "./Components/Search/searchbox.svelte";
-    // import ShortCuts from "./shortcuts.svelte"
+	import {id, generateId} from "./Components/directory"
     import Banner from "./Banner.svelte"
     import { data } from "./index.js"
-
+   
     // Set the current locale to en-US
     // locale.set('ja')
     // setupI18n({ withLocale: 'en' });
@@ -15,6 +15,12 @@
         search = event.detail.text;
     }
 
+	$: {
+		// 統計のためのunique id.
+		if ($id == ""){
+			$id = generateId();
+		}
+	}
 
 </script>
 
