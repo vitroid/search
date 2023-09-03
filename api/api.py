@@ -140,7 +140,7 @@ async def vote(v: Vote):
     votes_set(cur, v.id, v.favs)
 
     # expireしたレコードを読みだし、データベースから消す。
-    for f in votes_delete_expired(cur, time.time() - 60):  # memory only 60 secs
+    for f in votes_delete_expired(cur, time.time() - 86400 * 7):  # 1 week memory
         diff = sub(diff, f)
     favs_add(cur, diff)
 
