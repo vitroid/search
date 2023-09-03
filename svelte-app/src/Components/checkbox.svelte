@@ -1,5 +1,5 @@
 <script>
-    import { directory, marks } from "./directory.js";
+    import { directory, marks, topvotes, vote } from "./directory.js";
 
     export let id;
 
@@ -8,6 +8,8 @@
     let status
 
     marks.subscribe(m=>{
+        vote()
+        topvotes(100)
         status = m[id]
         if (status){
             // directoryにはスケジュール表の要素が設定されている。
