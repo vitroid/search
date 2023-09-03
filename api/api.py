@@ -104,12 +104,12 @@ def favs_add(cur, counts: dict):
 
 def votes_set(cur, id: str, favs: str):
     cur.execute(
-        "INSERT OR IGNORE INTO votes(id, favs, timestamp) VALUES(:id, '', unixepoch())",
-        {"id": id},
+        "INSERT OR IGNORE INTO votes(id, favs, timestamp) VALUES(:id, '', :now)",
+        {"id": id, "now": time.time()},
     )
     cur.execute(
-        "UPDATE votes SET favs = :favs, timestamp = unixepoch() WHERE id = :id",
-        {"favs": favs, "id": id},
+        "UPDATE votes SET favs = :favs, timestamp = :now WHERE id = :id",
+        {"favs": favs, "id": id, "now": time.time()},
     )
 
 
