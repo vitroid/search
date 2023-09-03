@@ -20,6 +20,8 @@ app = FastAPI()
 
 origins = [
     "*",
+    "http://153.120.1.15",
+    "http://www.chem.okayama-u.ac.jp",
 ]
 
 app.add_middleware(
