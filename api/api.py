@@ -193,7 +193,7 @@ async def watch():
             ).items()
         ]
     )
-    HTMLResponse(content=html_content, status_code=200)
+    return HTMLResponse(content=html_content, status_code=200)
     # /DB
 
 
