@@ -1,6 +1,6 @@
 <script lang="ts">
     import { createEventDispatcher,onMount } from 'svelte';
-    import { directory, marks } from "../directory.js";
+    import { directory, marks, votes } from "../directory.js";
 	const dispatch = createEventDispatcher();
 
     export let id
@@ -46,7 +46,7 @@
 <button bind:this={directory[id]} 
     disabled={!active} 
     on:click={buttonPressed} 
-    style="background-color: {bgcolor}; color: {color}; height: {height*2}px" >
+    style="background-color: {bgcolor}; color: {color}; height: {height*2-6}px; box-shadow: 1px 3px 5px 0px rgba(0,0,0,{$votes[id]});" >
     {label}
 </button>
 {:else}
@@ -57,6 +57,10 @@
 <style>
     button {
         padding: 0px 4px 0px 4px;
-        /* margin: 2px; */
+
+        /* gap to impress the shadows. Subtract it from the height of the button */
+        margin: 3px; 
+        
+        box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.2);
     }
 </style>

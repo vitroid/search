@@ -5,7 +5,7 @@
 	import {id, generateId} from "./Components/directory"
     import Banner from "./Banner.svelte"
     import { data } from "./index.js"
-   
+
     // Set the current locale to en-US
     // locale.set('ja')
     // setupI18n({ withLocale: 'en' });

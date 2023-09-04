@@ -175,6 +175,29 @@ async def query_ranking(id: str, num: int):
     # /DB
 
 
+@app.get("/w")
+async def watch():
+    """
+    人気上位100個を返す。
+    """
+    logger = getLogger("uvicorn")
+
+    # DB
+    cur = con.cursor()
+
+    return "<br />".join(
+        [
+            f"{value} {key}"
+            for key, value in dict(
+                cur.execute(
+                    "SELECT code, count FROM favs ORDER BY count DESC LIMIT 100",
+                )
+            ).items()
+        ]
+    )
+    # /DB
+
+
 if __name__ == "__main__":
     uvicorn.run(
         app,

@@ -1,6 +1,6 @@
 <script>
     import { createEventDispatcher,onMount } from 'svelte';
-    import { directory, marks } from "../directory.js";
+    import { directory, marks, votes } from "../directory.js";
 	const dispatch = createEventDispatcher();
 
     export let prefix;
@@ -47,12 +47,17 @@
 <button 
     bind:this={directory[id]} 
     on:click={buttonPressed} 
-    style="background-color: {bgcolor}; color: {color};">
+    style="background-color: {bgcolor}; color: {color}; box-shadow: 1px 3px 5px 0px rgba(0,0,0,{$votes[id]});">
     {twodigit}
 </button>
 
 <style>
     button:disabled{
         border: 0;
+    }
+    button {
+        padding: 6px;
+        margin: 3px;
+        box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.2);
     }
 </style>

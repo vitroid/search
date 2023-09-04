@@ -24,7 +24,8 @@ export function generateId (len) {
 
 
 // API access 
-const BASEURL = 'http://127.0.0.1:8090';
+// const BASEURL = 'http://127.0.0.1:8090';
+const BASEURL = 'http://www.chem.okayama-u.ac.jp:8090';
 
 // key: 講演番号 value: 投票数
 export const votes = writable({})
@@ -48,7 +49,7 @@ export async function vote() {
       id: get(id),
       favs: marked,
   })
-  const res = await fetch(BASEURL+'/vote', {
+  fetch(BASEURL+'/vote', {
       method: "POST",
       headers: {
           'Content-Type': 'application/json'
@@ -56,8 +57,8 @@ export async function vote() {
       body: body_
   }).then(response=>{if (!response.ok) {
     console.error('response.ok:', response.ok);
-    console.error('esponse.status:', response.status);
-    console.error('esponse.statusText:', response.statusText);
+    console.error('response.status:', response.status);
+    console.error('response.statusText:', response.statusText);
     throw new Error(response.statusText);
   }}).catch(error => {
     // ネットワークエラーでも !response.ok でもここで処理できる
@@ -81,11 +82,18 @@ export async function topvotes(num) {
       console.error('response.statusText:', response.statusText);
       throw new Error(response.statusText);
     }
-    let result = response.json()
-    if ( result != "" ){
-      votes.set(result)
-      // console.log(result)
-    }
+
+    return response.json()
+  }).then(result=>{
+    let counts = JSON.parse(result)
+    const max = Math.max(...Object.values(counts))
+    // console.log(Object.values(counts))
+
+    let full = {}
+    Object.keys(directory).forEach(k=>{full[k] = 0})
+    Object.keys(counts).forEach(k=>{full[k] = counts[k] / max})
+    // console.log(full)
+    votes.set(full)
   }).catch(error => {
     // ネットワークエラーでも !response.ok でもここで処理できる
     console.error('Error occurs', error);
