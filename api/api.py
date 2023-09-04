@@ -1,15 +1,13 @@
-# from logging import getLogger, DEBUG, basicConfig
-import hashlib
 import json
 import sqlite3
 import time
-from collections import defaultdict
 from logging import getLogger
 import re
 import uvicorn
 from fastapi import Depends, FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from fastapi.responses import HTMLResponse
 
 con = sqlite3.connect("fav.db")
 # hardcoded
@@ -185,7 +183,7 @@ async def watch():
     # DB
     cur = con.cursor()
 
-    return "<br />".join(
+    html_content = "<br />".join(
         [
             f"{value} {key}"
             for key, value in dict(
@@ -195,6 +193,7 @@ async def watch():
             ).items()
         ]
     )
+    HTMLResponse(content=html_content, status_code=200)
     # /DB
 
 
