@@ -132,7 +132,6 @@ async def vote(v: Vote):
     """
     logger = getLogger("uvicorn")
 
-    logger.info("0")
     if not valid(v.id):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -164,7 +163,6 @@ async def vote(v: Vote):
     favs_add(cur, diff)
 
     con.commit()
-    logger.info("commited")
     # return query_ranking(id, 100)
 
 
