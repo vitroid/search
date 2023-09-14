@@ -77,16 +77,15 @@ def votes_delete_expired(cur, expiry: int):
     """Votes DBの、古いレコードを見付けて消す。"""
     logger = getLogger("uvicorn")
 
-    ids = []
     for id, favs in cur.execute(
         "SELECT id, favs FROM votes WHERE timestamp < :expiry",
         {"expiry": expiry},
     ):
         logger.info(f"expire: {id}")
-        ids.append(id)
+        cur.execute("DELETE FROM votes WHERE id = :id", {"id": id})
         yield to_dict(favs)
-    res = cur.execute("DELETE FROM votes WHERE id IN (:ids)", {"ids": ",".join(ids)})
-    logger.info(res)
+    # この書き方は動かないらしい。
+    # cur.execute("DELETE FROM votes WHERE id IN (:ids)", {"ids": ",".join(ids)})
 
 
 def votes_impatient(cur, id):
