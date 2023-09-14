@@ -165,7 +165,7 @@ async def vote(v: Vote):
     favs_add(cur, diff)
 
     con.commit()
-
+    logger.info("commited")
     # return query_ranking(id, 100)
 
 
