@@ -7,9 +7,16 @@
     let _this;
     let status
 
+    let lastvote = 0
+
     marks.subscribe(m=>{
-        vote()
-        topvotes(100)
+        //最初に大量に送信してしまう。よろしくない。もっと緩く。最大でも一秒1回にする。
+        if ( lastvote + 1000 < Date.now() ){
+            vote()
+            topvotes(100)
+            lastvote = Date.now()
+            // console.log(lastvote)
+        }
         status = m[id]
         if (status){
             // directoryにはスケジュール表の要素が設定されている。

@@ -18,6 +18,7 @@ app = FastAPI()
 
 origins = [
     "*",
+    "http://127.0.0.1",
     "http://153.120.1.15",
     "http://www.chem.okayama-u.ac.jp",
 ]
@@ -84,7 +85,21 @@ def votes_delete_expired(cur, expiry: int):
         logger.info(f"expire: {id}")
         ids.append(id)
         yield to_dict(favs)
-    cur.execute("DELETE FROM votes WHERE id IN (:ids)", {"ids": ",".join(ids)})
+    res = cur.execute("DELETE FROM votes WHERE id IN (:ids)", {"ids": ",".join(ids)})
+    logger.info(res)
+
+
+def votes_impatient(cur, id):
+    """最後の投票から1秒以内かどうかを判定する。"""
+    logger = getLogger("uvicorn")
+
+    for row in cur.execute(
+        "SELECT id, timestamp FROM votes WHERE id = :id",
+        {"id": id},
+    ):
+        _, ts = row
+        return time.time() < float(ts) + 1
+    return False
 
 
 def favs_add(cur, counts: dict):
@@ -129,6 +144,13 @@ async def vote(v: Vote):
     # DB
     cur = con.cursor()
 
+    if votes_impatient(cur, v.id):
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Busy",
+            # headers={"WWW-Authenticate": "Basic"},
+        )
+
     favs_new = to_dict(v.favs)
     logger.info(f"new vote: {v.id} {v.favs}")
     # すでに登録があるIDなら、まずそちらを読みこんでfavs tableから減算する
@@ -143,6 +165,8 @@ async def vote(v: Vote):
     favs_add(cur, diff)
 
     con.commit()
+
+    # return query_ranking(id, 100)
 
 
 @app.get("/top/{id}/{num}")
@@ -161,6 +185,13 @@ async def query_ranking(id: str, num: int):
 
     # DB
     cur = con.cursor()
+
+    # if votes_impatient(cur, id):
+    #     raise HTTPException(
+    #         status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+    #         detail="Busy",
+    #         # headers={"WWW-Authenticate": "Basic"},
+    #     )
 
     return json.dumps(
         dict(
