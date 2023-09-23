@@ -137,7 +137,7 @@
             {bin:[,,20],   id: "2Fc-05", label:"05"},
             {bin:[,,20],   id: "2Fc-06", label:"06"},
             {bin:[,,20],   id: "2Fc-07", label:"07"},
-            {bin:[,,20],   id: "2Fc-08", label:"08"},
+            // {bin:[,,20],   id: "2Fc-08", label:"08"},
         ],
     ]
 
@@ -259,11 +259,12 @@
         ],
         [
             {bin:[15,0,40], id:"", label:""},
+            {bin:[,,20],   id: "2Fc-08", label:"08"},
             {bin:[,,20],    id:"2Fc-09", label:"09"},
             {bin:[,,20],    id:"2Fc-10", label:"10"},
             {bin:[,,20],    id:"2Fc-11", label:"11"},
-            {bin:[,,20],    id:"2Fc-12", label:"12"},
             {bin:[,,10],    id:"", label:""},
+            {bin:[,,20],    id:"2Fc-12", label:"12"},
             {bin:[,,20],    id:"2Fc-13", label:"13"},
             {bin:[,,20],    id:"2Fc-14", label:"14"},
             {bin:[,,20],    id:"2Fc-15", label:"15"},
