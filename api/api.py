@@ -1,7 +1,7 @@
 import json
 import sqlite3
 import time
-from logging import getLogger
+from logging import getLogger, basicConfig, INFO, DEBUG
 import re
 import uvicorn
 from fastapi import Depends, FastAPI, HTTPException, status
@@ -226,6 +226,14 @@ async def watch():
 
 
 if __name__ == "__main__":
+    basicConfig(level=DEBUG)
+    log_config = uvicorn.config.LOGGING_CONFIG
+    log_config["formatters"]["access"][
+        "fmt"
+    ] = "%(asctime)s - %(levelname)s - %(message)s"
+    log_config["formatters"]["default"][
+        "fmt"
+    ] = "%(asctime)s - %(levelname)s - %(message)s"
     uvicorn.run(
         app,
         host="0.0.0.0",
