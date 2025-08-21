@@ -36,12 +36,12 @@
         link = ""; //for zoom link
         snippet = ""
         s = ""
-        pre = data[rec].pre
-        lab = data[rec].lab
-        index = data[rec].con
+        pre = data[rec].toc
+        lab = data[rec].label
+        index = data[rec].content
 
         // preformatted html cannot be rendered in svelte.
-        let titles = data[rec].inf
+        let titles = data[rec].title
         au = []
         for(let i=0; i<titles.length; i+=2){
             au.push([titles[i], titles[i+1]])

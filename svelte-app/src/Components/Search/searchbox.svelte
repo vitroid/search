@@ -49,7 +49,7 @@
         var start = new Date().getTime();
         var result = [];
         for(var i=0;i<data.length;i++){
-            var s = data[i].con;
+            var s = data[i].content;
             reg.lastIndex = 0; // because reg remembers the last place
             var res = reg.exec(s);
             if(!res){continue}
