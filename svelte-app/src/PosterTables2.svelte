@@ -19,11 +19,10 @@
 
 <PosterTable title={""}
     sessions={[
-        {prefix:"3PA-", items:array(1,93)},
-        {prefix:"3PB-", items:array(1,11)},
-        {prefix:"3PC-", items:array(1,15)},
-        {prefix:"3PD-", items:array(1,13)},
-        {prefix:"3PE-", items:array(1,11)},
-        {prefix:"3PF-", items:array(1,40)},
+        {prefix:"3PA-", items:array(1,110)},
+        {prefix:"3PB-", items:array(1,12)},
+        {prefix:"3PC-", items:array(1,18)},
+        {prefix:"3PE-", items:array(1,9)},
+        {prefix:"3PF-", items:array(1,46)},
     ]}
     on:search />

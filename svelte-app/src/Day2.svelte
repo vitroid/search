@@ -123,7 +123,7 @@
         flex-wrap: wrap;
         margin: 5px;
     }
-    .button {
+    /* .button {
         border-radius: 5px 5px 5px;
         border: 1px solid #ccc;
         font-size: 90%;
@@ -133,7 +133,6 @@
         background-color: white;
         text-decoration: none;
         margin-right: 3px;
-        /* line-height: 150%; */
-    }
+    } */
 
 </style>

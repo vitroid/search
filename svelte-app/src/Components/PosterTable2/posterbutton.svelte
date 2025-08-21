@@ -25,9 +25,8 @@
 
     $: {
         twodigit = item
-        if (twodigit < 10){
-            twodigit = "0"+twodigit
-        }
+        // 3桁で0埋め。もっとスマートな方法は?
+        twodigit = twodigit.toString().padStart(3, '0');
         id=prefix + twodigit;
     }
 

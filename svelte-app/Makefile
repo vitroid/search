@@ -4,12 +4,12 @@ dev:
 build:
 	npm run build
 
-test-deploy-chem: public/build/bundle.js
-	rsync -av ../build/chem-access/ reg@www.chem.okayama-u.ac.jp:.reg/
-	rsync -av ../build/chem/.htaccess reg@www.chem.okayama-u.ac.jp:Sites/test74/pdf
-	rsync -av public/ reg@www.chem.okayama-u.ac.jp:Sites/test74
+HOST=ubuntu@sakutai.net
+test-deploy: public/build/bundle.js build ../server.py
+	rsync -av public/ $(HOST):test75
+	rsync -av ../server.py $(HOST):
 
-deploy-chem: public/build/bundle.js
-	rsync -av ../build/chem-access/ reg@www.chem.okayama-u.ac.jp:.reg/
-	rsync -av ../build/chem/.htaccess reg@www.chem.okayama-u.ac.jp:Sites/jscc74/pdf
-	rsync -av public/ reg@www.chem.okayama-u.ac.jp:Sites/jscc74
+# deploy: public/build/bundle.js
+# 	rsync -av ../build/chem-access/ $(HOST):.reg/
+# 	rsync -av ../build/chem/.htaccess $(HOST):Sites/jscc75/pdf
+# 	rsync -av public/ $(HOST):Sites/jscc75

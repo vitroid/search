@@ -4,3 +4,4 @@ Pipfile.lock
 build/chem-access/jscc73.htdigest
 api/fav.db
 svelte-app/yarn.lock
+svelte-app/src/index.js

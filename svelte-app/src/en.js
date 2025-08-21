@@ -1,5 +1,5 @@
 export const en = {
-  // JSCC23
+  // JSCC74
   day1: "Sept. 18 Wed.",
   day2: "Sept. 19 Thu.",
   day3: "Sept. 20 Fri.",
