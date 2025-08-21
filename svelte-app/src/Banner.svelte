@@ -2,7 +2,7 @@
     import { _ } from 'svelte-i18n';
     import LocaleSelector from './Components/localeselector.svelte';
 
-    let conf_url = "https://sites.google.com/g.ibaraki.ac.jp/sakuto73"
+    let conf_url = "https://www1.gifu-u.ac.jp/~sakuto74/"
 
 </script>
 
