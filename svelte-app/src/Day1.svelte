@@ -165,6 +165,21 @@
         ],
     ]
 
+
+    const noon_shortcuts = [
+        ["LS", "^1LS", "G-38", "LS"],
+    ]
+
+
+    const day1noon = [
+        [
+            {bin:[12,0,60], id: "", label:"12:00"},
+        ],
+        [
+            {bin:[12,0,50], id: "1LS", label:"LS"},
+        ],
+    ]
+
     const pm_shortcuts = [
         ["1Aa", "^1Aa-", "141番", ""],
         ["1Ab", "^1Ab-", "C-16", ""],
@@ -338,7 +353,7 @@
     <h1>
         {$_("Oral sessions")}
     </h1>
-    <h2>{$_("venue")} <a class="button" href="pdf/venue1.pdf">{$_("layout")}</a></h2>
+    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
     <div class="container">
     <AsyncTable 
         title={$_("Morning sessions")}
@@ -348,6 +363,19 @@
         on:search>
         <td>Time</td>
         {#each am_shortcuts as shortcut}
+        <td>
+            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+        </td>
+        {/each}
+    </AsyncTable>
+    <AsyncTable 
+        title={$_("Luncheon Seminar")}
+        table={day1noon}
+        available={all_talks}
+        startminute={12*60+0}
+        on:search>
+        <td>Time</td>
+        {#each noon_shortcuts as shortcut}
         <td>
             <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
         </td>
@@ -390,7 +418,7 @@
     <h1>
         {$_("Poster sessions")}
     </h1>
-    <h2>{$_("venue")} <a class="button" href="pdf/venue1.pdf">{$_("layout")}</a></h2>
+    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
     <PosterTables 
         on:search/>
 </div>

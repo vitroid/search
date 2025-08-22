@@ -9,8 +9,16 @@
 
 </script>
 
-<!-- <div class="textbox">
-    <h2>{$_("Program book")}</h2>
+<div class="textbox">
+    <h2>{$_("Announcements")}</h2>
+    <ul>
+        <li>
+            9月14日(前日)に<a href="https://www.cms.nagasaki-u.ac.jp/sakuto75/events.html#event3">市民公開講座「サクタイってなに　―どこで役に立ってるの―」</a>があります。
+        </li>
+    </ul>
+</div>
+
+<!--    <h2>{$_("Program book")}</h2>
     <ul>
         <li>
             <a href={program_book}>{$_("Program book")} (Sep. 3, 20 MBytes)</a>

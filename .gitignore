@@ -6,3 +6,5 @@ api/fav.db
 svelte-app/yarn.lock
 svelte-app/src/index.js
 package-lock.json
+svelte-app/public/static/
+svelte-app/src/ads.js

@@ -1,17 +1,17 @@
 <script lang="ts">
-    import { ads } from './ads.js';
+    import { data } from './ads.js';
 </script>
 
 <div class="wrap">
     <div class="container">
-        {#each ads as ad, i}
+        {#each data as ad, i}
         <div class="panel">
             <div class="pair">
                 <a href={ad.pdf} target="_blank" ><img src={ad.tn} alt={ad.tn} /></a>
             </div>
             <div class="pair">
-                {#each ad.sp as sp}
-                <a href={sp.url} target="_blank">{sp.name}</a><br />
+                {#each ad.title as title}
+                <a href={title.url} target="_blank">{title.name}</a><br />
                 {/each}
             </div>
         </div>

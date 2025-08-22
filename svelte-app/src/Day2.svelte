@@ -5,7 +5,13 @@
     import {all_talks} from "./all_talks.js"
 
 
-    let rooms = ["",""]
+    const day2_shortcuts = [
+        ["Aw", "^Aw-", "中部講堂", ""],
+        ["2HC", "^2HC", "A-12", ""],
+        ["2HC", "^2HC", "A-13", ""],
+        ["2HC", "^2HC", "A-22", ""],
+        ["2HC", "^2HC", "A-24", ""],
+    ]
     
     let day2 = [
         [
@@ -20,22 +26,25 @@
             {bin:[17,0,60],  id:"", label:"17:00"},
         ],   
         [
-            {bin:[9,0,60],   id:"Aw-01", label:$_("JSCC Award")},
-            {bin:[,,5],      id:"", label:""},
-            {bin:[,,60],     id:"Aw-02", label:$_("JSCC International Award")},
-            {bin:[,,5],      id:"", label:""},
-            {bin:[,,45],     id:"Aw-03", label:$_("JSCC Award for Creative Work")},
-            // {bin:[,,125],     id:"", label:""},
-            {bin:[14,0,60],  id:"Aw-04", label:$_("JSCC Contribution Award")},
-            {bin:[,,5],      id:"", label:""},
-            {bin:[,,60],     id:"Aw-05", label:$_("JSCC Contribution Award")},
-            {bin:[,,5],      id:"", label:""},
-            {bin:[,,30],     id:"Aw-06", label:$_("JSCC International Award for Creative Work")},
-            {bin:[,,5],      id:"", label:""},
-            {bin:[16,50,70], id:"", label:$_("JSCC General Meeting")},
+            {bin:[9,0,60],   id:"Aw-01", label:$_("JSCC International Award")},
+            {bin:[10,5,30],  id:"Aw-02", label:$_("JSCC International Award for Creative Work")},
+            {bin:[10,40,30], id:"Aw-03", label:$_("JSCC Award for Creative Work")},
+            {bin:[11,15,30], id:"Aw-04", label:$_("JSCC Award for Creative Work")},
+            {bin:[13,45,60], id:"Aw-05", label:$_("JSCC Award")},
+            {bin:[14,50,60], id:"Aw-06", label:$_("JSCC Contribution Award")},
+            {bin:[16,0,90], id:"", label:$_("JSCC General Meeting")},
         ],
         [
-            {bin:[16,50,90], id:"hc-1", label:$_("Homecoming Day")},
+            {bin:[16,0,90], id:"2HC", label:$_("Homecoming Day")},
+        ],
+        [
+            {bin:[16,0,90], id:"2HC", label:$_("Homecoming Day")},
+        ],
+        [
+            {bin:[16,0,90], id:"2HC", label:$_("Homecoming Day")},
+        ],
+        [
+            {bin:[16,0,90], id:"2HC", label:$_("Homecoming Day")},
         ]
     ]
 
@@ -46,8 +55,7 @@
             {bin:[20,0,60],  id:"", label:"20:00"},
         ],   
         [
-            {bin:[18,0,30],   id:"", label:""},
-            {bin:[,,120],   id:"", label:$_("Banquet")},
+            {bin:[18,30,120],   id:"", label:$_("Banquet")},
         ],
     ]
 
@@ -57,23 +65,30 @@
     <h1>
         {$_("Award lectures")}
     </h1>
+    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
+
     <div class="container">
     <AsyncTable
         table={day2} 
         title=""
         available={all_talks}
         startminute={9*60+0}
-        date={"2023-09-23"}
+        date={"2025-09-16"}
         on:search>
         <td>Time</td>
+        {#each day2_shortcuts as shortcut}
         <td>
+            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+        </td>
+        {/each}
+        <!-- <td>
             <ShortCut label={$_("Award lectures")} query={"^Aw-"} on:search /><br />
             {$_("awardvenue")}
         </td>
         <td>
             <br />
             {$_("hcvenue")}
-        </td>
+        </td> -->
     </AsyncTable>
     <!-- <h2>{$_("banquetvenue")}</h2> -->
     <AsyncTable 
@@ -123,7 +138,7 @@
         flex-wrap: wrap;
         margin: 5px;
     }
-    /* .button {
+    .button {
         border-radius: 5px 5px 5px;
         border: 1px solid #ccc;
         font-size: 90%;
@@ -133,6 +148,6 @@
         background-color: white;
         text-decoration: none;
         margin-right: 3px;
-    } */
+    }
 
 </style>

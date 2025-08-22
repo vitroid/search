@@ -13,19 +13,26 @@
 
         table=[
             [t("Date"), t("Time"), t("Event"), t("Access")],
-            [t("day1"), "9:00-11:30", t("Morning sessions"), venue],
-            [t("day1"), "12:50-14:50", t("Poster sessions"), venue],
 
-            [t("day2"), "9:00-11:55", t("Award lectures"), awardvenue],
-            [t("day2"), "14:00-16:40", t("Award lectures"), awardvenue],
-            [t("day2"), "16:50-18:15", t("JSCC General Meeting"), awardvenue],
-            [t("day2"), "16:50-18:20", t("Homecoming Day"), hcvenue],
-            [t("day2"), "18:30-20:30", t("Banquet"), banquetvenue],
+            [t("day0"), "15:00-17:30", t("Public lectures"), venue],
 
-            [t("day3"), "9:00-11:30", t("Morning sessions"), venue],
-            [t("day3"), "11:40-12:50", t("Luncheon seminars"), luncheonvenue],
-            [t("day3"), "12:55-14:55", t("Poster sessions"), venue],
-            [t("day3"), "15:40-18:10", t("Afternoon sessions"), venue],
+            [t("day1"), "9:00-11:50", t("Morning sessions"), venue],
+            [t("day1"), "12:00-12:50", t("Luncheon seminars"), venue], //luncheonvenue],
+            [t("day1"), "13:00-15:00", t("Poster sessions"), venue],
+            [t("day1"), "15:10-16:10", t("Afternoon sessions"), venue],
+            [t("day1"), "16:20-19:30", t("Symposia"), venue],
+
+            [t("day2"), "9:00-11:45", t("Award lectures"), awardvenue], // old
+            [t("day2"), "13:45-15:50", t("Award lectures"), awardvenue], // old
+            [t("day2"), "16:00-17:30", t("JSCC General Meeting"), awardvenue], // old
+
+            [t("day2"), "16:00-17:30", t("Homecoming Day"), hcvenue],
+
+            [t("day2"), "18:30-20:30", t("Banquet"), banquetvenue], //old
+
+            [t("day3"), "9:00-11:50", t("Morning sessions"), venue],
+            [t("day3"), "12:50-14:50", t("Poster sessions"), venue],
+            [t("day3"), "15:00-16:00", t("Afternoon sessions"), venue],
         ];
     })
 
