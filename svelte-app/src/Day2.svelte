@@ -3,14 +3,15 @@
     import AsyncTable from "./Components/TimeTable/asynctable.svelte";
     import ShortCut from "./Components/shortcut.svelte";
     import {all_talks} from "./all_talks.js"
+    import LocationButton from "./locationbutton.svelte";
 
 
     const day2_shortcuts = [
-        ["Aw", "^Aw-", "中部講堂", ""],
-        ["2HC", "^2HC", "A-12", ""],
-        ["2HC", "^2HC", "A-13", ""],
-        ["2HC", "^2HC", "A-22", ""],
-        ["2HC", "^2HC", "A-24", ""],
+        ["Aw", "^Aw-", "中部講堂", "", "H"],
+        ["2HC", "^2HC", "A-12", "1F", "A"],
+        ["2HC", "^2HC", "A-13", "1F", "A"],
+        ["2HC", "^2HC", "A-22", "2F", "A"],
+        ["2HC", "^2HC", "A-24", "2F", "A"],
     ]
     
     let day2 = [
@@ -63,7 +64,7 @@
 
 <div class="panel">
     <h1>
-        {$_("Award lectures")}
+        {$_("Award lectures")} | {$_("Homecoming Day")} | {$_("Banquet")}
     </h1>
     <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
 
@@ -78,7 +79,9 @@
         <td>Time</td>
         {#each day2_shortcuts as shortcut}
         <td>
-            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />
+            {shortcut[2]}<br />
+            <LocationButton label={shortcut[4]} />{shortcut[3]}
         </td>
         {/each}
         <!-- <td>

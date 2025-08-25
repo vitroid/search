@@ -4,24 +4,26 @@
     import AsyncTable from "./Components/TimeTable/asynctable.svelte";
     import PosterTables from "./PosterTables.svelte";
     import ShortCut from "./Components/shortcut.svelte";
+    import LocationButton from "./locationbutton.svelte";
     import {all_talks} from "./all_talks.js"
     let sessions=["Time", "1Aa", "1Ab", "1Ac", "1Ad", "1B","1C", "1Da", "1Db", "1Fa", "1Fb", "1Fc","1Fd",]
     // let bins_am = ["9:00", "9:20", "9:40", "10:00", "10:20", "10:30", "10:50", "11:10", "11:30"]
     // let slots_am = ["1", "2", "3", "4", "", "5", "6", "7", "8"]
 
+    // btnCはbdgC_urlへのリンクの丸型ボタン。背景色はHSB(240,1,0.8)、文字"C"は白抜き太字で。
     const am_shortcuts = [
-        ["1Aa", "^1Aa-", "141番", ""],
-        ["1Ab", "^1Ab-", "C-16", ""],
-        ["1Ac", "^1Ac-", "A-12", ""],
-        ["1Ad", "^1Ad-", "A-13", ""],
-        ["1B", "^1B-", "A-32", ""],
-        ["1C", "^1C-", "A-33", ""],
-        ["1Da", "^1Da-", "A-41", ""],
-        ["1Db", "^1Db-", "A-43", ""],
-        ["1Fa", "^1Fa-", "A-21", ""],
-        ["1Fb", "^1Fb-", "A-22", ""],
-        ["1Fc", "^1Fc-", "A-24", ""],
-        ["1Fd", "^1Fd-", "A-31", ""],
+        ["1Aa", "^1Aa-", "141", "1F", "C"],
+        ["1Ab", "^1Ab-", "C-16", "1F", "C"],
+        ["1Ac", "^1Ac-", "A-12", "1F", "A"],
+        ["1Ad", "^1Ad-", "A-13", "1F", "A"],
+        ["1B", "^1B-", "A-32", "3F", "A"],
+        ["1C", "^1C-", "A-33", "3F", "A"],
+        ["1Da", "^1Da-", "A-41", "4F", "A"],
+        ["1Db", "^1Db-", "A-43", "4F", "A"],
+        ["1Fa", "^1Fa-", "A-21", "2F", "A"],
+        ["1Fb", "^1Fb-", "A-22", "2F", "A"],
+        ["1Fc", "^1Fc-", "A-24", "2F", "A"],
+        ["1Fd", "^1Fd-", "A-31", "3F", "A"],
     ]
 
 
@@ -167,7 +169,7 @@
 
 
     const noon_shortcuts = [
-        ["LS", "^1LS", "G-38", "LS"],
+        ["LS", "^1LS", "G-38", "3F", "G"],
     ]
 
 
@@ -181,18 +183,18 @@
     ]
 
     const pm_shortcuts = [
-        ["1Aa", "^1Aa-", "141番", ""],
-        ["1Ab", "^1Ab-", "C-16", ""],
-        ["1Ac", "^1Ac-", "A-12", ""],
-        ["1Ad", "^1Ad-", "A-13", ""],
-        ["1B", "^1B-", "A-32", ""],
-        ["1C", "^1C-", "A-33", ""],
-        ["1Da", "^1Da-", "A-41", ""],
-        ["1E", "^1E-", "A-43", ""],
-        ["1Fa", "^1Fa-", "A-21", ""],
-        ["1Fb", "^1Fb-", "A-22", ""],
-        ["1Fc", "^1Fc-", "A-24", ""],
-        ["1Fd", "^1Fd-", "A-31", ""],
+        ["1Aa", "^1Aa-", "141", "1F", "C"],
+        ["1Ab", "^1Ab-", "C-16", "1F", "C"],
+        ["1Ac", "^1Ac-", "A-12", "1F", "A"],
+        ["1Ad", "^1Ad-", "A-13", "1F", "A"],
+        ["1B", "^1B-", "A-32", "3F", "A"],
+        ["1C", "^1C-", "A-33", "3F", "A"],
+        ["1Da", "^1Da-", "A-41", "4F", "A"],
+        ["1E", "^1E-", "A-43", "4F", "A"],
+        ["1Fa", "^1Fa-", "A-21", "2F", "A"],
+        ["1Fb", "^1Fb-", "A-22", "2F", "A"],
+        ["1Fc", "^1Fc-", "A-24", "2F", "A"],
+        ["1Fd", "^1Fd-", "A-31", "3F", "A"],
     ]
 
     const day1pm = [
@@ -263,12 +265,12 @@
     ]
 
     const sy_shortcuts = [
-        ["S1", "^S1-", "A-21", ""],
-        ["S2", "^S2-", "C-16", ""],
-        ["S3", "^S3-", "141", ""],
-        ["S4", "^S4-", "A-12", ""],
-        ["S5", "^S5-", "A-13", ""],
-        ["S6", "^S6-", "A-32", ""],
+        ["S1", "^S1-", "A-21", "2F", "A"],
+        ["S2", "^S2-", "C-16", "1F", "C"],
+        ["S3", "^S3-", "141", "1F", "C"],
+        ["S4", "^S4-", "A-12", "1F", "A"],
+        ["S5", "^S5-", "A-13", "1F", "A"],
+        ["S6", "^S6-", "A-32", "3F", "A"],
     ]
 
     const symposia = [
@@ -364,7 +366,9 @@
         <td>Time</td>
         {#each am_shortcuts as shortcut}
         <td>
-            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />
+            {shortcut[2]}<br />
+            <LocationButton label={shortcut[4]} />{shortcut[3]}
         </td>
         {/each}
     </AsyncTable>
@@ -377,7 +381,9 @@
         <td>Time</td>
         {#each noon_shortcuts as shortcut}
         <td>
-            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />
+            {shortcut[2]}<br />
+            <LocationButton label={shortcut[4]} />{shortcut[3]}
         </td>
         {/each}
     </AsyncTable>
@@ -390,7 +396,9 @@
         <td>Time</td>
         {#each pm_shortcuts as shortcut}
         <td>
-            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+            <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />
+            {shortcut[2]}<br />
+            <LocationButton label={shortcut[4]} />{shortcut[3]}
         </td>
         {/each}
     </AsyncTable>
@@ -405,7 +413,9 @@
             <td>Time</td>
             {#each sy_shortcuts as shortcut}
             <td>
-                <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+                <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />
+                {shortcut[2]}<br />
+                <LocationButton label={shortcut[4]} />{shortcut[3]}
             </td>
             {/each}
         </AsyncTable>
@@ -418,7 +428,10 @@
     <h1>
         {$_("Poster sessions")}
     </h1>
+    <div class="hbox">
     <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
+    <p><LocationButton label="S" />2F, 3F</p>
+</div>
     <PosterTables 
         on:search/>
 </div>
@@ -473,6 +486,12 @@
     .vbox { /* only for vbox in container */
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hbox { /* only for vbox in container */
+        display: flex;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }

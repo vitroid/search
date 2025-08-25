@@ -5,30 +5,30 @@
     import PosterTables2 from "./PosterTables2.svelte";
     import ShortCut from "./Components/shortcut.svelte";
     import {all_talks} from "./all_talks.js"
-
+    import LocationButton from "./locationbutton.svelte";
 
     const am_shortcuts = [
-        ["3Aa", "^3Aa-", "141番", ""],
-        ["3Ab", "^3Ab-", "C-16", ""],
-        ["3Ac", "^3Ac-", "A-12", ""],
-        ["3Ad", "^3Ad-", "A-13", ""],
-        ["3B",  "^3B-",  "A-32", ""],
-        ["3C",  "^3C-",  "A-33", ""],
-        ["3Da",  "^3Da-",  "A-41", ""],
-        ["3E",  "^3E-",  "A-43", ""],
-        ["3Fa", "^3Fa-", "A-21", ""],
-        ["3Fb", "^3Fb-", "A-22", ""],
-        ["3Fc", "^3Fc-", "A-24", ""],
-        ["3Fc", "^3Fc-", "A-31", ""],
+        ["3Aa", "^3Aa-", "141", "1F", "C"],
+        ["3Ab", "^3Ab-", "C-16", "1F", "C"],
+        ["3Ac", "^3Ac-", "A-12", "1F", "A"],
+        ["3Ad", "^3Ad-", "A-13", "1F", "A"],
+        ["3B",  "^3B-",  "A-32", "3F", "A"],
+        ["3C",  "^3C-",  "A-33", "3F", "A"],
+        ["3Da",  "^3Da-",  "A-41", "4F", "A"],
+        ["3E",  "^3E-",  "A-43", "4F", "A"],
+        ["3Fa", "^3Fa-", "A-21", "2F", "A"],
+        ["3Fb", "^3Fb-", "A-22", "2F", "A"],
+        ["3Fc", "^3Fc-", "A-24", "2F", "A"],
+        ["3Fc", "^3Fc-", "A-31", "3F", "A"],
 ]
 
 const pm_shortcuts = [
-        ["3B", "^3B-", "A-32", ""],
-        ["3C",  "^3C-",  "A-33", ""],
-        ["3Fa",  "^3Fa-",  "A-21", ""],
-        ["3Fb",  "^3Fb-",  "A-22", ""],
-        ["3Fc", "^3Fc-", "A-24", ""],
-        ["3Fd", "^3Fd-", "A-31", ""],
+        ["3B", "^3B-", "A-32", "3F", "A"],
+        ["3C",  "^3C-",  "A-33", "3F", "A"],
+        ["3Fa",  "^3Fa-",  "A-21", "2F", "A"],
+        ["3Fb",  "^3Fb-",  "A-22", "2F", "A"],
+        ["3Fc", "^3Fc-", "A-24", "2F", "A"],
+        ["3Fd", "^3Fd-", "A-31", "3F", "A"],
 ]
 
 const day3am = [
@@ -226,7 +226,7 @@ const day3am = [
     <h1>
         {$_("Oral sessions")}
     </h1>
-    <h2>{$_("venue")} <a class="button" href="pdf/venue1.pdf">{$_("layout")}</a></h2>
+    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
     <div class="container">
         <AsyncTable 
             table={day3am} 
@@ -237,7 +237,9 @@ const day3am = [
             <td>Time</td>
             {#each am_shortcuts as shortcut}
             <td>
-                <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+                <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />
+                {shortcut[2]}<br />
+                <LocationButton label={shortcut[4]} />{shortcut[3]}
             </td>
             {/each}
             </AsyncTable>
@@ -250,7 +252,9 @@ const day3am = [
             <td>Time</td>
             {#each pm_shortcuts as shortcut}
             <td>
-                <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />{shortcut[2]}<br />{shortcut[3]}
+                <ShortCut label={shortcut[0]} query={shortcut[1]} on:search /><br />
+                {shortcut[2]}<br />
+                <LocationButton label={shortcut[4]} />{shortcut[3]}
             </td>
             {/each}
         </AsyncTable>
@@ -261,7 +265,10 @@ const day3am = [
     <h1>
         {$_("Poster sessions")}
     </h1>
-    <h2>{$_("venue")} <a class="button" href="pdf/venue1.pdf">{$_("layout")}</a></h2>
+    <div class="hbox">
+    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
+    <p><LocationButton label="S" />2F, 3F</p>
+    </div>
     <PosterTables2 
         on:search />
 </div>
@@ -312,6 +319,12 @@ const day3am = [
         text-decoration: none;
         margin-right: 3px;
         /* line-height: 150%; */
+    }
+    .hbox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
 </style>

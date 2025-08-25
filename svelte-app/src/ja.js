@@ -60,4 +60,9 @@ export const ja = {
   "Opening Remark": "開会",
   "Closing Remark": "閉会",
   Explanation: "解説",
+  bdgA_url: "https://maps.app.goo.gl/hU6dx8X724naTUQi7",
+  bdgC_url: "https://maps.app.goo.gl/8p6kQfxsqjdCSkqN7",
+  bdgG_url: "https://maps.app.goo.gl/XxdzVXxPH5DjiXzT9",
+  bdgS_url: "https://maps.app.goo.gl/Htaxx2FNphBo3YSV8",
+  hall_url: "https://maps.app.goo.gl/arXATLsKSpUcch11A",
 };
