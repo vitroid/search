@@ -1,5 +1,6 @@
 <script lang="ts">
     import { _ } from 'svelte-i18n';
+    import LocationButton from './locationbutton.svelte';
 
     let abstract_book =       $_("abstract_book_url")
     // let abstract_book_light = "https://www.dropbox.com/scl/fi/msur441jgze37f3hygkw2/AbstractBook0915_light.pdf?rlkey=bzcftf0mjydejhn5o0dk8u3bm&dl=0"
@@ -13,7 +14,7 @@
     <h2>{$_("Announcements")}</h2>
     <ul>
         <li>
-            9月14日(前日)に<a href="https://www.cms.nagasaki-u.ac.jp/sakuto75/events.html#event3">市民公開講座「サクタイってなに　―どこで役に立ってるの―」</a>があります。
+            9月14日(前日)に<a href="https://www.cms.nagasaki-u.ac.jp/sakuto75/events.html#event3">市民公開講座「サクタイってなに　―どこで役に立ってるの―」</a>があります。(会場: 中部講堂<LocationButton label="H" />)
         </li>
     </ul>
 </div>

@@ -355,7 +355,7 @@
     <h1>
         {$_("Oral sessions")}
     </h1>
-    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
+    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("Map")}</a></h2>
     <div class="container">
     <AsyncTable 
         title={$_("Morning sessions")}
@@ -429,8 +429,8 @@
         {$_("Poster sessions")}
     </h1>
     <div class="hbox">
-    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
-    <p><LocationButton label="S" />2F, 3F</p>
+    <h2>{$_("venue")} <a class="button" href={$_("postervenue_url")}>{$_("Layout")}</a></h2>
+    <p><LocationButton label="P" />2F, 3F</p>
 </div>
     <PosterTables 
         on:search/>

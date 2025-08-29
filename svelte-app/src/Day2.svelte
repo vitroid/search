@@ -8,10 +8,7 @@
 
     const day2_shortcuts = [
         ["Aw", "^Aw-", "中部講堂", "", "H"],
-        ["2HC", "^2HC", "A-12", "1F", "A"],
-        ["2HC", "^2HC", "A-13", "1F", "A"],
-        ["2HC", "^2HC", "A-22", "2F", "A"],
-        ["2HC", "^2HC", "A-24", "2F", "A"],
+        ["2HC", "^2HC", "A-12, A-13,A-22,A-24", "1F, 2F", "A"],
     ]
     
     let day2 = [
@@ -27,26 +24,17 @@
             {bin:[17,0,60],  id:"", label:"17:00"},
         ],   
         [
-            {bin:[9,0,60],   id:"Aw-01", label:$_("JSCC International Award")},
-            {bin:[10,5,30],  id:"Aw-02", label:$_("JSCC International Award for Creative Work")},
-            {bin:[10,40,30], id:"Aw-03", label:$_("JSCC Award for Creative Work")},
-            {bin:[11,15,30], id:"Aw-04", label:$_("JSCC Award for Creative Work")},
-            {bin:[13,45,60], id:"Aw-05", label:$_("JSCC Award")},
-            {bin:[14,50,60], id:"Aw-06", label:$_("JSCC Contribution Award")},
+            {bin:[9,0,60],   id:"Aw-01", label:$_("JSCC International Award")}, // 国際賞
+            {bin:[10,5,30],  id:"Aw-02", label:$_("JSCC International Award for Creative Work")}, // 国際奨励賞
+            {bin:[10,40,30], id:"Aw-03", label:$_("JSCC Research Encouragement Award")}, // 研究奨励賞
+            {bin:[11,15,30], id:"Aw-04", label:$_("JSCC Research Encouragement Award")}, // 研究奨励賞
+            {bin:[13,45,60], id:"Aw-05", label:$_("JSCC Award")}, // 学会賞
+            {bin:[14,50,60], id:"Aw-06", label:$_("JSCC Contribution Award")}, // 貢献賞
             {bin:[16,0,90], id:"", label:$_("JSCC General Meeting")},
         ],
         [
             {bin:[16,0,90], id:"2HC", label:$_("Homecoming Day")},
-        ],
-        [
-            {bin:[16,0,90], id:"2HC", label:$_("Homecoming Day")},
-        ],
-        [
-            {bin:[16,0,90], id:"2HC", label:$_("Homecoming Day")},
-        ],
-        [
-            {bin:[16,0,90], id:"2HC", label:$_("Homecoming Day")},
-        ]
+                ]
     ]
 
     let banquet = [
@@ -66,7 +54,7 @@
     <h1>
         {$_("Award lectures")} | {$_("Homecoming Day")} | {$_("Banquet")}
     </h1>
-    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("layout")}</a></h2>
+    <h2>{$_("venue")} <a class="button" href={$_("venue_url")}>{$_("Map")}</a></h2>
 
     <div class="container">
     <AsyncTable

@@ -1,18 +1,19 @@
 <script>
     import { _ } from 'svelte-i18n';
+    import { bdgA_url, bdgC_url, bdgG_url, bdgP_url, hall_url } from './common.js';
     export let label;
 </script>
 
 {#if label === "C"}
-<a class="buttonC" href={$_("bdgC_url")}>{label}</a>
+<a class="buttonC" href={bdgC_url}>{label}</a>
 {:else if label === "G"}
-<a class="buttonG" href={$_("bdgG_url")}>{label}</a>
-{:else if label === "S"}
-<a class="buttonS" href={$_("bdgS_url")}>{label}</a>
+<a class="buttonG" href={bdgG_url}>{label}</a>
+{:else if label === "P"}
+<a class="buttonP" href={bdgP_url}>{label}</a>
 {:else if label === "A"}
-<a class="buttonA" href={$_("bdgA_url")}>{label}</a>
+<a class="buttonA" href={bdgA_url}>{label}</a>
 {:else if label === "H"}
-<a class="buttonH" href={$_("hall_url")}>{label}</a>
+<a class="buttonH" href={hall_url}>{label}</a>
 {/if}
 
 <style>
@@ -23,7 +24,7 @@
         font-weight: bold;
         padding: 4px;
         color: white;
-        background-color: hsl(0, 100%, 80%);
+        background-color: hsl(0, 100%, 50%);
         text-decoration: none;
         margin-right: 3px;
 
@@ -35,7 +36,7 @@
         font-weight: bold;
         padding: 4px;
         color: white;
-        background-color: hsl(320, 100%, 80%);
+        background-color: hsl(320, 100%, 50%);
         text-decoration: none;
         margin-right: 3px;
     }
@@ -46,7 +47,7 @@
         font-weight: bold;
         padding: 4px;
         color: white;
-        background-color: hsl(280, 100%, 80%);
+        background-color: hsl(30, 100%, 50%);
         text-decoration: none;
         margin-right: 3px;
         /* line-height: 150%; */
@@ -58,9 +59,9 @@
         font-weight: bold;
         padding: 4px;
         color: white;
-        background-color: hsl(200, 100%, 80%);
-    }
-    .buttonS {
+        background-color: hsl(200, 100%, 50%);
+    }  
+    .buttonP {
         border-radius: 5px 5px 5px;
         border: none;
         font-size: 90%;
