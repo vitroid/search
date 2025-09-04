@@ -365,11 +365,23 @@ def initialize_database_on_startup():
         print(f"❌ データベース初期化エラー: {e}")
 
 if __name__ == "__main__":
+    import argparse
+    
+    # コマンドライン引数の解析
+    parser = argparse.ArgumentParser(description="JSCC API Server")
+    parser.add_argument("--https", action="store_true", help="HTTPS モードで起動")
+    parser.add_argument("--port", type=int, default=8090, help="ポート番号 (デフォルト: 8090)")
+    parser.add_argument("--ssl-cert", type=str, help="SSL証明書ファイルパス")
+    parser.add_argument("--ssl-key", type=str, help="SSL秘密鍵ファイルパス")
+    
+    args = parser.parse_args()
+    
     basicConfig(level=DEBUG)
     
     # データベースを初期化
     initialize_database_on_startup()
     
+    # ログ設定
     log_config = uvicorn.config.LOGGING_CONFIG
     log_config["formatters"]["access"][
         "fmt"
@@ -377,8 +389,39 @@ if __name__ == "__main__":
     log_config["formatters"]["default"][
         "fmt"
     ] = "%(asctime)s - %(levelname)s - %(message)s"
-    uvicorn.run(
-        app,
-        host="0.0.0.0",
-        port=8090,
-    )
+    
+    # HTTPS モード
+    if args.https:
+        ssl_keyfile = args.ssl_key or os.getenv('SSL_KEYFILE', 'server.key')
+        ssl_certfile = args.ssl_cert or os.getenv('SSL_CERTFILE', 'server.crt')
+        https_port = 8443 if args.port == 8090 else args.port
+        
+        print(f"🔒 HTTPS モードで起動中...")
+        print(f"   ポート: {https_port}")
+        print(f"   証明書: {ssl_certfile}")
+        print(f"   秘密鍵: {ssl_keyfile}")
+        
+        try:
+            uvicorn.run(
+                app,
+                host="0.0.0.0",
+                port=https_port,
+                ssl_keyfile=ssl_keyfile,
+                ssl_certfile=ssl_certfile,
+            )
+        except FileNotFoundError:
+            print("❌ SSL証明書ファイルが見つかりません")
+            print("   自己署名証明書を生成: python generate_ssl_cert.py")
+        except Exception as e:
+            print(f"❌ HTTPS サーバー起動エラー: {e}")
+    
+    # HTTP モード (デフォルト)
+    else:
+        print(f"🌐 HTTP モードで起動中...")
+        print(f"   ポート: {args.port}")
+        
+        uvicorn.run(
+            app,
+            host="0.0.0.0",
+            port=args.port,
+        )
