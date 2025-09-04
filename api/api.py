@@ -219,6 +219,15 @@ async def query_ranking(id: str, num: int):
     # /DB
 
 
+@app.get("/cors-test")
+async def cors_test():
+    """CORS テスト用エンドポイント"""
+    return {
+        "message": "CORS テスト成功", 
+        "timestamp": time.time(),
+        "status": "ok"
+    }
+
 @app.get("/w")
 async def watch():
     """
