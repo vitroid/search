@@ -23,7 +23,7 @@ export function generateId(len) {
 
 // API access
 // const BASEURL = 'http://127.0.0.1:8090';
-const BASEURL = "http://sakutai.net:8090";
+const BASEURL = "https://sakutai.net:8443";
 
 // CORS デバッグ用テスト関数
 export async function testCORS() {

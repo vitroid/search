@@ -22,12 +22,12 @@ export const en = {
   postervenue_url: "static/poster_layout.pdf",
   oralvenue_url: "static/講演会場図.pdf",
   // common
-  hint1:
-    "You can search by presentation number, title, keywords, research location, or presenter name.",
-  hint2: "Regular expressions can be used.",
-  hint3: "Click on the image to open the PDF file.",
-  hint4:
-    "The data shown is based on the application data, and some of the titles and authors shown may be different from the abstract.",
+  // hint1:
+  //   "You can search by presentation number, title, keywords, research location, or presenter name.",
+  // hint2: "Regular expressions can be used.",
+  // hint3: "Click on the image to open the PDF file.",
+  // hint4:
+  //   "The data shown is based on the application data, and some of the titles and authors shown may be different from the abstract.",
   hint5:
     "Press the number of the lecture you are interested in and a blue mark will appear in the table below. Please use it to schedule your attendance.",
   usingjs: "Note: This search function uses JavaScript.",
