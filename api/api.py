@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from fastapi.responses import HTMLResponse
 
-con = sqlite3.connect("fav.db")
+# グローバル変数を削除して、各関数内でDB接続を行う
 # hardcoded
 
 app = FastAPI()
@@ -48,6 +48,30 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
+
+# グローバルエラーハンドラー
+from fastapi import Request
+from fastapi.responses import JSONResponse
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    """グローバルエラーハンドラー - CORSヘッダーを確実に返す"""
+    print(f"🚨 サーバーエラー: {exc}")
+    print(f"🔗 リクエストURL: {request.url}")
+    print(f"🌐 オリジン: {request.headers.get('origin', 'なし')}")
+    
+    # CORSヘッダーを手動で設定
+    headers = {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "*",
+    }
+    
+    return JSONResponse(
+        status_code=500,
+        content={"error": "Internal Server Error", "detail": str(exc)},
+        headers=headers
+    )
 
 
 class Vote(BaseModel):
@@ -157,15 +181,26 @@ async def vote(v: Vote):
             headers={"WWW-Authenticate": "Basic"},
         )
 
-    # DB
-    cur = con.cursor()
+    # DB接続を安全に行う
+    try:
+        con = sqlite3.connect("fav.db")
+        cur = con.cursor()
+        
+        # テーブルが存在しない場合は作成
+        cur.execute("""
+            CREATE TABLE IF NOT EXISTS votes (
+                id TEXT,
+                favs TEXT,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
 
-    if votes_impatient(cur, v.id):
-        raise HTTPException(
-            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail="Busy",
-            # headers={"WWW-Authenticate": "Basic"},
-        )
+        if votes_impatient(cur, v.id):
+            con.close()
+            raise HTTPException(
+                status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                detail="Busy",
+            )
 
     favs_new = to_dict(v.favs)
     logger.info(f"new vote: {v.id} {v.favs}")
@@ -178,9 +213,17 @@ async def vote(v: Vote):
     # expireしたレコードを読みだし、データベースから消す。
     for f in votes_delete_expired(cur, time.time() - 86400 * 7):  # 1 week memory
         diff = sub(diff, f)
-    favs_add(cur, diff)
+        favs_add(cur, diff)
 
-    con.commit()
+        con.commit()
+        con.close()
+        logger.info(f"✅ 投票処理完了: {v.id}")
+        
+    except Exception as e:
+        logger.error(f"❌ 投票処理エラー: {e}")
+        if 'con' in locals():
+            con.close()
+        raise HTTPException(status_code=500, detail=f"Vote processing error: {str(e)}")
     # return query_ranking(id, 100)
 
 
