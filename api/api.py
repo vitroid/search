@@ -3,6 +3,7 @@ import sqlite3
 import time
 from logging import getLogger, basicConfig, INFO, DEBUG
 import re
+import os
 import uvicorn
 from fastapi import Depends, FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
@@ -14,20 +15,37 @@ con = sqlite3.connect("fav.db")
 
 app = FastAPI()
 
-# basicConfig(level=DEBUG)   # add this line
+basicConfig(level=DEBUG)   # CORS デバッグ用
 
-origins = [
-    "*",
-    "http://127.0.0.1",
-    "http://153.120.1.15",
-    "http://www.chem.okayama-u.ac.jp",
-]
+# 開発/本番環境の判定
+IS_DEVELOPMENT = os.getenv("ENVIRONMENT", "development") == "development"
+
+if IS_DEVELOPMENT:
+    # 開発環境: すべてのオリジンを許可（credentials無効）
+    origins = ["*"]
+    allow_credentials = False
+    print("🚧 開発モード: すべてのオリジンを許可")
+else:
+    # 本番環境: 特定のオリジンのみ許可
+    origins = [
+        # ローカル開発環境
+        "http://localhost:8080",
+        "http://127.0.0.1:8080",
+        # 本番環境
+        "http://sakutai.net",
+        "https://sakutai.net",
+        # その他必要なオリジン
+        "http://localhost",
+        "http://127.0.0.1",
+    ]
+    allow_credentials = True
+    print("🔒 本番モード: 特定オリジンのみ許可")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
+    allow_credentials=allow_credentials,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 
