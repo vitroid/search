@@ -74,6 +74,25 @@ async def global_exception_handler(request: Request, exc: Exception):
     )
 
 
+def init_database(cursor):
+    """データベースのテーブルを初期化する"""
+    # votesテーブル: ユーザーの投票データ
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS votes (
+            id TEXT,
+            favs TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+    
+    # favsテーブル: 講演の人気ランキング
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS favs (
+            code TEXT PRIMARY KEY,
+            count INTEGER DEFAULT 0
+        )
+    """)
+
 class Vote(BaseModel):
     id: str
     favs: str
@@ -181,48 +200,36 @@ async def vote(v: Vote):
             headers={"WWW-Authenticate": "Basic"},
         )
 
-    # DB接続を安全に行う
+    # DB接続をwith構文で安全に行う
     try:
-        con = sqlite3.connect("fav.db")
-        cur = con.cursor()
-        
-        # テーブルが存在しない場合は作成
-        cur.execute("""
-            CREATE TABLE IF NOT EXISTS votes (
-                id TEXT,
-                favs TEXT,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        """)
+        with sqlite3.connect("fav.db") as con:
+            cur = con.cursor()
+            init_database(cur)
 
-        if votes_impatient(cur, v.id):
-            con.close()
-            raise HTTPException(
-                status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-                detail="Busy",
-            )
+            if votes_impatient(cur, v.id):
+                raise HTTPException(
+                    status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                    detail="Busy",
+                )
 
-    favs_new = to_dict(v.favs)
-    logger.info(f"new vote: {v.id} {v.favs}")
-    # すでに登録があるIDなら、まずそちらを読みこんでfavs tableから減算する
-    favs_old = votes_get(cur, v.id)
-    diff = sub(favs_new, favs_old)
-    # favs_add(cur, diff)
-    votes_set(cur, v.id, v.favs)
+            favs_new = to_dict(v.favs)
+            logger.info(f"new vote: {v.id} {v.favs}")
+            # すでに登録があるIDなら、まずそちらを読みこんでfavs tableから減算する
+            favs_old = votes_get(cur, v.id)
+            diff = sub(favs_new, favs_old)
+            # favs_add(cur, diff)
+            votes_set(cur, v.id, v.favs)
 
-    # expireしたレコードを読みだし、データベースから消す。
-    for f in votes_delete_expired(cur, time.time() - 86400 * 7):  # 1 week memory
-        diff = sub(diff, f)
-        favs_add(cur, diff)
+            # expireしたレコードを読みだし、データベースから消す。
+            for f in votes_delete_expired(cur, time.time() - 86400 * 7):  # 1 week memory
+                diff = sub(diff, f)
+            favs_add(cur, diff)
 
-        con.commit()
-        con.close()
-        logger.info(f"✅ 投票処理完了: {v.id}")
+            # con.commit() は自動的に実行される
+            logger.info(f"✅ 投票処理完了: {v.id}")
         
     except Exception as e:
         logger.error(f"❌ 投票処理エラー: {e}")
-        if 'con' in locals():
-            con.close()
         raise HTTPException(status_code=500, detail=f"Vote processing error: {str(e)}")
     # return query_ranking(id, 100)
 
@@ -241,24 +248,25 @@ async def query_ranking(id: str, num: int):
             headers={"WWW-Authenticate": "Basic"},
         )
 
-    # DB
-    cur = con.cursor()
+    # DB接続をwith構文で安全に行う
+    try:
+        with sqlite3.connect("fav.db") as con:
+            cur = con.cursor()
+            init_database(cur)
 
-    # if votes_impatient(cur, id):
-    #     raise HTTPException(
-    #         status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-    #         detail="Busy",
-    #         # headers={"WWW-Authenticate": "Basic"},
-    #     )
-
-    return json.dumps(
-        dict(
-            cur.execute(
-                "SELECT code, count FROM favs ORDER BY count DESC LIMIT :num",
-                {"num": num},
+            result = json.dumps(
+                dict(
+                    cur.execute(
+                        "SELECT code, count FROM favs ORDER BY count DESC LIMIT :num",
+                        {"num": num},
+                    )
+                )
             )
-        )
-    )
+            return result
+        
+    except Exception as e:
+        logger.error(f"❌ ランキング取得エラー: {e}")
+        raise HTTPException(status_code=500, detail=f"Ranking query error: {str(e)}")
     # /DB
 
 
@@ -278,25 +286,46 @@ async def watch():
     """
     logger = getLogger("uvicorn")
 
-    # DB
-    cur = con.cursor()
+    # DB接続をwith構文で安全に行う
+    try:
+        with sqlite3.connect("fav.db") as con:
+            cur = con.cursor()
+            init_database(cur)
 
-    html_content = "<br />".join(
-        [
-            f"{value} {key}"
-            for key, value in dict(
-                cur.execute(
-                    "SELECT code, count FROM favs ORDER BY count DESC LIMIT 100",
-                )
-            ).items()
-        ]
-    )
-    return HTMLResponse(content=html_content, status_code=200)
+            html_content = "<br />".join(
+                [
+                    f"{value} {key}"
+                    for key, value in dict(
+                        cur.execute(
+                            "SELECT code, count FROM favs ORDER BY count DESC LIMIT 100",
+                        )
+                    ).items()
+                ]
+            )
+            return HTMLResponse(content=html_content, status_code=200)
+        
+    except Exception as e:
+        logger.error(f"❌ ウォッチページエラー: {e}")
+        return HTMLResponse(content=f"エラー: {str(e)}", status_code=500)
     # /DB
 
 
+def initialize_database_on_startup():
+    """サーバー起動時にデータベースを初期化"""
+    try:
+        with sqlite3.connect("fav.db") as con:
+            cur = con.cursor()
+            init_database(cur)
+            print("✅ データベースが初期化されました")
+    except Exception as e:
+        print(f"❌ データベース初期化エラー: {e}")
+
 if __name__ == "__main__":
     basicConfig(level=DEBUG)
+    
+    # データベースを初期化
+    initialize_database_on_startup()
+    
     log_config = uvicorn.config.LOGGING_CONFIG
     log_config["formatters"]["access"][
         "fmt"
