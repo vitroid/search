@@ -25,6 +25,23 @@ export function generateId(len) {
 // const BASEURL = 'http://127.0.0.1:8090';
 const BASEURL = "http://sakutai.net:8090";
 
+// CORS デバッグ用テスト関数
+export async function testCORS() {
+  console.log("🧪 CORS テスト開始...");
+
+  try {
+    // Step 1: シンプルなGETリクエスト（Preflightなし）
+    const response = await fetch(BASEURL + "/", {
+      method: "GET",
+    });
+    console.log("✅ GETリクエスト成功:", response.status);
+    return true;
+  } catch (error) {
+    console.error("❌ GETリクエスト失敗:", error);
+    return false;
+  }
+}
+
 // key: 講演番号 value: 投票数
 export const votes = writable({});
 

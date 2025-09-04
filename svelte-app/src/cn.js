@@ -63,4 +63,5 @@ export const cn = {
   "Opening Remark": "开场词",
   "Closing Remark": "闭幕词",
   Explanation: "说明",
+  "Statistics feature": "📊 关于统计功能",
 };

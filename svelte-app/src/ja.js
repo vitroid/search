@@ -65,4 +65,5 @@ export const ja = {
   "Opening Remark": "開会",
   "Closing Remark": "閉会",
   Explanation: "解説",
+  "Statistics feature": "📊 統計機能について",
 };
