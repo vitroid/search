@@ -59,7 +59,7 @@
         font-weight: bold;
         padding: 4px;
         color: white;
-        background-color: hsl(200, 100%, 50%);
+        background-color: hsl(120, 100%, 40%);
     }  
     .buttonP {
         border-radius: 5px 5px 5px;
@@ -68,6 +68,6 @@
         font-weight: bold;
         padding: 4px;
         color: white;
-        background-color: hsl(120, 100%, 40%);
+        background-color: hsl(200, 100%, 50%);
     }
 </style>

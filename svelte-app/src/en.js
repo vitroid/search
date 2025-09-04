@@ -1,5 +1,9 @@
 export const en = {
-  // JSCC74
+  // JSCC75
+  abstract_book_url:
+    "https://www.dropbox.com/scl/fi/jytt3lfcdhpuotmpwjw0s/abstract.pdf?rlkey=zmwgiaeblqw2a9vyhqc2qf4xv&dl=0",
+  program_book_url:
+    "https://www.dropbox.com/scl/fi/tqhd246w5oubbz4kny83u/program.pdf?rlkey=598c6ud1nkuwyvjuist2ikkai&dl=0",
   day0: "Sept. 14 Sun.",
   day1: "Sept. 15 Mon.",
   day2: "Sept. 16 Tue.",
@@ -15,6 +19,8 @@ export const en = {
   hcvenue_url: "static/全体図.pdf",
   luncheonvenue: "G-38 Lecture room",
   JSCCAS: "JSCC 75th Annual Symposium",
+  postervenue_url: "static/poster_layout.pdf",
+  oralvenue_url: "static/講演会場図.pdf",
   // common
   hint1:
     "You can search by presentation number, title, keywords, research location, or presenter name.",

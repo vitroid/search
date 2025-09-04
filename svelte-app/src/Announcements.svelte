@@ -2,11 +2,8 @@
     import { _ } from 'svelte-i18n';
     import LocationButton from './locationbutton.svelte';
 
-    let abstract_book =       $_("abstract_book_url")
-    // let abstract_book_light = "https://www.dropbox.com/scl/fi/msur441jgze37f3hygkw2/AbstractBook0915_light.pdf?rlkey=bzcftf0mjydejhn5o0dk8u3bm&dl=0"
-    let program_book =        $_("program_book_url")
-    // let program_book_light =  "https://www.dropbox.com/scl/fi/1p8zlvdfgrdlwhv7pin9j/Program0915_light.pdf?rlkey=j3bdwtuy521oivkmu4nngfk3q&dl=0"
-    // let seat = "http://www.chem.okayama-u.ac.jp/~reg/seat73/"
+    let abstract_book = $_("abstract_book_url");
+    let program_book = $_("program_book_url");
 
 </script>
 
@@ -17,22 +14,24 @@
             9月14日(前日)に<a href="https://www.cms.nagasaki-u.ac.jp/sakuto75/events.html#event3">市民公開講座「サクタイってなに　―どこで役に立ってるの―」</a>があります。(会場: 中部講堂<LocationButton label="H" />)
         </li>
     </ul>
-</div>
 
-<!--    <h2>{$_("Program book")}</h2>
+    <h2>{$_("Program book")}</h2>
     <ul>
         <li>
-            <a href={program_book}>{$_("Program book")} (Sep. 3, 20 MBytes)</a>
+            <a href={program_book} target="_blank" rel="noopener noreferrer">
+                {$_("Program book")} (Sep. 4, 33 MBytes)
+            </a>
         </li>
     </ul>
     <h2>{$_("Abstract book")}</h2>
     <ul>
         <li>
-            <a href={abstract_book}>{$_("Abstract book")} (Sep. 3, 241 MBytes)</a>
+            <a href={abstract_book} target="_blank" rel="noopener noreferrer">
+                {$_("Abstract book")} (Sep. 4, 330 MBytes)
+            </a>
         </li>
     </ul>
-</div> -->
-
+</div>
 
 <style>
     /* .textbox {

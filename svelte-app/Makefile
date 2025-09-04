@@ -9,3 +9,9 @@ test-deploy: public/build/bundle.js build
 	rsync -av ../build/jscc-access/ $(HOST):.jscc/
 	rsync -av ../build/jscc/.htaccess $(HOST):/var/www/html/jscc75/
 	rsync -av public/ $(HOST):/var/www/html/jscc75
+
+deploy: public/build/bundle.js build
+	rsync -av ../build/jscc-access/ $(HOST):.jscc/
+	rsync -av ../build/jscc/empty.htaccess $(HOST):/var/www/html/jscc75/.htaccess
+	rsync -av ../build/jscc/.htaccess $(HOST):/var/www/html/jscc75/pdf/
+	rsync -av public/ $(HOST):/var/www/html/jscc75

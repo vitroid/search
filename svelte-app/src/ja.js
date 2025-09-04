@@ -1,12 +1,14 @@
 export const ja = {
-  // JSCC74
-  abstract_book_url: "pdf/abstract74_240903.pdf",
-  program_book_url: "pdf/program74_240903.pdf",
+  // JSCC75
+  abstract_book_url:
+    "https://www.dropbox.com/scl/fi/jytt3lfcdhpuotmpwjw0s/abstract.pdf?rlkey=zmwgiaeblqw2a9vyhqc2qf4xv&dl=0",
+  program_book_url:
+    "https://www.dropbox.com/scl/fi/tqhd246w5oubbz4kny83u/program.pdf?rlkey=598c6ud1nkuwyvjuist2ikkai&dl=0",
   day0: "9月14日 (日)",
   day1: "9月15日 (月)",
   day2: "9月16日 (火)",
   day3: "9月17日 (水)",
-  // msg1: "予稿集は以下のリンクより入手できます。PDFファイルのパスワードは abst74jscc です。",
+  // msg1: "予稿集は以下のリンクより入手できます。PDFファイルのパスワードは abst75jscc です。",
   venue: "長崎大学",
   venue_url: "static/全体図.pdf",
   awardvenue: "長崎大学",
@@ -15,7 +17,8 @@ export const ja = {
   banquetvenue_url: "https://www.newnaga.com/access/",
   hcvenue: "長崎大学",
   hcvenue_url: "static/全体図.pdf",
-  postervenue_url: "static/0824_ポスター会場_修正版2.pdf",
+  postervenue_url: "static/poster_layout.pdf",
+  oralvenue_url: "static/講演会場図.pdf",
   luncheonvenue: "G-38教室",
   Layout: "配置図",
   Map: "地図",

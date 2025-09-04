@@ -1,10 +1,14 @@
 export const cn = {
   // JSCC24
+  abstract_book_url:
+    "https://www.dropbox.com/scl/fi/jytt3lfcdhpuotmpwjw0s/abstract.pdf?rlkey=zmwgiaeblqw2a9vyhqc2qf4xv&dl=0",
+  program_book_url:
+    "https://www.dropbox.com/scl/fi/tqhd246w5oubbz4kny83u/program.pdf?rlkey=598c6ud1nkuwyvjuist2ikkai&dl=0",
   day0: "9月14日 (星期日)",
   day1: "9月15日 (星期一)",
   day2: "9月16日 (星期二)",
   day3: "9月17日 (星期三)",
-  // msg1: "论文集可从以下链接获得; PDF文件的密码是abst74jscc。",
+  // msg1: "论文集可从以下链接获得; PDF文件的密码是abst75jscc。",
   venue: "长崎大学",
   venue_url: "static/全体図.pdf",
   awardvenue: "长崎大学",
@@ -17,6 +21,8 @@ export const cn = {
   Layout: "布局图",
   Map: "地图",
   JSCCAS: "JSCC 第75次讨论会议",
+  postervenue_url: "static/poster_layout.pdf",
+  oralvenue_url: "static/講演会場図.pdf",
   // common
   hint1: "你可以通过演讲编号，标题，关键词，研究地点和演讲者姓名进行搜索,",
   hint2: "可以使用正则表达式,",
