@@ -81,9 +81,31 @@ def init_database(cursor):
         CREATE TABLE IF NOT EXISTS votes (
             id TEXT,
             favs TEXT,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            timestamp REAL
         )
     """)
+    
+    # 既存テーブルのマイグレーション: created_at → timestamp
+    try:
+        # created_atカラムが存在する場合、timestampカラムを追加
+        cursor.execute("SELECT created_at FROM votes LIMIT 1")
+        print("🔄 古いスキーマを検出: created_at → timestamp にマイグレーション中...")
+        
+        # timestampカラムを追加（存在しない場合）
+        cursor.execute("ALTER TABLE votes ADD COLUMN timestamp REAL")
+        
+        # created_atの値をtimestampにコピー
+        cursor.execute("""
+            UPDATE votes 
+            SET timestamp = strftime('%s', created_at) 
+            WHERE timestamp IS NULL
+        """)
+        
+        print("✅ マイグレーション完了")
+        
+    except Exception as e:
+        # created_atカラムが存在しない場合は正常（新しいスキーマ）
+        pass
     
     # favsテーブル: 講演の人気ランキング
     cursor.execute("""
@@ -313,7 +335,29 @@ async def watch():
 def initialize_database_on_startup():
     """サーバー起動時にデータベースを初期化"""
     try:
-        with sqlite3.connect("fav.db") as con:
+        # スキーマの不整合がある場合、DBファイルを削除して再作成
+        db_path = "fav.db"
+        schema_mismatch = False
+        
+        # 既存DBのスキーマをチェック
+        if os.path.exists(db_path):
+            try:
+                with sqlite3.connect(db_path) as con:
+                    cur = con.cursor()
+                    # timestampカラムの存在をチェック
+                    cur.execute("SELECT timestamp FROM votes LIMIT 1")
+            except sqlite3.OperationalError as e:
+                if "no such column: timestamp" in str(e):
+                    schema_mismatch = True
+                    print("🔄 スキーマの不整合を検出: 古いDBファイルを削除して再作成します")
+        
+        # スキーマが不整合の場合、DBファイルを削除
+        if schema_mismatch:
+            os.remove(db_path)
+            print("🗑️ 古いDBファイルを削除しました")
+        
+        # データベースを初期化
+        with sqlite3.connect(db_path) as con:
             cur = con.cursor()
             init_database(cur)
             print("✅ データベースが初期化されました")
