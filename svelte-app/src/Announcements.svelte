@@ -4,6 +4,7 @@
 
     let abstract_book = $_("abstract_book_url");
     let program_book = $_("program_book_url");
+    let program_dir = $_("program_url");
 
 </script>
 
@@ -15,19 +16,11 @@
         </li>
     </ul>
 
-    <h2>{$_("Program book")}</h2>
+    <h2>{$_("Program book")} + {$_("Abstract book")}</h2>
     <ul>
         <li>
-            <a href={program_book} target="_blank" rel="noopener noreferrer">
-                {$_("Program book")} (Sep. 4, 33 MBytes)
-            </a>
-        </li>
-    </ul>
-    <h2>{$_("Abstract book")}</h2>
-    <ul>
-        <li>
-            <a href={abstract_book} target="_blank" rel="noopener noreferrer">
-                {$_("Abstract book")} (Sep. 4, 330 MBytes)
+            <a href={program_dir} target="_blank" rel="noopener noreferrer">
+                {$_("Program book")} + {$_("Abstract book")} (September 14)
             </a>
         </li>
     </ul>

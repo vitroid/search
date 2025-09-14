@@ -281,7 +281,7 @@
             {bin:[,,60],    id:"", label:"19:00"},
         ],
         [
-            {bin:[16,20,5],  id:"", label:""},
+            {bin:[16,20,5],  id:"", label:"OR"},
             {bin:[,,25],    id:"S1-01", label:"01"},
             {bin:[,,25],    id:"S1-02", label:"02"},
             {bin:[,,25],    id:"S1-03", label:"03"},
@@ -289,10 +289,10 @@
             {bin:[,,25],    id:"S1-05", label:"05"},
             {bin:[,,25],    id:"S1-06", label:"06"},
             {bin:[,,25],    id:"S1-07", label:"07"},
-            {bin:[,,5],     id:"", label:""}
+            {bin:[,,5],     id:"", label:"CR"}
         ],
         [
-            {bin:[16,20,5],  id:"", label:""},
+            {bin:[16,20,5],  id:"", label:"OR"},
             {bin:[,,25],    id:"S2-01", label:"01"},
             {bin:[,,25],    id:"S2-02", label:"02"},
             {bin:[,,25],    id:"S2-03", label:"03"},
@@ -301,10 +301,10 @@
             {bin:[,,25],    id:"S2-05", label:"05"},
             {bin:[,,25],    id:"S2-06", label:"06"},
             {bin:[,,25],    id:"S2-07", label:"07"},
-            {bin:[,,5],     id:"", label:""}
+            {bin:[,,5],     id:"", label:"CR"}
         ],
         [
-            {bin:[16,20,5],  id:"", label:""},
+            {bin:[16,20,5],  id:"", label:"OR"},
             {bin:[,,15],    id:"S3-01", label:"01"},
             {bin:[,,25],    id:"S3-02", label:"02"},
             {bin:[,,25],    id:"S3-03", label:"03"},
@@ -315,17 +315,17 @@
             {bin:[,,25],    id:"S3-07", label:"07"},
         ],
         [
-            {bin:[16,20,5],  id:"", label:""},
+            {bin:[16,20,5],  id:"", label:"OR"},
             {bin:[,,30],    id:"S4-01", label:"01"},
             {bin:[,,30],    id:"S4-02", label:"02"},
             {bin:[,,30],    id:"S4-03", label:"03"},
             {bin:[,,10],    id:"", label:""},
             {bin:[,,30],    id:"S4-04", label:"04"},
             {bin:[,,30],    id:"S4-05", label:"05"},
-            {bin:[,,5],    id:"", label:""},
+            {bin:[,,5],    id:"", label:"CR"},
         ],
         [
-            {bin:[16,30,5],  id:"", label:""},
+            {bin:[16,30,5],  id:"", label:"OR"},
             {bin:[,,20],    id:"S5", label:"01"},
             {bin:[,,20],    id:"S5", label:"02"},
             {bin:[,,20],    id:"S5", label:"03"},
@@ -335,16 +335,16 @@
             {bin:[,,20],    id:"S5", label:"06"},
             {bin:[,,10],    id:"", label:""},
             {bin:[,,30],    id:"S5", label:"PD"},
-            {bin:[,,5],    id:"", label:""},
+            {bin:[,,5],    id:"", label:"CR"},
         ],
         [
-            {bin:[16,20,5],  id:"", label:""},
+            {bin:[16,20,5],  id:"", label:"OR"},
             {bin:[,,40],    id:"S6-01", label:"01"},
             {bin:[,,40],    id:"S6-02", label:"02"},
             {bin:[,,10],    id:"", label:""},
             {bin:[,,40],    id:"S6-03", label:"03"},
             {bin:[,,40],    id:"S6-04", label:"04"},
-            {bin:[,,5],    id:"", label:""},
+            {bin:[,,5],    id:"", label:"CR"},
         ],
 
     ]
@@ -421,6 +421,7 @@
         </AsyncTable>
         </div>
         <div>PD: {$_("Panel discussion")}</div>
+        <div>OR & CR: {$_("Opening and closing remarks")}</div>
     </div>
     </div>
 </div>

@@ -1,9 +1,11 @@
 export const ja = {
   // JSCC75
   abstract_book_url:
-    "https://www.dropbox.com/scl/fi/jytt3lfcdhpuotmpwjw0s/abstract.pdf?rlkey=zmwgiaeblqw2a9vyhqc2qf4xv&dl=0",
+    "https://www.dropbox.com/scl/fi/3qpv4mnrm8zvdve9n7rvn/abstract.pdf?rlkey=ywicx2e5wxh7wut9c93kgt26w&dl=0",
   program_book_url:
-    "https://www.dropbox.com/scl/fi/tqhd246w5oubbz4kny83u/program.pdf?rlkey=598c6ud1nkuwyvjuist2ikkai&dl=0",
+    "https://www.dropbox.com/scl/fi/kfti6cnfaz3pp056gjv6f/program.pdf?rlkey=2i1aizu6ruxu5p87mr8gmdox3&dl=0",
+  program_url:
+    "https://www.dropbox.com/scl/fo/v5ix6qn87z1qsvuggluu0/AMJsS40IpwDJ9pHH6wTKd1I?rlkey=dduqsh77bwm1gfgg79zg9ytw0&dl=0",
   day0: "9月14日 (日)",
   day1: "9月15日 (月)",
   day2: "9月16日 (火)",

@@ -4,6 +4,8 @@ export const cn = {
     "https://www.dropbox.com/scl/fi/jytt3lfcdhpuotmpwjw0s/abstract.pdf?rlkey=zmwgiaeblqw2a9vyhqc2qf4xv&dl=0",
   program_book_url:
     "https://www.dropbox.com/scl/fi/tqhd246w5oubbz4kny83u/program.pdf?rlkey=598c6ud1nkuwyvjuist2ikkai&dl=0",
+  program_url:
+    "https://www.dropbox.com/scl/fo/v5ix6qn87z1qsvuggluu0/AMJsS40IpwDJ9pHH6wTKd1I?rlkey=dduqsh77bwm1gfgg79zg9ytw0&dl=0",
   day0: "9月14日 (星期日)",
   day1: "9月15日 (星期一)",
   day2: "9月16日 (星期二)",

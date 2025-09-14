@@ -213,7 +213,7 @@
         color: #555;
     }
     
-    .section ul, .section ol {
+    .section ul {
         margin: 0;
         padding-left: 1.5rem;
         color: #555;
@@ -224,7 +224,7 @@
         line-height: 1.5;
     }
     
-    .benefits {
+    /* .benefits {
         background: linear-gradient(135deg, #e8f5e8, #f0f8f0);
         padding: 1rem;
         border-radius: 8px;
@@ -234,7 +234,7 @@
     .benefits h4 {
         color: #155724;
         border-bottom-color: #28a745;
-    }
+    } */
     
     .modal-footer {
         padding: 1.5rem;
