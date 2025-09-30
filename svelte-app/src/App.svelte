@@ -6,6 +6,7 @@
     import Banner from "./Banner.svelte"
     import { data } from "./index.js"
     import VotingInfoModal from "./VotingInfoModal.svelte"
+    import PullToRefresh from "./Components/PullToRefresh.svelte"
 
     // Set the current locale to en-US
     // locale.set('ja')
@@ -13,6 +14,7 @@
 
     let search = "";
     let showVotingModal = false;
+    let pullToRefreshComponent;
     
     function searchHandler(event){
         search = event.detail.text;
@@ -20,6 +22,14 @@
     
     function openVotingModal() {
         showVotingModal = true;
+    }
+
+    function handleRefresh() {
+        console.log('🔄 Pull-to-refresh triggered!');
+        // ページをリロード
+        setTimeout(() => {
+            window.location.reload();
+        }, 500);
     }
 
 	$: {
@@ -31,51 +41,53 @@
 
 </script>
 
-<body>
-	<div class="wrap">
-        <Banner />
-		<h2>{$_("SEARCH")}</h2>
-		<div class="search">
-			<!-- <ShortCuts on:search={searchHandler} /> -->
-			{#if $locale === 'ja'}
-				<ul>
-					<li>発表番号、題目、研究場所、発表者名にて検索が可能です。</li>
-					<li>正規表現が使えます。</li>
-					<li>画像クリックでPDFが開きます。</li>
-					<li>表示は申込データに基づいており、表示のタイトルおよび著者の一部が要旨とは異なる場合があります。</li>
-				</ul>
-			{:else if $locale === 'cn'}
-				<ul>
-					<li>你可以通过演讲编号，标题，关键词，研究地点和演讲者姓名进行搜索。</li>
-					<li>可以使用正则表达式。</li>
-					<li>点击图片，打开PDF。</li>
-					<li>该显示基于应用数据，显示的一些标题和作者可能与摘要不同。</li>
-				</ul>
-			{:else}
-				<ul>
-					<li>You can search by presentation number, title, keywords, research location, or presenter name.</li>
-					<li>Regular expressions can be used.</li>
-					<li>Click on the image to open the PDF file.</li>
-					<li>The data shown is based on the application data, and some of the titles and authors shown may be different from the abstract.</li>
-				</ul>
-			{/if}
+<PullToRefresh bind:this={pullToRefreshComponent} on:refresh={handleRefresh}>
+	<body>
+		<div class="wrap">
+			<Banner />
+			<h2>{$_("SEARCH")}</h2>
+			<div class="search">
+				<!-- <ShortCuts on:search={searchHandler} /> -->
+				{#if $locale === 'ja'}
+					<ul>
+						<li>発表番号、題目、研究場所、発表者名にて検索が可能です。</li>
+						<li>正規表現が使えます。</li>
+						<li>画像クリックでPDFが開きます。</li>
+						<li>表示は申込データに基づいており、表示のタイトルおよび著者の一部が要旨とは異なる場合があります。</li>
+					</ul>
+				{:else if $locale === 'cn'}
+					<ul>
+						<li>你可以通过演讲编号，标题，关键词，研究地点和演讲者姓名进行搜索。</li>
+						<li>可以使用正则表达式。</li>
+						<li>点击图片，打开PDF。</li>
+						<li>该显示基于应用数据，显示的一些标题和作者可能与摘要不同。</li>
+					</ul>
+				{:else}
+					<ul>
+						<li>You can search by presentation number, title, keywords, research location, or presenter name.</li>
+						<li>Regular expressions can be used.</li>
+						<li>Click on the image to open the PDF file.</li>
+						<li>The data shown is based on the application data, and some of the titles and authors shown may be different from the abstract.</li>
+					</ul>
+				{/if}
 
-			<div class="voting-info-section">
-				<button class="voting-info-btn" on:click={openVotingModal}>
-					{$_("Statistics feature")}
-				</button>
+				<div class="voting-info-section">
+					<button class="voting-info-btn" on:click={openVotingModal}>
+						{$_("Statistics feature")}
+					</button>
+				</div>
+
+				<SearchBox {search} {data}/>
+				<p>{$_("hint5")}</p>
 			</div>
+			<Schedule on:search={searchHandler} />
+			<noscript>
+				<p>{$_("usingjs")}</p>
+			</noscript>
 
-			<SearchBox {search} {data}/>
-            <p>{$_("hint5")}</p>
 		</div>
-		<Schedule on:search={searchHandler} />
-		<noscript>
-			<p>{$_("usingjs")}</p>
-		</noscript>
-
-	</div>
-</body>
+	</body>
+</PullToRefresh>
 
 <!-- 投票機能説明モーダル -->
 <VotingInfoModal bind:show={showVotingModal} />
